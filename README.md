@@ -103,6 +103,30 @@ http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t89_sin_cos9
 % User time                : 28.020 s
 ```
 
+### And another
+
+(arctan * exp_R) `| Z) . x = (exp_R . x) / (1 + ((exp_R . x) ^2))  
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/sin_cos9.html#T115
+
+E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t115_sin_cos9
+
+(base) mptp@air-02:~/big1/bushy_np/en_gnn/convert-models/grid1500_greed_all/l8-mzr02-premsel_enigma_01_2020_T10_loop01_epoch_43-query512-ctx1024-w0-coop$ less t115_sin_cos9 
+
+```
+# Proof object clause steps            : 164
+# Proof object initial clauses used    : 76
+# Proof object initial formulas used   : 60
+# Proof object simplifying inferences  : 159
+# Parsed axioms                        : 634
+# Initial clauses in saturation        : 819
+# Processed clauses                    : 3115
+# ...remaining for further processing  : 1932
+# Generated clauses                    : 23735
+# ...of the previous two non-trivial   : 18126
+# User time                : 20.156 s
+```
+
 
 ### Additivity of integral
 
