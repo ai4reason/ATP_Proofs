@@ -309,6 +309,32 @@ E proof with lgb: http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t29_rat_1.out
 # User time                : 27.157 s
 ```
 
+### Graph theory: if G has clique# <=1 its Mycielskian has clique# <= 2 
+
+for G being with_finite_clique# SimpleGraph st clique# G = 1 holds
+for D being finite Clique of (Mycielskian G) holds order D <= 2
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/scmyciel.html#T108
+
+http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t108_scmyciel
+
+(base) mptp@air-02:~/big1/bushy_np/en_gnn/convert-models/grid1500_greed_all/l8-mzr02-premsel_enigma_01_2020_T10_loop01_epoch_65-query256-ctx768-w0-coop$ less t108_scmyciel 
+
+```
+# Proof object clause steps            : 109
+# Proof object initial clauses used    : 55
+# Proof object initial formulas used   : 41
+# Proof object simplifying inferences  : 77
+# Parsed axioms                        : 341
+# Initial clauses in saturation        : 528
+# Processed clauses                    : 3004
+# ...remaining for further processing  : 1913
+# Generated clauses                    : 11251
+# ...of the previous two non-trivial   : 9842
+# User time                : 12.060 s
+```
+
+
 ### Cardinalities:
 1 -tuples_on D,D are_equipotent & card (1 -tuples_on D) = card D 
 
