@@ -195,6 +195,32 @@ http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/connsp_1.html#T29
 % ...of the previous two non-trivial   : 27799
 ```
 
+### r-circle is a subspace of r-square
+
+for r being real number holds Tcircle ((0. (TOP-REAL 2)),r) is SubSpace of Trectangle ((- r),r,(- r),r)
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/toprealb.html#T10
+
+(base) mptp@air-02:~/big1/bushy_np/en_gnn/convert-models/grid1500_greed_all/l8-mzr02-premsel_enigma_01_2020_T10_loop01_epoch_65-query256-ctx768-w0-coop$ 
+
+E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t10_toprealb
+
+```
+# Proof object clause steps            : 77
+# Proof object initial clauses used    : 36
+# Proof object initial formulas used   : 31
+# Proof object simplifying inferences  : 33
+# Parsed axioms                        : 425
+# Initial clauses in saturation        : 692
+# Processed clauses                    : 1977
+# ...remaining for further processing  : 1424
+# Generated clauses                    : 6616
+# ...of the previous two non-trivial   : 6010
+# User time                : 10.648 s
+```
+
+
+
 ### Probability - counting with probabilities
 
 P . ((A /\ B) /\ C) = ((P . A) * ((P .|. A) . B)) * ((P .|. (A /\ B)) . C)
