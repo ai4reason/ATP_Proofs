@@ -125,7 +125,7 @@ E proof: http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t113_group_2
 217 fof axioms, 298 initial clauses, 1214 nontriv given, 8523 nontriv gener, 109 proof clause steps, 28/44 initial proof flas/clauses
 
 
-### Enigma differentiates: (ln * cos) `| Z) . x = - (tan x) 
+### Enigma differentiates: (ln * cos) \`| Z) . x = - (tan x) 
 
 Nice theorem about the derivation of ln(cos) proved by Enigma/lgb in loop2 (IJCAR'20 experiments):
 
@@ -140,7 +140,7 @@ It takes 190 clausal inferences and 37 fof axioms (52 clauses). The original pro
 
 http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/sin_cos9.html#T89
 
-((ln * arctan) `| Z) . x = 1 / ((1 + (x ^2)) * (arctan . x)) ) )
+((ln * arctan) \`| Z) . x = 1 / ((1 + (x ^2)) * (arctan . x)) ) )
 
 http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t89_sin_cos9
 
@@ -159,7 +159,7 @@ http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t89_sin_cos9
 
 ### And another
 
-(arctan * exp_R) `| Z) . x = (exp_R . x) / (1 + ((exp_R . x) ^2))  
+(arctan * exp_R) \`| Z) . x = (exp_R . x) / (1 + ((exp_R . x) ^2))  
 
 http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/sin_cos9.html#T115
 
@@ -347,6 +347,32 @@ http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/yellow13.html#T4
 % Generated clauses                    : 36890
 % ...of the previous two non-trivial   : 32976
 ```
+
+### Topology - T1 is a disjoint union of perfect and scattered
+
+T is T_1 implies ex A, B being Subset of T st
+A \/ B = [#] T & A misses B & A is perfect & B is scattered
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/topgen_1.html#T44
+
+E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t44_topgen_1
+
+(base) mptp@air-02:~/big1/bushy_np/en_gnn/convert-models/grid1500_greed_all/l8-mzr02-premsel_enigma_01_2020_T10_loop01_epoch_66-query512-ctx512-w0-solo$ less t44_topgen_1
+
+```
+# Proof object clause steps            : 120
+# Proof object initial clauses used    : 51
+# Proof object initial formulas used   : 37
+# Proof object simplifying inferences  : 73
+# Parsed axioms                        : 159
+# Initial clauses in saturation        : 211
+# Processed clauses                    : 2264
+# ...remaining for further processing  : 1239
+# Generated clauses                    : 14833
+# ...of the previous two non-trivial   : 13900
+# User time                : 16.056 s
+```
+
 
 ### Connectedness - all points are joined if some is joined to all:
 
