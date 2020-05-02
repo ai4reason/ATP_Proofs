@@ -203,6 +203,28 @@ The only issue is that no prover could do it before and that I got the proof wit
 
 The fact that it generated only 2.8k clauses during 734 nontrivial given clause loops (with 549 initial clauses) is pretty amazing (and probably the reason why this succeeded). 
 
+### Combinatorics and counting - coefficient in binomial expansion
+
+(a,b) In_Power 0 = <\*(1_ R)\*>
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/binom.html#T22
+
+E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t22_binom
+
+(base) mptp@air-02:~/big1/bushy_np/en_gnn/convert-models/grid1500_greed_all/l8-mzr02-premsel_enigma_01_2020_T10_loop01_epoch_65-query256-ctx768-w0-coop$ less t22_binom
+
+```
+# Proof object clause steps            : 180
+# Proof object initial clauses used    : 75
+# Proof object initial formulas used   : 57
+# Proof object simplifying inferences  : 142
+# Parsed axioms                        : 393
+# Initial clauses in saturation        : 572
+# Processed clauses                    : 3193
+# ...remaining for further processing  : 2108
+# Generated clauses                    : 15114
+# ...of the previous two non-trivial   : 13476
+# User time                : 26.104 s
 
 
 ### Topology - discrete is T_2
