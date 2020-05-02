@@ -15,6 +15,31 @@ http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/sin_cos6.html#T28
 E proof: http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t28_sin_cos6
 2175 proc, 30.6k generated, 27s, 185 steps, 71 clauses and 63 flas, - lots of calculation
 
+### Another counting:
+
+0 <= x & x < 2 * PI & cos x = 0 & not x = PI / 2 implies x = (3 / 2) * PI
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/comptrig.html#T18
+
+E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t18_comptrig
+
+(base) mptp@air-02:~/big1/bushy_np/en_gnn/convert-models/grid1500_greed_all/l8-mzr02-premsel_enigma_01_2020_T10_loop01_epoch_43-query512-ctx1024-w0-coop$ less t18_comptrig
+
+```
+# Proof object clause steps            : 185
+# Proof object initial clauses used    : 66
+# Proof object initial formulas used   : 58
+# Proof object simplifying inferences  : 179
+# Parsed axioms                        : 372
+# Initial clauses in saturation        : 457
+# Processed clauses                    : 4849
+# ...remaining for further processing  : 2524
+# Generated clauses                    : 31905
+# ...of the previous two non-trivial   : 26657
+# User time                : 22.328 s
+```
+
+
 ### Convergence in metric space and in its induced topology are the same
 
 S is_convergent_in_metrspace_to x iff S is_convergent_to x
