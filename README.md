@@ -181,6 +181,31 @@ E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t115_sin_cos9
 # User time                : 20.156 s
 ```
 
+### Enigma integrates: integral sin+cos on \[0,pi/2\] = 2
+
+A = [.0,(PI / 2).] implies integral ((sin + cos),A) = 2
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/integra8.html#T70
+
+E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t70_integra8
+
+(base) mptp@air-02:~/big1/bushy_np/en_gnn/convert-models/grid1500_greed_all/l8-mzr02-premsel_enigma_01_2020_T10_loop01_epoch_43-query512-ctx1024-w0-coop$ less t70_integra8 
+
+```
+# Proof object clause steps            : 139
+# Proof object initial clauses used    : 62
+# Proof object initial formulas used   : 49
+# Proof object simplifying inferences  : 182
+# Parsed axioms                        : 555
+# Initial clauses in saturation        : 789
+# Processed clauses                    : 4090
+# ...remaining for further processing  : 2518
+# Generated clauses                    : 18537
+# ...of the previous two non-trivial   : 15707
+# User time                : 24.348 s
+```
+
+
 ### Cos is increasing on pi,2pi
 
 cos | ].PI,(2 * PI).\[ is increasing
