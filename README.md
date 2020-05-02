@@ -305,6 +305,32 @@ The only issue is that no prover could do it before and that I got the proof wit
 
 The fact that it generated only 2.8k clauses during 734 nontrivial given clause loops (with 549 initial clauses) is pretty amazing (and probably the reason why this succeeded). 
 
+### The radical of square-free k is k
+
+for k being non zero Nat st k is square-free holds Radical k = k
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/moebius1.html#T57
+
+E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t57_moebius1
+
+(base) mptp@air-02:~/big1/bushy_np/en_gnn/convert-models/grid1500_greed_all/l8-mzr02-premsel_enigma_01_2020_T10_loop01_epoch_66-query512-ctx512-w0-solo$ less t57_moebius1 
+
+```
+# Proof object clause steps            : 124
+# Proof object initial clauses used    : 60
+# Proof object initial formulas used   : 42
+# Proof object simplifying inferences  : 136
+# Parsed axioms                        : 339
+# Initial clauses in saturation        : 663
+# Processed clauses                    : 2020
+# ...remaining for further processing  : 1630
+# Generated clauses                    : 14333
+# ...of the previous two non-trivial   : 11883
+# User time                : 26.564 s
+```
+
+
+
 ### Combinatorics and counting - coefficient in binomial expansion
 
 (a,b) In_Power 0 = <\*(1_ R)\*>
