@@ -506,6 +506,30 @@ http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t108_scmyciel
 # User time                : 12.060 s
 ```
 
+### Modules: linearly independent sets don't contain 0
+
+for V being LeftMod of R for A being Subset of V st 0. R <> 1. R & A is linearly-independent 
+holds not 0. V in A
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/lmod_5.html#T2
+
+E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t2_lmod_5
+
+(base) mptp@air-02:~/big1/bushy_np/en_gnn/convert-models/grid1500_greed_all/l8-mzr02-premsel_enigma_01_2020_T10_loop01_epoch_43-query512-ctx1024-w0-coop$ less t2_lmod_5
+
+```
+# Proof object clause steps            : 126
+# Proof object initial clauses used    : 72
+# Proof object initial formulas used   : 38
+# Proof object simplifying inferences  : 101
+# Parsed axioms                        : 186
+# Initial clauses in saturation        : 305
+# Processed clauses                    : 2003
+# ...remaining for further processing  : 1426
+# Generated clauses                    : 14951
+# ...of the previous two non-trivial   : 7793
+# User time                : 15.924 s
+```
 
 ### Cardinalities:
 1 -tuples_on D,D are_equipotent & card (1 -tuples_on D) = card D 
