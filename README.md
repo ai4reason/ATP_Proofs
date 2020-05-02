@@ -7,6 +7,35 @@ http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ncfcont2.html#T25
 E proof: http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t25_ncfcont2
 261 axioms, 373 initial clauses, 1534 processed, 11.2 generated, 38s, 135 proof clause steps, 36/79 initial proof flas/clauses, lots of calculation
 
+### epsilon-delta continuity in metric spaces
+
+for f being Function of TopSpaceMetr N, TopSpaceMetr M st f is continuous holds 
+for r being Real for u being Element of N for u1 being Element of M st r > 0 & u1 = f . u holds
+ex s being Real st s > 0 & for w being Element of N for w1 being Element of M st w1 = f . w & dist (u,w) < s holds dist (u1,w1) < r 
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/uniform1.html#T4
+
+E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t4_uniform1
+
+(base) mptp@air-02:~/big1/bushy_np/en_gnn/convert-models/grid1500_greed_all/l8-mzr02-premsel_enigma_01_2020_T10_loop01_epoch_65-query256-ctx768-w0-coop$ less t4_uniform1
+
+
+```
+# Proof object clause steps            : 136
+# Proof object initial clauses used    : 62
+# Proof object initial formulas used   : 32
+# Proof object simplifying inferences  : 137
+# Parsed axioms                        : 223
+# Initial clauses in saturation        : 359
+# Processed clauses                    : 1545
+# ...remaining for further processing  : 1115
+# Generated clauses                    : 4956
+# ...of the previous two non-trivial   : 4528
+# User time                : 9.304 s
+```
+
+
+
 ### Enigma learns to count: 
 for r being real number st 0 <= r & r <= 2 * PI & sin r = 1 holds r = PI / 2
 
