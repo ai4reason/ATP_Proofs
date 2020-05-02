@@ -445,6 +445,33 @@ E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t15_borsuk_2
 # User time                : 18.620 s
 ```
 
+### Two points on an arc are connected by a subarc
+
+P is_an_arc_of p1,p2 & q1 in P & q2 in P implies
+ex Q being non empty Subset of (TOP-REAL 2) st
+Q is_an_arc_of q1,q2 & Q c= P 
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/jordan16.html#T23
+
+E proof (lgb): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t23_jordan16.out
+
+(base) mptp@air-03:/home/yan/local/ENIGMA/1911-MIZAR40-ETF-IJCAR/00RESULTS/mizar40-all-T30/Enigma+mizar40-all-T10+mega-VHSLCAXPh2e15+lgb-t150-d30-l6400-e0.15+coop-mzr02$ less t23_jordan16.out
+
+```
+# Proof object clause steps            : 194
+# Proof object initial clauses used    : 48
+# Proof object initial formulas used   : 32
+# Proof object simplifying inferences  : 169
+# Parsed axioms                        : 192
+# Initial clauses                      : 322
+# Initial clauses in saturation        : 293
+# Processed clauses                    : 11023
+# ...remaining for further processing  : 6247
+# Generated clauses                    : 70833
+# ...of the previous two non-trivial   : 64270
+# User time                : 15.051 s
+
+```
 
 ### r-circle is a subspace of r-square
 
