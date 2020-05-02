@@ -225,7 +225,7 @@ E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t22_binom
 # Generated clauses                    : 15114
 # ...of the previous two non-trivial   : 13476
 # User time                : 26.104 s
-
+```
 
 ### Topology - discrete is T_2
 for T being non empty discrete TopSpace holds T is T_2
