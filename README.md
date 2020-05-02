@@ -205,6 +205,29 @@ E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t70_integra8
 # User time                : 24.348 s
 ```
 
+### Enigma integrates: integral (sin - cos) on \[0,pi\*2\] = 0
+
+A = \[.0,(PI * 2).\] implies integral ((sin - cos),A) = 0
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/integra8.html#T82
+
+E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t82_integra8
+
+(base) mptp@air-02:~/big1/bushy_np/en_gnn/convert-models/grid1500_greed_all/l8-mzr02-premsel_enigma_01_2020_T10_loop01_epoch_43-query512-ctx1024-w0-coop$ less t82_integra8
+```
+# Proof object clause steps            : 161
+# Proof object initial clauses used    : 74
+# Proof object initial formulas used   : 59
+# Proof object simplifying inferences  : 207
+# Parsed axioms                        : 568
+# Initial clauses in saturation        : 821
+# Processed clauses                    : 5601
+# ...remaining for further processing  : 3236
+# Generated clauses                    : 25826
+# ...of the previous two non-trivial   : 21838
+# User time                : 28.424 s
+```
+
 
 ### Cos is increasing on pi,2pi
 
