@@ -294,6 +294,30 @@ E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t10_toprealb
 # User time                : 10.648 s
 ```
 
+### Constant is a continuous function to R
+
+for X being non empty TopSpace for a being real number 
+ex g being Function of X,R^1 st  ( for p being Point of X holds g . p = a ) & g is continuous
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/jgraph_2.html#T20
+
+E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t20_jgraph_2
+
+(base) mptp@air-02:~/big1/bushy_np/en_gnn/convert-models/grid1500_greed_all/l8-mzr02-premsel_enigma_01_2020_T10_loop01_epoch_43-query512-ctx1024-w0-coop$ exprf.pl t20_jgraph_2
+
+```
+# Proof object clause steps            : 74
+# Proof object initial clauses used    : 38
+# Proof object initial formulas used   : 26
+# Proof object simplifying inferences  : 35
+# Parsed axioms                        : 230
+# Initial clauses in saturation        : 353
+# Processed clauses                    : 1542
+# ...remaining for further processing  : 1158
+# Generated clauses                    : 7543
+# ...of the previous two non-trivial   : 6338
+# User time                : 22.052 s
+```
 
 
 ### Probability - counting with probabilities
