@@ -351,7 +351,7 @@ http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/yellow13.html#T4
 ### Topology - T1 is a disjoint union of perfect and scattered
 
 T is T_1 implies ex A, B being Subset of T st
-A \/ B = [#] T & A misses B & A is perfect & B is scattered
+A \\/ B = [#] T & A misses B & A is perfect & B is scattered
 
 http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/topgen_1.html#T44
 
