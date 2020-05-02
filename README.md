@@ -219,6 +219,32 @@ http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/connsp_1.html#T29
 % ...of the previous two non-trivial   : 27799
 ```
 
+### Connectedness - synthesize and inverse path
+
+ex f being Function of I[01],T st( f is continuous & f . 0 = a & f . 1 = b ) implies
+ex g being Function of I[01],T st( g is continuous & g . 0 = b & g . 1 = a )
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/borsuk_2.html#T15
+
+E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t15_borsuk_2
+
+(base) mptp@air-02:~/big1/bushy_np/en_gnn/convert-models/grid1500_greed_all/l8-mzr02-premsel_enigma_01_2020_T10_loop01_epoch_43-query512-ctx1024-w0-coop$ less t15_borsuk_2
+
+```
+# Proof object clause steps            : 117
+# Proof object initial clauses used    : 57
+# Proof object initial formulas used   : 39
+# Proof object simplifying inferences  : 150
+# Parsed axioms                        : 302
+# Initial clauses in saturation        : 502
+# Processed clauses                    : 2473
+# ...remaining for further processing  : 1606
+# Generated clauses                    : 12964
+# ...of the previous two non-trivial   : 11465
+# User time                : 18.620 s
+```
+
+
 ### r-circle is a subspace of r-square
 
 for r being real number holds Tcircle ((0. (TOP-REAL 2)),r) is SubSpace of Trectangle ((- r),r,(- r),r)
