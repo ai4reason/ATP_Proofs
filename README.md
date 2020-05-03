@@ -928,6 +928,29 @@ E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t26_groeb_2
 # User time                : 24.048 s
 ```
 
+### Matrices: M has full rank iff Det M <> 0
+
+for n being Nat for K being Field for M being Matrix of n,K holds the_rank_of M = n iff Det M <> 0. K 
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/matrix13.html#T83
+
+E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t83_matrix13
+
+(base) mptp@air-02:~/big1/bushy_np/en_gnn/convert-models/grid1500_greed_all/l8-mzr02-premsel_enigma_01_2020_T10_loop01_epoch_47-query256-ctx768-w0-coop$ less t83_matrix13
+```
+# Proof object clause steps            : 134
+# Proof object initial clauses used    : 64
+# Proof object initial formulas used   : 34
+# Proof object simplifying inferences  : 138
+# Parsed axioms                        : 397
+# Initial clauses in saturation        : 707
+# Processed clauses                    : 1998
+# ...remaining for further processing  : 1522
+# Generated clauses                    : 5877
+# ...of the previous two non-trivial   : 5239
+# User time                : 15.120 s
+```
+
 
 
 ### Divergence of locally greater function
