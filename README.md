@@ -181,6 +181,30 @@ E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t115_sin_cos9
 # User time                : 20.156 s
 ```
 
+### Another differentiation: (exp (arctan + arccot))' = 0
+
+(exp_R * (arctan + arccot)) \`| Z) . x = 0
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/fdiff_11.html#T55
+
+E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t55_fdiff_11
+
+(base) mptp@air-02:~/big1/bushy_np/en_gnn/convert-models/grid1500_greed_all/l5-mzr02-premsel_enigma_01_2020_T10_loop01_epoch_42-query512-ctx768-w0-coop$ less t55_fdiff_11
+```
+# Proof object clause steps            : 103
+# Proof object initial clauses used    : 52
+# Proof object initial formulas used   : 34
+# Proof object simplifying inferences  : 115
+# Parsed axioms                        : 206
+# Initial clauses in saturation        : 269
+# Processed clauses                    : 1903
+# ...remaining for further processing  : 1307
+# Generated clauses                    : 8595
+# ...of the previous two non-trivial   : 7957
+# User time                : 17.228 s
+```
+
+
 ### Enigma integrates: integral sin+cos on \[0,pi/2\] = 2
 
 A = [.0,(PI / 2).] implies integral ((sin + cos),A) = 2
