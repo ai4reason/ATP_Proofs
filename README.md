@@ -117,6 +117,30 @@ E proof (lgb): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t42_functor3.out
 # User time                : 7.552 s
 ```
 
+### Groups: a is in center iff its conjugacy class is {a}
+
+a in center G iff con_class a = {a}
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/group_5.html#T81
+
+E proof (lgb): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t81_group_5.out
+
+(base) mptp@air-03:/home/yan/local/ENIGMA/1911-MIZAR40-ETF-IJCAR/00RESULTS/mizar40-all-T30/Enigma+mizar40-all-T10+mega-VHSLCAXPh2e15+lgb-t150-d30-l6400-e0.15+coop-mzr02$ less t81_group_5.out
+
+```
+# Proof object clause steps            : 149
+# Proof object initial clauses used    : 40
+# Proof object initial formulas used   : 26
+# Proof object simplifying inferences  : 127
+# Parsed axioms                        : 199
+# Initial clauses in saturation        : 336
+# Processed clauses                    : 1888
+# ...remaining for further processing  : 1269
+# Generated clauses                    : 11359
+# ...of the previous two non-trivial   : 10722
+# User time                : 4.286 s
+```
+
 ### Groups with sets: 
 for a being Element of G for H being Subgroup of G holds ( a in H iff a * H = carr H )
 
