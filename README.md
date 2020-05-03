@@ -738,6 +738,29 @@ E proof (lgb): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t6_clopban3.out
 # User time                : 3.345 s
 ```
 
+### Open sets are complements of closed in complex spaces
+
+for A being Subset of COMPLEX n holds A is closed iff A \` is open 
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/seq_4.html#T132
+
+E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t132_seq_4
+
+(base) mptp@air-02:~/big1/bushy_np/en_gnn/convert-models/grid1500_greed_all/l8-mzr02-premsel_enigma_01_2020_T10_loop01_epoch_88-query512-ctx768-w0-coop$ exprf.pl t132_seq_4
+```
+# Proof object clause steps            : 100
+# Proof object initial clauses used    : 44
+# Proof object initial formulas used   : 24
+# Proof object simplifying inferences  : 63
+# Parsed axioms                        : 532
+# Initial clauses in saturation        : 1072
+# Processed clauses                    : 2860
+# ...remaining for further processing  : 1940
+# Generated clauses                    : 10260
+# ...of the previous two non-trivial   : 9599
+# User time                : 11.800 s
+```
+
 ### The lattice of subalgebras of a many-sorted algebra is lower/upper-bounded - 291-long proof
 
 for U0 being non-empty MSAlgebra over S holds MSSubAlLattice U0 is bounded
@@ -861,7 +884,7 @@ E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t2_lmod_5
 
 ### Orthogonal spaces: being orthogonal to the same set implies being parallel
 
-for POS being OrtAfPl for M, K, N being Subset of POS st M _|_ K & N _|_ K holds M // N
+for POS being OrtAfPl for M, K, N being Subset of POS st M \_|\_ K & N \_|\_ K holds M // N
 
 http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/analmetr.html#T65
 
@@ -903,7 +926,7 @@ http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t8_card_4
 % ...of the previous two non-trivial   : 6260
 ```
 
-### Grobner bases
+### Groebner bases
 
 for G being Subset of (Polynom-Ring (n,L)) st not 0_ (n,L) in G & ( for g being Polynomial of n,L st g in G holds
 g is Monomial of n,L ) holds G is_Groebner_basis_wrt T
