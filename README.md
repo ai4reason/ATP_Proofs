@@ -738,6 +738,31 @@ E proof (lgb): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t6_clopban3.out
 # User time                : 3.345 s
 ```
 
+### There is a vector of norm 1 in a nontrivial normed space
+
+for X being non trivial RealNormSpace ex w being VECTOR of X st ||.w.|| = 1
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/lopban_2.html#T17
+
+E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t17_lopban_2
+
+(base) mptp@air-02:~/big1/bushy_np/en_gnn/convert-models/grid1500_greed_all/l8-mzr02-premsel_enigma_01_2020_T10_loop01_epoch_88-query512-ctx768-w0-coop$ less t17_lopban_2
+
+```
+# Proof object clause steps            : 127
+# Proof object initial clauses used    : 69
+# Proof object initial formulas used   : 49
+# Proof object simplifying inferences  : 83
+# Parsed axioms                        : 351
+# Initial clauses in saturation        : 441
+# Processed clauses                    : 1902
+# ...remaining for further processing  : 1202
+# Generated clauses                    : 9831
+# ...of the previous two non-trivial   : 8526
+# User time                : 10.624 s
+```
+
+
 ### Open sets are complements of closed in complex spaces
 
 for A being Subset of COMPLEX n holds A is closed iff A \` is open 
