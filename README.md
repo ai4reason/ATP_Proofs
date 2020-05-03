@@ -592,6 +592,32 @@ E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t67_jordan
 # User time                : 13.668 s
 ```
 
+### The diameter of the convex hull of A is equal to the diameter of A
+
+for A being Subset of (TOP-REAL n) for a, ca being bounded Subset of (Euclid n) st ca = conv A & a = A holds
+diameter a = diameter ca
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/simplex2.html#T15
+
+E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t15_simplex2
+
+(base) mptp@air-02:~/big1/bushy_np/en_gnn/convert-models/grid1500_greed_all/l8-mzr02-premsel_enigma_01_2020_T10_loop01_epoch_23-query256-ctx1024-w0-coop$ less t15_simplex2
+
+```
+# Proof object clause steps            : 104
+# Proof object initial clauses used    : 51
+# Proof object initial formulas used   : 28
+# Proof object simplifying inferences  : 87
+# Parsed axioms                        : 522
+# Initial clauses in saturation        : 972
+# Processed clauses                    : 2258
+# ...remaining for further processing  : 1822
+# Generated clauses                    : 8697
+# ...of the previous two non-trivial   : 8006
+# User time                : 13.708 s
+```
+
+
 
 ### Constant is a continuous function to R
 
