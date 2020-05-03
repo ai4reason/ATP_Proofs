@@ -451,6 +451,32 @@ E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t22_binom
 # User time                : 26.104 s
 ```
 
+### Counting - partial product of a constant sequence
+
+for s being Real_Sequence st ( for n being Element of NAT st n >= 1 holds s . n = a & s . 0 = 1  ) holds
+for n being Element of NAT st n >= 1 holds (Partial_Product s) . n = a |^ n
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/series_4.html#T29
+
+E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t29_series_4
+
+(base) mptp@air-02:~/big1/bushy_np/en_gnn/convert-models/grid1500_greed_all/l8-mzr02-premsel_enigma_01_2020_T10_loop01_epoch_88-query512-ctx768-w0-coop$ less t29_series_4
+```
+# Proof object clause steps            : 168
+# Proof object initial clauses used    : 62
+# Proof object initial formulas used   : 46
+# Proof object simplifying inferences  : 204
+# Parsed axioms                        : 224
+# Initial clauses in saturation        : 274
+# Processed clauses                    : 3001
+# ...remaining for further processing  : 1605
+# Generated clauses                    : 20071
+# ...of the previous two non-trivial   : 18372
+# User time                : 21.936 s
+```
+
+
+
 ### Topology - discrete is T_2
 for T being non empty discrete TopSpace holds T is T_2
 
