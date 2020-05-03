@@ -228,6 +228,29 @@ E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t55_fdiff_11
 # User time                : 17.228 s
 ```
 
+### Differentiation: (arccot * exp_R)' = - (exp_R . x) / (1 + ((exp_R . x) ^2)
+
+((arccot * exp_R) \`| Z) . x = - ((exp_R . x) / (1 + ((exp_R . x) ^2))) ) )
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/sin_cos9.html#T116
+
+E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t116_sin_cos9
+
+(base) mptp@air-02:~/big1/bushy_np/en_gnn/convert-models/grid1500_greed_all/l5-mzr02-premsel_enigma_01_2020_T10_loop01_epoch_42-query512-ctx768-w0-coop$ less t116_sin_cos9
+
+```
+# Proof object clause steps            : 155
+# Proof object initial clauses used    : 75
+# Proof object initial formulas used   : 60
+# Proof object simplifying inferences  : 145
+# Parsed axioms                        : 511
+# Initial clauses in saturation        : 695
+# Processed clauses                    : 3074
+# ...remaining for further processing  : 1848
+# Generated clauses                    : 19709
+# ...of the previous two non-trivial   : 16538
+# User time                : 11.720 s
+```
 
 ### Enigma integrates: integral sin+cos on \[0,pi/2\] = 2
 
