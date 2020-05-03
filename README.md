@@ -376,6 +376,31 @@ The only issue is that no prover could do it before and that I got the proof wit
 
 The fact that it generated only 2.8k clauses during 734 nontrivial given clause loops (with 549 initial clauses) is pretty amazing (and probably the reason why this succeeded). 
 
+### 37 is a prime number
+
+37 is prime
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/nat_4.html#T31
+
+E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t31_nat_4
+
+(base) mptp@air-02:~/big1/bushy_np/en_gnn/convert-models/grid1500_greed_all/l8-mzr02-premsel_enigma_01_2020_T10_loop01_epoch_23-query256-ctx1024-w0-coop$ less t31_nat_4
+```
+# Proof object clause steps            : 155
+# Proof object initial clauses used    : 81
+# Proof object initial formulas used   : 76
+# Proof object simplifying inferences  : 159
+# Parsed axioms                        : 746
+# Initial clauses in saturation        : 1070
+# Processed clauses                    : 3703
+# ...remaining for further processing  : 2680
+# Generated clauses                    : 15883
+# ...of the previous two non-trivial   : 10197
+# User time                : 12.860 s
+```
+
+
+
 ### The radical of square-free k is k
 
 for k being non zero Nat st k is square-free holds Radical k = k
