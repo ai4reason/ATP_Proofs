@@ -833,8 +833,33 @@ E proof (lgb): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t33_msualg_2.out
 # Generated clauses                    : 32864
 # ...of the previous two non-trivial   : 28335
 # User time                : 8.732 s
-
 ```
+
+### Logic: A set of formulas is inconsistent iff it proves everything
+
+for Al being QC-alphabet for X being Subset of CQC-WFF Al holds
+X is Inconsistent iff for p being Element of CQC-WFF Al holds X |- p 
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/henmodel.html#T6
+
+E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t6_henmodel
+
+(base) mptp@air-02:~/big1/bushy_np/en_gnn/convert-models/grid1500_greed_all/l8-mzr02-premsel_enigma_01_2020_T10_loop01_epoch_59-query768-ctx1024-w0-coop$ less t6_henmodel
+```
+# Proof object clause steps            : 76
+# Proof object initial clauses used    : 35
+# Proof object initial formulas used   : 21
+# Proof object simplifying inferences  : 52
+# Parsed axioms                        : 232
+# Initial clauses in saturation        : 376
+# Processed clauses                    : 3532
+# ...remaining for further processing  : 2207
+# Generated clauses                    : 13559
+# ...of the previous two non-trivial   : 12398
+# User time                : 24.872 s
+```
+
+
 
 
 ### Topology - product of T_0 spaces is T_0
