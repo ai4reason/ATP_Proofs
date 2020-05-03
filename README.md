@@ -859,6 +859,31 @@ E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t2_lmod_5
 # User time                : 15.924 s
 ```
 
+### Orthogonal spaces: being orthogonal to the same set implies being parallel
+
+for POS being OrtAfPl for M, K, N being Subset of POS st M _|_ K & N _|_ K holds M // N
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/analmetr.html#T65
+
+E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t65_analmetr
+
+(base) mptp@air-02:~/big1/bushy_np/en_gnn/convert-models/grid1500_greed_all/l5-mzr02-premsel_enigma_01_2020_T10_loop01_epoch_42-query512-ctx768-w0-coop$ less t65_analmetr
+```
+# Proof object clause steps            : 90
+# Proof object initial clauses used    : 47
+# Proof object initial formulas used   : 26
+# Proof object simplifying inferences  : 114
+# Parsed axioms                        : 148
+# Initial clauses in saturation        : 239
+# Processed clauses                    : 2881
+# ...remaining for further processing  : 1972
+# Generated clauses                    : 12430
+# ...of the previous two non-trivial   : 11717
+# User time                : 22.012 s
+```
+
+
+
 ### Cardinalities:
 1 -tuples_on D,D are_equipotent & card (1 -tuples_on D) = card D 
 
