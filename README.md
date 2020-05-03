@@ -639,6 +639,31 @@ E proof (lgb): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t33_lopban_4.out
 # User time                : 6.668 s
 ```
 
+### Partial sums in normed spaces
+
+for n being Element of NAT holds seq . n = 0. X implies
+for m being Element of NAT holds (Partial_Sums ||.seq.||) . m = 0
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/clopban3.html#T6
+
+E proof (lgb): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t6_clopban3.out
+
+(base) mptp@air-03:/home/yan/local/ENIGMA/1911-MIZAR40-ETF-IJCAR/00RESULTS/mizar40-all-T30/Enigma+mizar40-all-T10+mega-VHSLCAXPh2e15+lgb-t150-d60-l3600-e0.15+coop-mzr02$ less t6_clopban3.out
+
+```
+# Proof object clause steps            : 184
+# Proof object initial clauses used    : 55
+# Proof object initial formulas used   : 40
+# Proof object simplifying inferences  : 134
+# Parsed axioms                        : 261
+# Initial clauses in saturation        : 389
+# Processed clauses                    : 2914
+# ...remaining for further processing  : 1846
+# Generated clauses                    : 10568
+# ...of the previous two non-trivial   : 9485
+# User time                : 3.345 s
+```
+
 ### The lattice of subalgebras of a many-sorted algebra is lower/upper-bounded - 291-long proof
 
 for U0 being non-empty MSAlgebra over S holds MSSubAlLattice U0 is bounded
