@@ -853,6 +853,33 @@ http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t8_card_4
 % ...of the previous two non-trivial   : 6260
 ```
 
+### Grobner bases
+
+for G being Subset of (Polynom-Ring (n,L)) st not 0_ (n,L) in G & ( for g being Polynomial of n,L st g in G holds
+g is Monomial of n,L ) holds G is_Groebner_basis_wrt T
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/groeb_2.html#T26
+
+E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t26_groeb_2
+
+(base) mptp@air-02:~/big1/bushy_np/en_gnn/convert-models/grid1500_greed_all/l8-mzr02-premsel_enigma_01_2020_T10_loop01_epoch_23-query256-ctx1024-w0-coop$ less t26_groeb_2
+
+```
+# Proof object clause steps            : 131
+# Proof object initial clauses used    : 71
+# Proof object initial formulas used   : 31
+# Proof object simplifying inferences  : 322
+# Parsed axioms                        : 415
+# Initial clauses in saturation        : 960
+# Processed clauses                    : 2919
+# ...remaining for further processing  : 2353
+# Generated clauses                    : 8083
+# ...of the previous two non-trivial   : 7578
+# User time                : 24.048 s
+```
+
+
+
 ### Divergence of locally greater function
 
 http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/limfunc2.html#T37
