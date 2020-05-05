@@ -835,6 +835,34 @@ E proof (lgb): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t33_msualg_2.out
 # User time                : 8.732 s
 ```
 
+### Lattices: a subrelation is closed on finite joins iff it is closed on joins of pairs
+
+for T being sup-Semilattice
+for S being non empty full SubRelStr of T holds
+S is join-inheriting iff for X being non empty finite Subset of S holds "\/" (X,T) in the carrier of S
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/waybel21.html#T15
+
+E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t15_waybel21
+
+(base) mptp@air-02:~/big1/bushy_np/en_gnn/convert-models/grid1500_greed_all/l8-mzr02-premsel_enigma_01_2020_T10_loop01_epoch_49-query128-ctx512-w0-coop$ less t15_waybel21
+```
+# Proof object clause steps            : 128
+# Proof object initial clauses used    : 56
+# Proof object initial formulas used   : 34
+# Proof object simplifying inferences  : 143
+# Parsed axioms                        : 193
+# Initial clauses in saturation        : 303
+# Processed clauses                    : 3151
+# ...remaining for further processing  : 1633
+# Generated clauses                    : 13852
+# ...of the previous two non-trivial   : 13196
+# User time                : 24.412 s
+```
+
+
+
+
 ### Logic: A set of formulas is inconsistent iff it proves everything
 
 for Al being QC-alphabet for X being Subset of CQC-WFF Al holds
