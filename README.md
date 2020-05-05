@@ -908,6 +908,31 @@ E proof with lgb: http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t29_rat_1.out
 # User time                : 27.157 s
 ```
 
+### Graph theory: oriented chain determines the oriented vertex sequence
+
+for c being oriented Chain of G st c <> {} & vs1 is_oriented_vertex_seq_of c & vs2 is_oriented_vertex_seq_of c holds
+vs1 = vs2
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/graph_4.html#T10
+
+E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t10_graph_4
+
+(base) mptp@air-02:~/big1/bushy_np/en_gnn/convert-models/grid1500_greed_all/l5-mzr02-premsel_enigma_01_2020_T10_loop01_epoch_15-query128-ctx768-w0-coop$ less t10_graph_4
+```
+# Proof object clause steps            : 204
+# Proof object initial clauses used    : 72
+# Proof object initial formulas used   : 52
+# Proof object simplifying inferences  : 275
+# Parsed axioms                        : 368
+# Initial clauses in saturation        : 543
+# Processed clauses                    : 3553
+# ...remaining for further processing  : 2119
+# Generated clauses                    : 18342
+# ...of the previous two non-trivial   : 15472
+# User time                : 22.296 s
+```
+
+
 ### Graph theory: if G has clique# <=1 its Mycielskian has clique# <= 2 
 
 for G being with_finite_clique# SimpleGraph st clique# G = 1 holds
