@@ -668,6 +668,30 @@ E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t15_simplex2
 # User time                : 13.708 s
 ```
 
+### Affine sets are convex
+
+for V being non empty RLSStruct for M being Subset of V st M is Affine holds M is convex
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/convex1.html#T16
+
+E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t16_convex1
+
+(base) mptp@air-02:~/big1/bushy_np/en_gnn/convert-models/grid1500_greed_all/l5-mzr02-premsel_enigma_01_2020_T10_loop01_epoch_73-query128-ctx256-w0-coop$ less t16_convex1
+```
+# Proof object clause steps            : 79
+# Proof object initial clauses used    : 39
+# Proof object initial formulas used   : 31
+# Proof object simplifying inferences  : 58
+# Parsed axioms                        : 294
+# Initial clauses in saturation        : 390
+# Processed clauses                    : 5195
+# ...remaining for further processing  : 2812
+# Generated clauses                    : 70324
+# ...of the previous two non-trivial   : 63821
+# User time                : 24.336 s
+```
+
+Relatively short proof, but nobody could get it with the 294 axioms. Even here the search was hard - 64k nontrivial generated clauses and 3k nontrivial processed.
 
 
 ### Constant is a continuous function to R
