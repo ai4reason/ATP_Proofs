@@ -399,6 +399,28 @@ E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t31_nat_4
 # User time                : 12.860 s
 ```
 
+### 43 is prime
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/nat_4.html#T32
+
+E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t32_nat_4
+
+(base) mptp@air-02:~/big1/bushy_np/en_gnn/convert-models/grid1500_greed_all/l8-mzr02-premsel_enigma_01_2020_T10_loop01_epoch_50-query512-ctx1536-w0-coop$ less t32_nat_4
+```
+# Proof object clause steps            : 157
+# Proof object initial clauses used    : 85
+# Proof object initial formulas used   : 79
+# Proof object simplifying inferences  : 146
+# Parsed axioms                        : 931
+# Initial clauses in saturation        : 1270
+# Processed clauses                    : 4276
+# ...remaining for further processing  : 2975
+# Generated clauses                    : 14720
+# ...of the previous two non-trivial   : 10484
+# User time                : 10.424 s
+```
+
+Almost 1k axioms, 79 of them used in the proof, 3k processed, 10k generated - not bad.
 
 
 ### The radical of square-free k is k
