@@ -643,6 +643,34 @@ E proof (lgb): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t23_jordan16.out
 
 ```
 
+### X is locally connected iff components of open sets are open
+
+for X being non empty TopSpace holds
+X is locally_connected iff for A being non empty Subset of X
+for B being Subset of X st A is open & B is_a_component_of A holds
+B is open 
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/connsp_2.html#T18
+
+E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t18_connsp_2
+
+Done with premise selection - lgb 0.005
+
+(base) mptp@air-02:/scratch/mptp/bhardpredo1/preds__0.005$ less t18_connsp_2
+```
+# Proof object clause steps            : 110
+# Proof object initial clauses used    : 52
+# Proof object initial formulas used   : 30
+# Proof object simplifying inferences  : 103
+# Parsed axioms                        : 96
+# Initial clauses in saturation        : 161
+# Processed clauses                    : 1177
+# ...remaining for further processing  : 802
+# Generated clauses                    : 5814
+# ...of the previous two non-trivial   : 5425
+# User time                : 18.408 s
+```
+
 ### r-circle is a subspace of r-square
 
 for r being real number holds Tcircle ((0. (TOP-REAL 2)),r) is SubSpace of Trectangle ((- r),r,(- r),r)
