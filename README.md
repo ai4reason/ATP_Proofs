@@ -166,6 +166,31 @@ E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t18_groupp_1
 # User time                : 18.720 s
 ```
 
+### Index of the unit subgroup of G is equal to the cardinality of G
+
+for G being Group holds Index ((1). G) = card G
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/group_2.html#T152
+
+E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t152_group_2
+
+Premise selection with lgb, 0.005
+
+(base) mptp@air-02:/scratch/mptp/bhardpredo1/preds__0.005$ less t152_group_2
+```
+# Proof object clause steps            : 100
+# Proof object initial clauses used    : 44
+# Proof object initial formulas used   : 28
+# Proof object simplifying inferences  : 51
+# Parsed axioms                        : 106
+# Initial clauses in saturation        : 171
+# Processed clauses                    : 2175
+# ...remaining for further processing  : 1161
+# Generated clauses                    : 11307
+# ...of the previous two non-trivial   : 9579
+# User time                : 19.164 s
+```
+
 
 ### Groups with sets: 
 for a being Element of G for H being Subgroup of G holds ( a in H iff a * H = carr H )
