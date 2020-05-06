@@ -1257,6 +1257,30 @@ http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/compos_1.html#T64
 % Proof object clause steps            : 158
 ```
 
+### Longish about sequences on goboard (in the proof of Jordan)
+
+for h being non constant standard special_circular_sequence holds n_e_n h <> n_e_s h
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/jordan5d.html#T49
+
+E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t49_jordan5d
+
+Premise selection used (lgb, 0.005)
+(base) mptp@air-02:/scratch/mptp/bhardpredo1/preds__0.005$ less t49_jordan5d
+```
+# Proof object clause steps            : 161
+# Proof object initial clauses used    : 74
+# Proof object initial formulas used   : 58
+# Proof object simplifying inferences  : 196
+# Parsed axioms                        : 255
+# Initial clauses in saturation        : 369
+# Processed clauses                    : 2017
+# ...remaining for further processing  : 1434
+# Generated clauses                    : 6398
+# ...of the previous two non-trivial   : 6038
+# User time                : 17.904 s
+```
+
 
 ### Longish proof in INT_5
 http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/int_5.html#T3
