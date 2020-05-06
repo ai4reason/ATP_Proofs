@@ -790,6 +790,32 @@ E proof (lgb): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t30_prob_2.out
 # User time                : 3.117 s
 ```
 
+### Pythagorean theorem in inner product spaces
+
+for X being RealUnitarySpace
+for x, y being Point of X st x,y are_orthogonal holds
+||.(x + y).|| ^2 = (||.x.|| ^2) + (||.y.|| ^2)
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/bhsp_5.html#T6
+
+E proof (lgb): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t6_bhsp_5.out
+
+(base) mptp@air-03:/home/yan/1911-MIZAR40-ETF-IJCAR/00RESULTS/mizar40-all-T30/Enigma+mizar40-all-T10+mega-VHSLCAXPh2e15+lgb-t150-d80-l8000-e0.15+coop-mzr02$ less t6_bhsp_5.out 
+
+```
+# Proof object clause steps            : 181
+# Proof object initial clauses used    : 51
+# Proof object initial formulas used   : 34
+# Proof object simplifying inferences  : 210
+# Parsed axioms                        : 342
+# Initial clauses in saturation        : 440
+# Processed clauses                    : 8804
+# ...remaining for further processing  : 4119
+# Generated clauses                    : 65094
+# ...of the previous two non-trivial   : 60807
+# User time                : 28.629 s
+```
+
 ### Convergence of exponentials in Banach spaces - 267-long proof
 
 http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/lopban_4.html#T33
