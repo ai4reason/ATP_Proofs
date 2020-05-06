@@ -141,6 +141,32 @@ E proof (lgb): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t81_group_5.out
 # User time                : 4.286 s
 ```
 
+### if G/N and N are p-groups then G is also a p-group
+
+for p being prime Nat for G being finite Group
+for N being normal Subgroup of G st N is p -group & G ./. N is p -group holds
+G is p -group
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/groupp_1.html#T18
+
+E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t18_groupp_1
+
+(base) mptp@air-02:~/big1/bushy_np/en_gnn/convert-models/grid1500_greed_all/l8-mzr02-premsel_enigma_01_2020_T10_loop01_epoch_45-query128-ctx768-w0-coop$ less t18_groupp_1
+```
+# Proof object clause steps            : 117
+# Proof object initial clauses used    : 63
+# Proof object initial formulas used   : 45
+# Proof object simplifying inferences  : 127
+# Parsed axioms                        : 256
+# Initial clauses in saturation        : 394
+# Processed clauses                    : 2281
+# ...remaining for further processing  : 1491
+# Generated clauses                    : 7090
+# ...of the previous two non-trivial   : 6718
+# User time                : 18.720 s
+```
+
+
 ### Groups with sets: 
 for a being Element of G for H being Subgroup of G holds ( a in H iff a * H = carr H )
 
