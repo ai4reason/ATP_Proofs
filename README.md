@@ -1162,6 +1162,33 @@ http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t108_scmyciel
 # User time                : 12.060 s
 ```
 
+### Graph algorithms: lexicografic breadth-first search labels the whole graph
+
+for G being finite \_Graph holds (LexBFS:CSeq G) .Lifespan() = G .order()
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/lexbfs.html#T37
+
+E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t37_lexbfs
+
+Used premise selection with lgb (0.005).
+
+(base) mptp@air-02:/scratch/mptp/bhardpredo1/preds__0.005$ less t37_lexbfs 
+```
+# Proof object clause steps            : 120
+# Proof object initial clauses used    : 53
+# Proof object initial formulas used   : 41
+# Proof object simplifying inferences  : 139
+# Parsed axioms                        : 272
+# Initial clauses in saturation        : 360
+# Processed clauses                    : 2497
+# ...remaining for further processing  : 1470
+# Generated clauses                    : 11798
+# ...of the previous two non-trivial   : 10553
+# User time                : 27.340 s
+```
+
+
+
 ### Modules: linearly independent sets don't contain 0
 
 for V being LeftMod of R for A being Subset of V st 0. R <> 1. R & A is linearly-independent 
