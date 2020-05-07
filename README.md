@@ -303,6 +303,36 @@ E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t116_sin_cos9
 # User time                : 11.720 s
 ```
 
+### Differentiation: (sin * ln)' = (cos (log (number_e,x))) / x 
+
+(sin * ln) \`| Z) . x = (cos . (log (number_e,x))) / x )
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/fdiff_6.html#T49
+
+E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t49_fdiff_6
+
+Used lgb premise selection with 160 premises
+
+(base) mptp@air-02:/scratch/mptp/bhardpredo2/preds__160$ less t49_fdiff_6
+
+```
+# Proof object clause steps            : 189
+# Proof object initial clauses used    : 79
+# Proof object initial formulas used   : 54
+# Proof object simplifying inferences  : 215
+# Parsed axioms                        : 161
+# Initial clauses in saturation        : 211
+# Processed clauses                    : 1856
+# ...remaining for further processing  : 1354
+# Generated clauses                    : 8219
+# ...of the previous two non-trivial   : 7820
+# User time                : 12.896 s
+```
+
+
+
+
+
 ### Enigma integrates: integral sin+cos on \[0,pi/2\] = 2
 
 A = [.0,(PI / 2).] implies integral ((sin + cos),A) = 2
