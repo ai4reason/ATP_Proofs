@@ -474,6 +474,31 @@ E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t32_nat_4
 Almost 1k axioms, 79 of them used in the proof, 3k processed, 10k generated - not bad.
 
 
+### Massive counting ATP-style: Enumerate all numbers smaller than 64
+
+for x being set holds x in Seg 64 implies x = 1 or ... or x = 64
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/descip_1.html#T23
+
+E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t23_descip_1
+
+This used premise selection - lgb, 0.005. The original bushy problem has almost 5k axioms about relations between these numbers: http://grid01.ciirc.cvut.cz/~mptp/enigma_prob/t23_descip_1 .
+
+(base) mptp@air-02:/scratch/mptp/bhardpredo1/preds__0.005$ less t23_descip_1 
+```
+# Proof object clause steps            : 426
+# Proof object initial clauses used    : 208
+# Proof object initial formulas used   : 142
+# Proof object simplifying inferences  : 522
+# Parsed axioms                        : 227
+# Initial clauses in saturation        : 488
+# Processed clauses                    : 2329
+# ...remaining for further processing  : 1574
+# Generated clauses                    : 17384
+# ...of the previous two non-trivial   : 16490
+# User time                : 26.140 s
+```
+
 ### The radical of square-free k is k
 
 for k being non zero Nat st k is square-free holds Radical k = k
