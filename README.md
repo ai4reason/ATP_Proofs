@@ -1210,7 +1210,30 @@ E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t65_analmetr
 # User time                : 22.012 s
 ```
 
+### Cardinal arithmetics - exp (M+N) = exp M * exp N
 
+for K, M, N being Cardinal holds exp (K,(M +\` N)) = (exp (K,M)) \*\` (exp (K,N))
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_2.html#T28
+
+E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t28_card_2
+
+This used premise selection with lgb - 192 premises. The proof (and search) seems short now, but was not found by any other method before.
+
+(base) mptp@air-02:/scratch/mptp/bhardpredo1/preds__192$ exprf.pl t28_card_2
+```
+# Proof object clause steps            : 47
+# Proof object initial clauses used    : 19
+# Proof object initial formulas used   : 14
+# Proof object simplifying inferences  : 25
+# Parsed axioms                        : 193
+# Initial clauses in saturation        : 274
+# Processed clauses                    : 770
+# ...remaining for further processing  : 527
+# Generated clauses                    : 10703
+# ...of the previous two non-trivial   : 9585
+# User time                : 10.484 s
+```
 
 ### Cardinalities:
 1 -tuples_on D,D are_equipotent & card (1 -tuples_on D) = card D 
