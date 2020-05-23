@@ -192,6 +192,38 @@ Premise selection with lgb, 0.005
 ```
 
 
+### Index of the intersection of subgroups with relatively prime indices 
+
+for A, B being Subgroup of C
+for D being Subgroup of A st D = A /\ B holds
+for E being Subgroup of B st E = A /\ B holds
+for F being Subgroup of C st F = A /\ B & index (C,A), index (C,B) are_relative_prime holds
+( index (C,B) = index (A,D) & index (C,A) = index (B,E) )
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/group_8.html#T21
+
+E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t21_group_8
+
+used lgb premise selection (0.005)
+
+(base) mptp@air-02:~/big2/convert_models/grid8bb1$ less mzr02-premsel_enigma_01_2020_T30_loop02_epoch_29-query256-ctx512-w0-solo/t21_group_8 
+
+```
+# Proof object clause steps            : 112
+# Proof object initial clauses used    : 43
+# Proof object initial formulas used   : 25
+# Proof object simplifying inferences  : 213
+# Parsed axioms                        : 147
+# Initial clauses in saturation        : 190
+# Processed clauses                    : 1325
+# ...remaining for further processing  : 812
+# Generated clauses                    : 5371
+# ...of the previous two non-trivial   : 5122
+# User time                : 25.997 s
+```
+
+Combines reasoning about numbers and groups and their intersections.
+
 ### Groups with sets: 
 for a being Element of G for H being Subgroup of G holds ( a in H iff a * H = carr H )
 
