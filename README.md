@@ -924,6 +924,37 @@ E proof (lgb): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t6_bhsp_5.out
 # User time                : 28.629 s
 ```
 
+### In a unitary space you can inscribe a ball around any point inside a bigger ball
+
+for V being RealUnitarySpace
+for v, u being Point of V
+for r being Real st u in Ball (v,r) holds
+ex p being Real st ( p > 0 & Ball (u,p) c= Ball (v,r) )
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/rusub_5.html#T35
+
+E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t35_rusub_5
+
+used lgb premise selection with 0.005 threshold
+
+(base) mptp@air-02:~/big2/convert_models/grid8bb1/mzr02-premsel_enigma_01_2020_T30_loop02_epoch_29-query128-ctx256-w0-coop$ less t35_rusub_5
+
+```
+# Proof object clause steps            : 58
+# Proof object initial clauses used    : 35
+# Proof object initial formulas used   : 18
+# Proof object simplifying inferences  : 65
+# Parsed axioms                        : 100
+# Initial clauses in saturation        : 137
+# Processed clauses                    : 883
+# ...remaining for further processing  : 568
+# Generated clauses                    : 4071
+# ...of the previous two non-trivial   : 3786
+# User time                : 18.970 s
+```
+
+Shortish proof, but previously unobtainable - needs the existential witness for p.
+
 ### Convergence of exponentials in Banach spaces - 267-long proof
 
 http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/lopban_4.html#T33
