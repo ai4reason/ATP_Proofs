@@ -204,7 +204,7 @@ http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/group_8.html#T21
 
 E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t21_group_8
 
-used lgb premise selection (0.005)
+used lgb premise selection (0.005) to prune 265 axioms to 147
 
 (base) mptp@air-02:~/big2/convert_models/grid8bb1$ less mzr02-premsel_enigma_01_2020_T30_loop02_epoch_29-query256-ctx512-w0-solo/t21_group_8 
 
@@ -222,7 +222,7 @@ used lgb premise selection (0.005)
 # User time                : 25.997 s
 ```
 
-Combines reasoning about numbers and groups and their intersections.
+Combines reasoning about numbers and groups and their intersections. The Mizar proof has almost 70 lines.
 
 ### Groups with sets: 
 for a being Element of G for H being Subgroup of G holds ( a in H iff a * H = carr H )
