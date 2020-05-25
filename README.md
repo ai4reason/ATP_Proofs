@@ -1000,6 +1000,30 @@ E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t20_jgraph_2
 # User time                : 22.052 s
 ```
 
+### Quotient of even functions is an even function
+
+F is even & G is even & (dom F) /\ (dom G) is symmetrical holds
+F /" G is even
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/funct_8.html#T53
+
+E proof (gnn) with lgb premise selection (0.005): 
+
+(base) mptp@grid02:~/local1/bushy_np/grid8bb1_60$ less l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_69-query128-ctx512-w0-solo/t53_funct_8
+```
+# Proof object clause steps            : 137
+# Proof object initial clauses used    : 44
+# Proof object initial formulas used   : 32
+# Proof object simplifying inferences  : 205
+# Parsed axioms                        : 129
+# Initial clauses in saturation        : 167
+# Processed clauses                    : 2831
+# ...remaining for further processing  : 798
+# Generated clauses                    : 12109
+# ...of the previous two non-trivial   : 11516
+# User time                : 37.214 s
+```
+
 
 ### Probability - counting with probabilities
 
