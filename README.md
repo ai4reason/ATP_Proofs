@@ -509,6 +509,27 @@ http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t93_mesfunc5
 
 (base) mptp@air-02:~/big1/bushy_np/en_gnn/convert-models/grid1500/l5-mzr02-premsel_enigma_01_2020_T10_loop01_epoch_4-query512-ctx768-w0-coop$ 
 
+### Monster proof about partial sums in Lebesgue measure theory - the proof takes 150 Mizar lines
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/mesfunc9.html#T33
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t33_mesfunc9
+
+(base) mptp@grid02:~/local1/bushy_np/grid8bb1_60$ less l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_37-query256-ctx768-w0-solo/t33_mesfunc9
+```
+# Proof object clause steps            : 201
+# Proof object initial clauses used    : 77
+# Proof object initial formulas used   : 30
+# Proof object simplifying inferences  : 281
+# Parsed axioms                        : 70
+# Initial clauses in saturation        : 129
+# Processed clauses                    : 2081
+# ...remaining for further processing  : 968
+# Generated clauses                    : 6522
+# ...of the previous two non-trivial   : 6381
+# User time                : 49.017 s
+```
+
 
 ### Almost infinitude of primes:
 
