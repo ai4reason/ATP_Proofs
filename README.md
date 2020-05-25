@@ -141,6 +141,31 @@ E proof (lgb): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t81_group_5.out
 # User time                : 4.286 s
 ```
 
+### card (con_class a) = Index (Normalizer {a})
+
+for G being Group
+for a being Element of G holds card (con_class a) = Index (Normalizer {a})
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/group_3.html#T132
+
+E proof (gnn) using lgb premise selection with 0.005 threshold: http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t132_group_3
+
+(base) mptp@grid02:~/local1/bushy_np/grid8bb1_60$ less l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_57-query768-ctx1024-w0-solo/t132_group_3
+```
+# Proof object clause steps            : 134
+# Proof object initial clauses used    : 51
+# Proof object initial formulas used   : 30
+# Proof object simplifying inferences  : 75
+# Parsed axioms                        : 121
+# Initial clauses in saturation        : 164
+# Processed clauses                    : 1821
+# ...remaining for further processing  : 1037
+# Generated clauses                    : 18626
+# ...of the previous two non-trivial   : 17954
+# User time                : 30.063 s
+```
+
+
 ### if G/N and N are p-groups then G is also a p-group
 
 for p being prime Nat for G being finite Group
