@@ -881,6 +881,30 @@ E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t15_simplex2
 # User time                : 13.708 s
 ```
 
+### A set in R^n is bounded iff its convex hull is bounded
+
+for A being Subset of TOP-REAL n holds A is bounded iff conv A is bounded 
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/simplex2.html#T14
+
+E proof (gnn) with lfb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t14_simplex2
+
+(base) mptp@grid02:~/local1/bushy_np/grid8bb1_60$ less l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_57-query768-ctx1024-w0-solo/t14_simplex2
+```
+# Proof object clause steps            : 151
+# Proof object initial clauses used    : 71
+# Proof object initial formulas used   : 50
+# Proof object simplifying inferences  : 133
+# Parsed axioms                        : 256
+# Initial clauses in saturation        : 408
+# Processed clauses                    : 5122
+# ...remaining for further processing  : 2257
+# Generated clauses                    : 25346
+# ...of the previous two non-trivial   : 23418
+# User time                : 46.871 s
+```
+
+
 ### Affine sets are convex
 
 for V being non empty RLSStruct for M being Subset of V st M is Affine holds M is convex
