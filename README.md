@@ -1036,6 +1036,32 @@ used lgb premise selection with 0.005 threshold
 
 Shortish proof, but previously unobtainable - needs the existential witness for p.
 
+### The union of the sphere and the open ball is the closed ball
+
+for r being real number
+for M being MetrStruct
+for p being Element of M holds (Sphere (p,r)) \/ (Ball (p,r)) = cl_Ball (p,r)
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/metric_1.html#T16
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t16_metric_1
+
+(base) mptp@grid02:~/local1/bushy_np/grid8bb1_60$ less l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_69-query128-ctx512-w0-solo/t16_metric_1
+```
+# Proof object clause steps            : 56
+# Proof object initial clauses used    : 28
+# Proof object initial formulas used   : 23
+# Proof object simplifying inferences  : 26
+# Parsed axioms                        : 130
+# Initial clauses in saturation        : 184
+# Processed clauses                    : 840
+# ...remaining for further processing  : 491
+# Generated clauses                    : 2924
+# ...of the previous two non-trivial   : 2555
+# User time                : 12.498 s
+```
+
+
 ### Convergence of exponentials in Banach spaces - 267-long proof
 
 http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/lopban_4.html#T33
