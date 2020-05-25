@@ -68,6 +68,29 @@ E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t18_comptrig
 # User time                : 22.328 s
 ```
 
+### List editing set-theory style
+
+for p1, p2, p3, q being Element of D holds Replace (<\*p1,p2,p3\*>,3,q) = <\*p1,p2,q\*>
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/finseq_7.html#T17
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t17_finseq_7
+
+(base) mptp@grid02:~/local1/bushy_np/grid8bb1_60$ less l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_79-query768-ctx1536-w0-solo/t17_finseq_7
+```
+# Proof object clause steps            : 148
+# Proof object initial clauses used    : 59
+# Proof object initial formulas used   : 47
+# Proof object simplifying inferences  : 142
+# Parsed axioms                        : 194
+# Initial clauses in saturation        : 243
+# Processed clauses                    : 2213
+# ...remaining for further processing  : 1080
+# Generated clauses                    : 16633
+# ...of the previous two non-trivial   : 15781
+# User time                : 52.697 s
+```
+
 
 ### Convergence in metric space and in its induced topology are the same
 
