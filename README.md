@@ -91,6 +91,30 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 # User time                : 52.697 s
 ```
 
+### Permutations set-theory style - the Mizar proof has 144 lines
+
+for f being FinSequence st  f = <\*1,2\*> or f = <\*2,1\*>  holds
+f is Permutation of Seg 2
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/matrix_7.html#T2
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t2_matrix_7
+
+(base) mptp@grid02:~/local1/bushy_np/grid8bb1_60$ less l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_31-query256-ctx768-w0-coop/t2_matrix_7
+```
+# Proof object clause steps            : 193
+# Proof object initial clauses used    : 51
+# Proof object initial formulas used   : 32
+# Proof object simplifying inferences  : 180
+# Parsed axioms                        : 99
+# Initial clauses in saturation        : 163
+# Processed clauses                    : 3026
+# ...remaining for further processing  : 1458
+# Generated clauses                    : 18434
+# ...of the previous two non-trivial   : 16563
+# User time                : 33.684 s
+```
+
 
 ### Convergence in metric space and in its induced topology are the same
 
