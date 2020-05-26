@@ -584,6 +584,30 @@ The only issue is that no prover could do it before and that I got the proof wit
 
 The fact that it generated only 2.8k clauses during 734 nontrivial given clause loops (with 549 initial clauses) is pretty amazing (and probably the reason why this succeeded). 
 
+### Fibonacci and Lucas numbers
+
+Fib (2 * n) = (Fib n) * (Lucas n)
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/fib_num3.html#T28
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t28_fib_num3
+
+(base) mptp@grid02:~/local1/bushy_np/grid8bb1_60$ less l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_49-query256-ctx768-w0-coop/t28_fib_num3
+```
+# Proof object clause steps            : 85
+# Proof object initial clauses used    : 42
+# Proof object initial formulas used   : 40
+# Proof object simplifying inferences  : 56
+# Parsed axioms                        : 191
+# Initial clauses in saturation        : 218
+# Processed clauses                    : 2002
+# ...remaining for further processing  : 982
+# Generated clauses                    : 22797
+# ...of the previous two non-trivial   : 20240
+# User time                : 27.958 s
+```
+
+
 ### 37 is a prime number
 
 37 is prime
