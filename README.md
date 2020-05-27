@@ -1298,6 +1298,35 @@ E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t132_seq_4
 # User time                : 11.800 s
 ```
 
+### First isomorphism theorem for universal algebras
+
+for U1, U2 being Universal_Algebra
+for f being Function of U1,U2 st f is_epimorphism U1,U2 holds
+HomQuot f is_isomorphism QuotUnivAlg (U1,(Cng f)),U2
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/alg_1.html#T20
+
+https://en.wikipedia.org/wiki/Isomorphism_theorems#First_isomorphism_theorem
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t20_alg_1
+
+(base) mptp@grid02:~/local1/bushy_np/grid8bb1_60$ less l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_75-query128-ctx1024-w0-coop/t20_alg_1
+
+```
+# Proof object clause steps            : 171
+# Proof object initial clauses used    : 82
+# Proof object initial formulas used   : 47
+# Proof object simplifying inferences  : 253
+# Parsed axioms                        : 105
+# Initial clauses in saturation        : 189
+# Processed clauses                    : 1387
+# ...remaining for further processing  : 981
+# Generated clauses                    : 7955
+# ...of the previous two non-trivial   : 7515
+# User time                : 41.830 s
+```
+
+
 ### The lattice of subalgebras of a many-sorted algebra is lower/upper-bounded - 291-long proof
 
 for U0 being non-empty MSAlgebra over S holds MSSubAlLattice U0 is bounded
