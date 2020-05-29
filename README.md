@@ -926,6 +926,31 @@ Done with premise selection - lgb 0.005
 # User time                : 18.408 s
 ```
 
+### Simple closed curves are pathwise connected
+
+for T being SubSpace of TOP-REAL 2 st the carrier of T is Simple_closed_curve holds
+T is pathwise_connected
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/topalg_3.html#T10
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t10_topalg_3
+
+(base) mptp@grid02:~/local1/bushy_np/grid8bb1_60$ less l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_85-query512-ctx1024-w0-coop/t10_topalg_3
+```
+# Proof object clause steps            : 146
+# Proof object initial clauses used    : 68
+# Proof object initial formulas used   : 48
+# Proof object simplifying inferences  : 143
+# Parsed axioms                        : 147
+# Initial clauses in saturation        : 246
+# Processed clauses                    : 2403
+# ...remaining for further processing  : 1501
+# Generated clauses                    : 13198
+# ...of the previous two non-trivial   : 12471
+# User time                : 33.870 s
+```
+
+
 ### r-circle is a subspace of r-square
 
 for r being real number holds Tcircle ((0. (TOP-REAL 2)),r) is SubSpace of Trectangle ((- r),r,(- r),r)
@@ -1005,7 +1030,7 @@ for A being Subset of TOP-REAL n holds A is bounded iff conv A is bounded
 
 http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/simplex2.html#T14
 
-E proof (gnn) with lfb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t14_simplex2
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t14_simplex2
 
 (base) mptp@grid02:~/local1/bushy_np/grid8bb1_60$ less l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_57-query768-ctx1024-w0-solo/t14_simplex2
 ```
