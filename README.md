@@ -115,6 +115,30 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 # User time                : 33.684 s
 ```
 
+### Dyadic numbers 
+
+dyadic 1 = {0,(1 / 2),1}
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/urysohn1.html#T3
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t3_urysohn1
+
+(base) mptp@grid02:~/local1/bushy_np/grid8bb1_60$ less l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_51-query128-ctx256-w0-solo/t3_urysohn1
+```
+# Proof object clause steps            : 151
+# Proof object initial clauses used    : 60
+# Proof object initial formulas used   : 49
+# Proof object simplifying inferences  : 139
+# Parsed axioms                        : 146
+# Initial clauses in saturation        : 178
+# Processed clauses                    : 1379
+# ...remaining for further processing  : 759
+# Generated clauses                    : 9272
+# ...of the previous two non-trivial   : 7858
+# User time                : 14.307 s
+```
+
+
 
 ### Convergence in metric space and in its induced topology are the same
 
