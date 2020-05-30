@@ -948,6 +948,35 @@ E proof (lgb): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t23_jordan16.out
 
 ```
 
+### Intermediate value theorem
+
+for ra, rb, a, b being real number st ra < rb holds
+for f being continuous Function of (Closed-Interval-TSpace (ra,rb)),R^1
+for d being real number st f . ra = a & f . rb = b & a > d & d > b holds
+ex rc being Element of REAL st
+( f . rc = d & ra < rc & rc < rb )
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/topreal5.html#T7
+
+
+E proof (gnn) using lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t7_topreal5
+
+(base) mptp@grid02:~/local1/bushy_np/grid8bb1_60$ less l5-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_79-query256-ctx512-w0-coop/t7_topreal5
+```
+# Proof object clause steps            : 208
+# Proof object initial clauses used    : 71
+# Proof object initial formulas used   : 49
+# Proof object simplifying inferences  : 207
+# Parsed axioms                        : 108
+# Initial clauses in saturation        : 151
+# Processed clauses                    : 3097
+# ...remaining for further processing  : 1835
+# Generated clauses                    : 22073
+# ...of the previous two non-trivial   : 20731
+# User time                : 18.623 s
+```
+
+
 ### X is locally connected iff components of open sets are open
 
 for X being non empty TopSpace holds
