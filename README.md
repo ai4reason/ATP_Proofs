@@ -431,6 +431,32 @@ E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t116_sin_cos9
 # User time                : 11.720 s
 ```
 
+### Differentiantion: (- (exp_R * arccot)) `| Z) . x = (exp_R . (arccot . x)) / (1 + (x ^2))
+
+(- (exp_R * arccot) `| Z) . x = (exp_R . (arccot . x)) / (1 + (x ^2))
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/integr13.html#T50
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t50_integr13
+
+(base) mptp@grid02:~/local1/bushy_np/grid8bb1_60$ less l8-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_53-query128-ctx256-w0-coop/t50_integr13
+
+```
+# Proof object clause steps            : 217
+# Proof object initial clauses used    : 83
+# Proof object initial formulas used   : 64
+# Proof object simplifying inferences  : 253
+# Parsed axioms                        : 159
+# Initial clauses in saturation        : 222
+# Processed clauses                    : 3217
+# ...remaining for further processing  : 1926
+# Generated clauses                    : 20619
+# ...of the previous two non-trivial   : 19748
+# User time                : 48.307 s
+```
+
+
+
 ### Differentiation: (sin * ln)' = (cos (log (number_e,x))) / x 
 
 (sin * ln) \`| Z) . x = (cos . (log (number_e,x))) / x )
