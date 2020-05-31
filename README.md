@@ -552,6 +552,30 @@ Used lgb premise selection with 160 premises
 # User time                : 12.896 s
 ```
 
+### Differentiation: (sin * arctan)' . x  = (cos . (arctan . x)) / (1 + (x ^2))
+
+for Z being open Subset of REAL st Z c= dom (sin * arctan) & Z c= ].(- 1),1.\[ holds
+( sin * arctan is_differentiable_on Z & ( for x being Real st x in Z holds
+((sin * arctan) \`| Z) . x = (cos . (arctan . x)) / (1 + (x ^2)) ) )
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/fdiff_11.html#T13
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t13_fdiff_11
+
+/local1/mptp/convert_models/grid8bb1_60/l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_69-query128-ctx256-w0-coop/t13_fdiff_11
+```
+# Proof object clause steps            : 216
+# Proof object initial clauses used    : 66
+# Proof object initial formulas used   : 48
+# Proof object simplifying inferences  : 154
+# Parsed axioms                        : 157
+# Initial clauses in saturation        : 204
+# Processed clauses                    : 2042
+# ...remaining for further processing  : 1225
+# Generated clauses                    : 9027
+# ...of the previous two non-trivial   : 8328
+# User time                : 27.829 s
+```
 
 
 
