@@ -1479,6 +1479,31 @@ E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t15_waybel21
 # User time                : 24.412 s
 ```
 
+### Lattices: element is irreducible iff it is in every finite set of which it is the infimum
+
+for L being Semilattice
+for x being Element of L holds
+( x is irreducible iff for A being non empty finite Subset of L st x = inf A holds
+x in A )
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/waybel_6.html#T11
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t11_waybel_6
+
+/local1/mptp/convert_models/grid8bb1_60/l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_15-query256-ctx512-w0-coop/t11_waybel_6
+```
+# Proof object clause steps            : 189
+# Proof object initial clauses used    : 55
+# Proof object initial formulas used   : 34
+# Proof object simplifying inferences  : 210
+# Parsed axioms                        : 85
+# Initial clauses in saturation        : 164
+# Processed clauses                    : 1210
+# ...remaining for further processing  : 683
+# Generated clauses                    : 10675
+# ...of the previous two non-trivial   : 10152
+# User time                : 37.125 s
+```
 
 
 
