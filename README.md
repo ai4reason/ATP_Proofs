@@ -1055,6 +1055,30 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 # User time                : 33.870 s
 ```
 
+### Any two simple closed curves are homeomorphic
+
+for S, T being being_simple_closed_curve SubSpace of TOP-REAL 2 holds S,T are_homeomorphic
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/toprealb.html#T11
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t11_toprealb
+
+/local1/mptp/convert_models/grid8bb1_60/l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_55-query512-ctx768-w0-coop/t11_toprealb
+```
+# Proof object clause steps            : 231
+# Proof object initial clauses used    : 59
+# Proof object initial formulas used   : 41
+# Proof object simplifying inferences  : 154
+# Parsed axioms                        : 238
+# Initial clauses in saturation        : 463
+# Processed clauses                    : 2305
+# ...remaining for further processing  : 1663
+# Generated clauses                    : 11917
+# ...of the previous two non-trivial   : 10578
+# User time                : 33.921 s
+```
+
+
 
 ### r-circle is a subspace of r-square
 
