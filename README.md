@@ -1194,6 +1194,33 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 # User time                : 29.805 s
 ```
 
+### Characterization of open functions from R to R^n
+
+for m being Nat
+for f being Function of R^1,(TOP-REAL m) holds
+( f is open iff for p being Point of R^1
+for r being real positive number ex s being real positive number st Ball ((f . p),s) c= f .: ].(p - r),(p + r).[ )
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/tops_4.html#T14
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t14_tops_4
+
+/local1/mptp/convert_models/grid8bb1_60/l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_69-query128-ctx256-w0-coop/t14_tops_4
+```
+# Proof object clause steps            : 279
+# Proof object initial clauses used    : 77
+# Proof object initial formulas used   : 46
+# Proof object simplifying inferences  : 297
+# Parsed axioms                        : 105
+# Initial clauses in saturation        : 182
+# Processed clauses                    : 3711
+# ...remaining for further processing  : 1786
+# Generated clauses                    : 14030
+# ...of the previous two non-trivial   : 13538
+# User time                : 53.590 s
+```
+
+
 ### r-circle is a subspace of r-square
 
 for r being real number holds Tcircle ((0. (TOP-REAL 2)),r) is SubSpace of Trectangle ((- r),r,(- r),r)
