@@ -68,6 +68,32 @@ E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t18_comptrig
 # User time                : 22.328 s
 ```
 
+### Counting/algebra: 0 < n & 1 < r implies 1 < r ^ n
+
+for r being real number
+for n being Nat st 0 < n & 1 < r holds
+1 < r |^ n
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/pepin.html#T65
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t65_pepin
+
+/nfs/urbanjo3/air/grid8bb1_60/l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_15-query256-ctx512-w0-coop/t65_pepin
+```
+# Proof object clause steps            : 148
+# Proof object initial clauses used    : 44
+# Proof object initial formulas used   : 34
+# Proof object simplifying inferences  : 95
+# Parsed axioms                        : 157
+# Initial clauses in saturation        : 186
+# Processed clauses                    : 1411
+# ...remaining for further processing  : 821
+# Generated clauses                    : 9877
+# ...of the previous two non-trivial   : 8667
+# User time                : 17.126 s
+```
+
+
 ### List editing set-theory style
 
 for p1, p2, p3, q being Element of D holds Replace (<\*p1,p2,p3\*>,3,q) = <\*p1,p2,q\*>
