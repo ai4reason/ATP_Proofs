@@ -918,6 +918,32 @@ http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/yellow13.html#T4
 % ...of the previous two non-trivial   : 32976
 ```
 
+### Topology - The Hausdorff condition (T_2) is preserved under homeomorphism
+
+for M, N being non empty TopSpace st M is Hausdorff & M,N are_homeomorphic holds
+N is Hausdorff
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/mfold_2.html#T10
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t10_mfold_2
+
+/local1/mptp/convert_models/grid8bb1_60/l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_69-query128-ctx256-w0-coop/t10_mfold_2
+```
+# Proof object clause steps            : 154
+# Proof object initial clauses used    : 46
+# Proof object initial formulas used   : 25
+# Proof object simplifying inferences  : 57
+# Parsed axioms                        : 153
+# Initial clauses in saturation        : 264
+# Processed clauses                    : 2545
+# ...remaining for further processing  : 1642
+# Generated clauses                    : 11068
+# ...of the previous two non-trivial   : 10305
+# User time                : 31.682 s
+```
+
+
+
 ### Topology - T1 is a disjoint union of perfect and scattered
 
 T is T_1 implies ex A, B being Subset of T st
