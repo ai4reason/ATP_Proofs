@@ -1640,6 +1640,28 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 # User time                : 37.125 s
 ```
 
+### Boolean posets: inclusion poset of a subset family of X is a full subrelation of the boolean poset on X - 50-line proof in Mizar
+
+for Y being Subset-Family of X holds InclPoset Y is full SubRelStr of BoolePoset X
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/yellow_1.html#T5
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t5_yellow_1
+
+/local1/mptp/convert_models/grid8bb1_60/l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_55-query512-ctx768-w0-coop/t5_yellow_1
+```
+# Proof object clause steps            : 207
+# Proof object initial clauses used    : 55
+# Proof object initial formulas used   : 38
+# Proof object simplifying inferences  : 145
+# Parsed axioms                        : 192
+# Initial clauses in saturation        : 302
+# Processed clauses                    : 3025
+# ...remaining for further processing  : 1463
+# Generated clauses                    : 15635
+# ...of the previous two non-trivial   : 14276
+# User time                : 49.800 s
+```
 
 
 ### Logic: A set of formulas is inconsistent iff it proves everything
