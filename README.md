@@ -1,4 +1,6 @@
 # Interesting ATP Proofs
+
+These are so far proofs found by E using versions of ENIGMA trained in several iterations from scratch on Mizar problems. We also use Malarea/ATPBoost-style premise selection for some runs.
  
 
 ### Lipschitzian is uniformly continuous: 
@@ -1894,6 +1896,34 @@ http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t8_card_4
 % Generated clauses                    : 6827
 % ...of the previous two non-trivial   : 6260
 ```
+
+### Cardinals and (ultra)filters: Filters that extend the Frechet Filter contain only sets of the same cardinality.
+
+for X being infinite set
+for F being Filter of X st Frechet_Filter X c= F holds
+F is uniform
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_fil.html#T20
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t20_card_fil
+
+/local1/mptp/convert_models/grid8bb1_60/l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_55-query512-ctx768-w0-coop/t20_card_fil
+```
+# Proof object clause steps            : 103
+# Proof object initial clauses used    : 29
+# Proof object initial formulas used   : 25
+# Proof object simplifying inferences  : 39
+# Parsed axioms                        : 109
+# Initial clauses in saturation        : 140
+# Processed clauses                    : 1685
+# ...remaining for further processing  : 925
+# Generated clauses                    : 15861
+# ...of the previous two non-trivial   : 14344
+# User time                : 22.678 s
+```
+
+
+
 
 ### Groebner bases
 
