@@ -180,6 +180,31 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 # User time                : 14.307 s
 ```
 
+### Matroids: maximal independent subsets
+
+for M being finite-degree Matroid
+for C being Subset of M
+for A being independent Subset of M holds
+( A is_maximal_independent_in C iff ( A c= C & card A = Rnk C ) )
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/matroid0.html#T19
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t19_matroid0
+
+/local1/mptp/convert_models/grid8bb1_60/l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_69-query128-ctx256-w0-coop/t19_matroid0
+```
+# Proof object clause steps            : 121
+# Proof object initial clauses used    : 36
+# Proof object initial formulas used   : 16
+# Proof object simplifying inferences  : 87
+# Parsed axioms                        : 94
+# Initial clauses in saturation        : 136
+# Processed clauses                    : 484
+# ...remaining for further processing  : 385
+# Generated clauses                    : 1846
+# ...of the previous two non-trivial   : 1701
+# User time                : 13.764 s
+```
 
 
 ### Convergence in metric space and in its induced topology are the same
