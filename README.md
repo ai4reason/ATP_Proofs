@@ -1404,6 +1404,31 @@ E proof (lgb): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t6_clopban3.out
 # User time                : 3.345 s
 ```
 
+### A derived sequence of n-th roots of a sequence that eventually grows above 0 is not summable
+
+for s1, s being Real_Sequence st ( for n being Element of NAT holds s1 . n = n -root ((abs s) . n) ) & ex m being Element of NAT st
+for n being Element of NAT st m <= n holds
+s1 . n >= 1 holds not s is summable
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t41_series_1
+
+/local1/mptp/convert_models/grid8bb1_60/l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_55-query512-ctx768-w0-coop/t41_series_1
+```
+# Proof object clause steps            : 229
+# Proof object initial clauses used    : 70
+# Proof object initial formulas used   : 54
+# Proof object simplifying inferences  : 181
+# Parsed axioms                        : 105
+# Initial clauses in saturation        : 149
+# Processed clauses                    : 2031
+# ...remaining for further processing  : 1127
+# Generated clauses                    : 8574
+# ...of the previous two non-trivial   : 7925
+# User time                : 22.182 s
+```
+
+
+
 ### There is a vector of norm 1 in a nontrivial normed space
 
 for X being non trivial RealNormSpace ex w being VECTOR of X st ||.w.|| = 1
