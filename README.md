@@ -1780,6 +1780,33 @@ E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t65_analmetr
 # User time                : 22.012 s
 ```
 
+### Lines in Euclidean Space: Being parallel is transitive
+
+for n being Element of NAT
+for L0, L1, L2 being Element of line_of_REAL n st L0 // L1 & L1 // L2 holds
+L0 // L2
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/euclidlp.html#T60
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t60_euclidlp
+
+/local1/mptp/convert_models/grid8bb1_60/l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_55-query512-ctx768-w0-coop/t60_euclidlp
+```
+# Proof object clause steps            : 199
+# Proof object initial clauses used    : 52
+# Proof object initial formulas used   : 30
+# Proof object simplifying inferences  : 99
+# Parsed axioms                        : 152
+# Initial clauses in saturation        : 197
+# Processed clauses                    : 2683
+# ...remaining for further processing  : 1812
+# Generated clauses                    : 12553
+# ...of the previous two non-trivial   : 12071
+# User time                : 53.259 s
+```
+
+
+
 ### Cardinal arithmetics - exp (M+N) = exp M * exp N
 
 for K, M, N being Cardinal holds exp (K,(M +\` N)) = (exp (K,M)) \*\` (exp (K,N))
