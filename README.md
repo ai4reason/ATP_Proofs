@@ -1922,6 +1922,31 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 # User time                : 44.426 s
 ```
 
+### Matrices: A 1-dimensional square matrix is its own transposition
+
+for D being non empty set
+for x being Element of D holds <\*<\*x\*>\*> = <\*<\*x\*>\*> @
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/matrlin.html#T15
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t15_matrlin
+
+/local1/mptp/convert_models/grid8bb1_60/l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_55-query512-ctx768-w0-coop/t15_matrlin
+```
+# Proof object clause steps            : 234
+# Proof object initial clauses used    : 60
+# Proof object initial formulas used   : 47
+# Proof object simplifying inferences  : 134
+# Parsed axioms                        : 156
+# Initial clauses in saturation        : 263
+# Processed clauses                    : 2636
+# ...remaining for further processing  : 1507
+# Generated clauses                    : 13998
+# ...of the previous two non-trivial   : 13003
+# User time                : 36.119 s
+```
+
+
 
 ### Divergence of locally greater function
 
