@@ -1797,6 +1797,28 @@ E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t83_matrix13
 # User time                : 15.120 s
 ```
 
+### Matrices: explicit form for a square 3-matrix - 158-line proof in Mizar
+
+for A being Matrix of 3,D holds A = <*<*(A * (1,1)),(A * (1,2)),(A * (1,3))*>,<*(A * (2,1)),(A * (2,2)),(A * (2,3))*>,<*(A * (3,1)),(A * (3,2)),(A * (3,3))*>*>
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/matrixr2.html#T37
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t37_matrixr2
+
+/local1/mptp/convert_models/grid8bb1_60/l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_15-query256-ctx512-w0-coop/t37_matrixr2
+```
+# Proof object clause steps            : 273
+# Proof object initial clauses used    : 54
+# Proof object initial formulas used   : 37
+# Proof object simplifying inferences  : 254
+# Parsed axioms                        : 117
+# Initial clauses in saturation        : 172
+# Processed clauses                    : 2761
+# ...remaining for further processing  : 1523
+# Generated clauses                    : 10779
+# ...of the previous two non-trivial   : 9069
+# User time                : 44.426 s
+```
 
 
 ### Divergence of locally greater function
