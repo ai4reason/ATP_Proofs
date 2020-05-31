@@ -1,7 +1,20 @@
 # Interesting ATP Proofs
 
-These are so far proofs found by E using versions of ENIGMA trained in several iterations from scratch on Mizar problems. We also use Malarea/ATPBoost-style premise selection for some runs.
- 
+These are so far proofs found by E [8,9,13] using versions of ENIGMA [1,2,3,4,5,12] trained in several iterations from scratch on Mizar/MPTP [10,11] problems. We also use Malarea/ATPBoost-style [6,7] premise selection for some runs.
+
+[1]: https://arxiv.org/abs/2002.05406
+[2]: https://doi.org/10.1007/978-3-030-29436-6_12
+[3]: https://doi.org/10.1007/978-3-030-29026-9_21
+[4]: https://doi.org/10.1007/978-3-319-96812-4_11
+[5]: http://arxiv.org/abs/1701.06532
+[6]: http://arxiv.org/abs/1802.03375
+[7]: https://doi.org/10.1007/978-3-540-71070-7_37
+[8]: https://doi.org/10.1007/978-3-030-29436-6_29
+[9]: https://doi.org/10.1007/978-3-642-45221-5_49
+[10]: https://doi.org/10.1007/978-3-319-20615-8_17
+[11]: https://doi.org/10.1007/s10817-006-9032-3
+[12]: https://doi.org/10.4230/LIPIcs.ITP.2019.34
+[13]: http://content.iospress.com/articles/ai-communications/aic260
 
 ### Lipschitzian is uniformly continuous: 
 http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ncfcont2.html#T25
