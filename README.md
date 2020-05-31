@@ -1667,6 +1667,31 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 # User time                : 37.125 s
 ```
 
+### Products of semilattices have infima
+
+for I being non empty set
+for J being RelStr-yielding non-Empty reflexive-yielding ManySortedSet of I st ( for i being Element of I holds J . i is Semilattice ) holds product J is with_infima
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/lfuzzy_0.html#T10
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t10_lfuzzy_0
+
+/local1/mptp/convert_models/grid8bb1_60/l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_69-query128-ctx256-w0-coop/t10_lfuzzy_0
+```
+# Proof object clause steps            : 152
+# Proof object initial clauses used    : 41
+# Proof object initial formulas used   : 17
+# Proof object simplifying inferences  : 115
+# Parsed axioms                        : 101
+# Initial clauses in saturation        : 190
+# Processed clauses                    : 2236
+# ...remaining for further processing  : 1238
+# Generated clauses                    : 9417
+# ...of the previous two non-trivial   : 8716
+# User time                : 34.571 s
+```
+
+
 ### Boolean posets: inclusion poset of a subset family of X is a full subrelation of the boolean poset on X - 50-line proof in Mizar
 
 for Y being Subset-Family of X holds InclPoset Y is full SubRelStr of BoolePoset X
