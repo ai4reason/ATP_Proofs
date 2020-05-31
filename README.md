@@ -1447,6 +1447,31 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 # User time                : 12.498 s
 ```
 
+### Balls are preserved under mirroring
+
+for X being RealNormSpace
+for x being Point of X
+for r being real number holds Ball ((0. X),r) = (- 1) * (Ball ((0. X),r))
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/lopban_6.html#T11
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t11_lopban_6
+
+/local1/mptp/convert_models/grid8bb1_60/l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_69-query128-ctx256-w0-coop/t11_lopban_6
+```
+# Proof object clause steps            : 182
+# Proof object initial clauses used    : 50
+# Proof object initial formulas used   : 27
+# Proof object simplifying inferences  : 119
+# Parsed axioms                        : 99
+# Initial clauses in saturation        : 156
+# Processed clauses                    : 4489
+# ...remaining for further processing  : 1662
+# Generated clauses                    : 21371
+# ...of the previous two non-trivial   : 20273
+# User time                : 57.618 s
+```
+
 
 ### Convergence of exponentials in Banach spaces - 267-long proof
 
