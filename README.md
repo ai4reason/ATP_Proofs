@@ -1448,6 +1448,29 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 # User time                : 22.182 s
 ```
 
+### Real sequences: characterization of a lower bound - 55-line long Mizar proof
+
+seq is bounded_below implies (r = lower_bound seq iff (for n holds r <=
+  seq.n) & for s st 0<s holds ex k st seq.k < r+s )
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/rinfsup1.html#T8
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t8_rinfsup1
+
+/local1/mptp/convert_models/grid8bb1_60/l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_55-query512-ctx768-w0-coop/t8_rinfsup1
+```
+# Proof object clause steps            : 244
+# Proof object initial clauses used    : 60
+# Proof object initial formulas used   : 34
+# Proof object simplifying inferences  : 250
+# Parsed axioms                        : 75
+# Initial clauses in saturation        : 117
+# Processed clauses                    : 2458
+# ...remaining for further processing  : 1463
+# Generated clauses                    : 10972
+# ...of the previous two non-trivial   : 10477
+# User time                : 30.389 s
+```
 
 
 ### There is a vector of norm 1 in a nontrivial normed space
