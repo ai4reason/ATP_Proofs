@@ -1078,7 +1078,28 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 # User time                : 33.921 s
 ```
 
+### The union of the unbounded components of the empty set is the whole R^n
 
+UBD ({} (TOP-REAL n)) = REAL n
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/jordan2c.html#T36
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t36_jordan2c
+
+/local1/mptp/convert_models/grid8bb1_60/l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_55-query512-ctx768-w0-coop/t36_jordan2c
+```
+# Proof object clause steps            : 176
+# Proof object initial clauses used    : 53
+# Proof object initial formulas used   : 44
+# Proof object simplifying inferences  : 51
+# Parsed axioms                        : 275
+# Initial clauses in saturation        : 474
+# Processed clauses                    : 3443
+# ...remaining for further processing  : 2069
+# Generated clauses                    : 16654
+# ...of the previous two non-trivial   : 15363
+# User time                : 29.805 s
+```
 
 ### r-circle is a subspace of r-square
 
