@@ -205,6 +205,33 @@ E proof (using lgb): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t28_frechet2.o
 # User time                : 12.699 s
 ```
 
+### Monster proof in continuous lattices relating a weight of an infinite T0 topological space to the weight of the semilattice formed by the inclusion poset of its topology
+
+for T being non empty T_0 TopSpace
+for L1 being lower-bounded continuous sup-Semilattice st InclPoset the topology of T = L1 & T is infinite holds
+weight T = CLweight L1
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/waybel31.html#T6
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t6_waybel31
+
+/local1/mptp/convert_models/grid8bb1_60/l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_55-query512-ctx768-w0-coop/t6_waybel31
+```
+# Proof object clause steps            : 363
+# Proof object initial clauses used    : 76
+# Proof object initial formulas used   : 39
+# Proof object simplifying inferences  : 525
+# Parsed axioms                        : 124
+# Initial clauses in saturation        : 201
+# Processed clauses                    : 5785
+# ...remaining for further processing  : 2300
+# Generated clauses                    : 32260
+# ...of the previous two non-trivial   : 29920
+# User time                : 57.930 s
+```
+
+
+
 ### Category theory: inverse of a composed natural equivalence is the composition of inverses
 
 for k being natural_equivalence of F1,F3 st k = e1 \`\*\` e & F1,F2 are_naturally_equivalent & F2,F3 are_naturally_equivalent holds k " = (e ") \`\*\` (e1 ")
