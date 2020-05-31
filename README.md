@@ -1,6 +1,6 @@
 # Interesting ATP Proofs
 
-These are so far proofs found by E [8,9,13] using versions of ENIGMA [1,2,3,4,5,12] trained in several iterations from scratch on Mizar/MPTP [10,11] problems. We also use Malarea/ATPBoost-style [6,7] premise selection for some runs.
+These are so far proofs found by E [8],[9],[13] using versions of ENIGMA [1,2,3,4,5,12] trained in several iterations from scratch on Mizar/MPTP [10,11] problems. We also use Malarea/ATPBoost-style [6,7] premise selection for some runs.
 
 [1]: https://arxiv.org/abs/2002.05406
 [2]: https://doi.org/10.1007/978-3-030-29436-6_12
