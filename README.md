@@ -2235,6 +2235,30 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 # User time                : 36.119 s
 ```
 
+### Matrices: a constant square matrix is it own transposition
+
+for n being Nat
+for K being Field
+for a being Element of K holds ((n,n) --> a) @ = (n,n) --> a
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/matrix_6.html#T20
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t20_matrix_6
+
+/local1/mptp/convert_models/grid8bb1_60/l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_69-query128-ctx256-w0-coop/t20_matrix_6
+```
+# Proof object clause steps            : 193
+# Proof object initial clauses used    : 35
+# Proof object initial formulas used   : 20
+# Proof object simplifying inferences  : 55
+# Parsed axioms                        : 82
+# Initial clauses in saturation        : 136
+# Processed clauses                    : 3393
+# ...remaining for further processing  : 1652
+# Generated clauses                    : 20201
+# ...of the previous two non-trivial   : 19621
+# User time                : 58.337 s
+```
 
 
 ### Divergence of locally greater function
