@@ -2260,6 +2260,33 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 # User time                : 58.337 s
 ```
 
+### Matrices and theri permutations
+
+for K being Field
+for a, b, c, d, e, f, g, h, i being Element of K
+for M being Matrix of 3,K st M = <*<*a,b,c*>,<*d,e,f*>,<*g,h,i*>*> holds
+for p being Element of Permutations 3 st p = <*1,2,3*> holds
+Path_matrix (p,M) = <*a,e,i*>
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/matrix_9.html#T20
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t20_matrix_9
+
+/local1/mptp/convert_models/grid8bb1_60/l8-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_389-query256-ctx768-w0-coop/t20_matrix_9
+```
+# Proof object clause steps            : 326
+# Proof object initial clauses used    : 86
+# Proof object initial formulas used   : 47
+# Proof object simplifying inferences  : 323
+# Parsed axioms                        : 135
+# Initial clauses in saturation        : 216
+# Processed clauses                    : 3270
+# ...remaining for further processing  : 1603
+# Generated clauses                    : 18943
+# ...of the previous two non-trivial   : 16718
+# User time                : 51.856 s
+```
+
 
 ### Divergence of locally greater function
 
