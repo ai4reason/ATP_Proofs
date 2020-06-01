@@ -2364,6 +2364,34 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 # User time                : 51.856 s
 ```
 
+### Matrices: monster proof - 210-line long in Mizar
+
+or n being Element of NAT, i0 being Nat, A being Matrix of n,K st
+1<=i0 & i0<=n & A = SwapDiagonal(K,n,i0) holds for i,j being Nat st 1<=i & i<=n
+& 1<=j & j<=n holds (i0<>1 implies (i=1 & j=i0 implies A*(i,j)=1.K) & (i=i0 & j=
+1 implies A*(i,j)=1.K)& (i=1 & j=1 implies A*(i,j)=0.K)& (i=i0 & j=i0 implies A
+\*(i,j)=0.K)& (not ((i=1 or i=i0) &(j=1 or j=i0)) implies (i=j implies A*(i,j)=
+  1.K)& (i<>j implies A*(i,j)=0.K)))
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/matrix14.html#T43
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t43_matrix14
+
+/local1/mptp/convert_models/grid8bb1_60/l8-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_339-query256-ctx512-w0-coop/t43_matrix14
+```
+# Proof object clause steps            : 422
+# Proof object initial clauses used    : 89
+# Proof object initial formulas used   : 45
+# Proof object simplifying inferences  : 626
+# Parsed axioms                        : 225
+# Initial clauses in saturation        : 335
+# Processed clauses                    : 4737
+# ...remaining for further processing  : 2730
+# Generated clauses                    : 31589
+# ...of the previous two non-trivial   : 29946
+# User time                : 58.137 s
+```
+
 
 ### Divergence of locally greater function
 
