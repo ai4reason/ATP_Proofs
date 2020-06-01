@@ -23,6 +23,32 @@ http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ncfcont2.html#T25
 E proof: http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t25_ncfcont2
 261 axioms, 373 initial clauses, 1534 processed, 11.2 generated, 38s, 135 proof clause steps, 36/79 initial proof flas/clauses, lots of calculation
 
+### Metric spaces: Two compact sets with Hausdorff distance 0 are equal
+
+for M being non empty MetrSpace
+for P, Q being non empty Subset of (TopSpaceMetr M) st P is compact & Q is compact & HausDist (P,Q) = 0 holds
+P = Q
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/hausdorf.html#T37
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t37_hausdorf
+
+/local1/mptp/convert_models/grid8bb1_60/l8-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_389-query256-ctx768-w0-coop/t37_hausdorf
+```
+# Proof object clause steps            : 314
+# Proof object initial clauses used    : 84
+# Proof object initial formulas used   : 59
+# Proof object simplifying inferences  : 247
+# Parsed axioms                        : 160
+# Initial clauses in saturation        : 242
+# Processed clauses                    : 1901
+# ...remaining for further processing  : 1313
+# Generated clauses                    : 9664
+# ...of the previous two non-trivial   : 8376
+# User time                : 24.207 s
+```
+
+
 ### epsilon-delta continuity in metric spaces
 
 for f being Function of TopSpaceMetr N, TopSpaceMetr M st f is continuous holds 
