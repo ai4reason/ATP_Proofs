@@ -991,7 +991,31 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 # User time                : 31.682 s
 ```
 
+### Topology: the union of finitely many compact sets is compact
 
+for T being TopSpace
+for F being finite Subset-Family of T st ( for X being Subset of T st X in F holds
+X is compact ) holds
+union F is compact
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/topreal6.html#T20
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t20_topreal6
+
+/local1/mptp/convert_models/grid8bb1_60/l8-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_389-query256-ctx768-w0-coop/t20_topreal6
+```
+# Proof object clause steps            : 198
+# Proof object initial clauses used    : 48
+# Proof object initial formulas used   : 30
+# Proof object simplifying inferences  : 106
+# Parsed axioms                        : 85
+# Initial clauses in saturation        : 110
+# Processed clauses                    : 2262
+# ...remaining for further processing  : 1140
+# Generated clauses                    : 16438
+# ...of the previous two non-trivial   : 15026
+# User time                : 39.156 s
+```
 
 ### Topology - T1 is a disjoint union of perfect and scattered
 
