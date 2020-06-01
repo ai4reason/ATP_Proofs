@@ -1243,7 +1243,7 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 # User time                : 29.805 s
 ```
 
-### Characterization of open functions from R to R^n
+### Characterization of open functions from R to R^m
 
 for m being Nat
 for f being Function of R^1,(TOP-REAL m) holds
@@ -1267,6 +1267,33 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 # Generated clauses                    : 14030
 # ...of the previous two non-trivial   : 13538
 # User time                : 53.590 s
+```
+
+### Characterization of open functions from R^m to R
+
+for m being Nat
+for f being Function of (TOP-REAL m),R^1 holds
+( f is continuous iff for p being Point of (TOP-REAL m)
+for r being real positive number ex s being real positive number st f .: (Ball (p,s)) c= ].((f . p) - r),((f . p) + r).[ )
+
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/tops_4.html#T24
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t24_tops_4
+
+/local1/mptp/convert_models/grid8bb1_60/l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_69-query128-ctx256-w0-coop/t24_tops_4
+```
+# Proof object clause steps            : 299
+# Proof object initial clauses used    : 82
+# Proof object initial formulas used   : 52
+# Proof object simplifying inferences  : 299
+# Parsed axioms                        : 101
+# Initial clauses in saturation        : 173
+# Processed clauses                    : 2722
+# ...remaining for further processing  : 1478
+# Generated clauses                    : 7257
+# ...of the previous two non-trivial   : 6984
+# User time                : 22.307 s
 ```
 
 
