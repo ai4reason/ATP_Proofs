@@ -2291,6 +2291,32 @@ E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t26_groeb_2
 # User time                : 24.048 s
 ```
 
+### Groebner bases - reduction
+
+for P being non empty Subset of (Polynom-Ring (n,L)) st PolyRedRel (P,T) is with_Church-Rosser_property holds
+for f being Polynomial of n,L st f in P -Ideal holds
+PolyRedRel (P,T) reduces f, 0_ (n,L)
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/groeb_1.html#T15
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t15_groeb_1
+
+/local1/mptp/convert_models/grid8bb1_60/l5-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_137-query256-ctx768-w0-coop/t15_groeb_1
+```
+# Proof object clause steps            : 308
+# Proof object initial clauses used    : 99
+# Proof object initial formulas used   : 43
+# Proof object simplifying inferences  : 360
+# Parsed axioms                        : 150
+# Initial clauses in saturation        : 339
+# Processed clauses                    : 3995
+# ...remaining for further processing  : 2525
+# Generated clauses                    : 13053
+# ...of the previous two non-trivial   : 11745
+# User time                : 44.274 s
+```
+
+
 ### Matrices: M has full rank iff Det M <> 0
 
 for n being Nat for K being Field for M being Matrix of n,K holds the_rank_of M = n iff Det M <> 0. K 
