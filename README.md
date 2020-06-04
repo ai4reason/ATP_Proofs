@@ -727,6 +727,30 @@ http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t93_mesfunc5
 
 (base) mptp@air-02:~/big1/bushy_np/en_gnn/convert-models/grid1500/l5-mzr02-premsel_enigma_01_2020_T10_loop01_epoch_4-query512-ctx768-w0-coop$ 
 
+### Integral of absolute value
+
+|.(Integral (M,f)).| <= Integral (M,|.f.|)
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/mesfunc5.html#T101
+
+E proof (gnn) with lgb premise selection (0.05): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t101_mesfunc5
+
+/local1/mptp/convert_models/grid8bb1_60/l8-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_243-query128-ctx512-w0-coop--0.05/t101_mesfunc5
+```
+# Proof object clause steps            : 218
+# Proof object initial clauses used    : 68
+# Proof object initial formulas used   : 38
+# Proof object simplifying inferences  : 273
+# Parsed axioms                        : 156
+# Initial clauses in saturation        : 210
+# Processed clauses                    : 1754
+# ...remaining for further processing  : 1127
+# Generated clauses                    : 8019
+# ...of the previous two non-trivial   : 7874
+# User time                : 34.050 s
+```
+
+
 ### Monster proof about partial sums in Lebesgue measure theory - the proof takes 150 Mizar lines
 
 http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/mesfunc9.html#T33
