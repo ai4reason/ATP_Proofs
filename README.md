@@ -1768,6 +1768,31 @@ E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t17_lopban_2
 # User time                : 10.624 s
 ```
 
+### A point that is not in a closed set has a non-zero distance to it.
+
+for A being Subset of (COMPLEX n) st not x in A & A <> {} & A is closed holds
+dist (x,A) > 0
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/seq_4.html#T117
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t117_seq_4
+
+/local1/mptp/convert_models/grid8bb1_60/l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_35-query512-ctx768-w0-coop/t117_seq_4
+```
+# Proof object clause steps            : 279
+# Proof object initial clauses used    : 74
+# Proof object initial formulas used   : 56
+# Proof object simplifying inferences  : 165
+# Parsed axioms                        : 295
+# Initial clauses in saturation        : 515
+# Processed clauses                    : 3362
+# ...remaining for further processing  : 2148
+# Generated clauses                    : 12813
+# ...of the previous two non-trivial   : 10954
+# User time                : 22.065 s
+```
+
+
 
 ### Open sets are complements of closed in complex spaces
 
