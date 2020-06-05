@@ -280,6 +280,32 @@ E proof (using lgb): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t28_frechet2.o
 # User time                : 12.699 s
 ```
 
+### Topology: In compact spaces, Cauchy nets are convergent
+
+for T being non empty TopSpace holds
+( T is compact iff for N being net of T st N is Cauchy holds
+N is convergent )
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/yellow19.html#T36
+
+E proof (gnn) with lgb premise selection (0.05): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t36_yellow19
+
+/local1/mptp/convert_models/grid8bb1_60/l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_69-query128-ctx256-w0-coop--0.05/t36_yellow19
+```
+# Proof object clause steps            : 203
+# Proof object initial clauses used    : 62
+# Proof object initial formulas used   : 35
+# Proof object simplifying inferences  : 128
+# Parsed axioms                        : 106
+# Initial clauses in saturation        : 191
+# Processed clauses                    : 1561
+# ...remaining for further processing  : 915
+# Generated clauses                    : 6659
+# ...of the previous two non-trivial   : 5759
+# User time                : 17.906 s
+```
+
+
 ### Monster proof in continuous lattices relating a weight of an infinite T0 topological space to the weight of the semilattice formed by the inclusion poset of its topology
 
 for T being non empty T_0 TopSpace
