@@ -652,6 +652,28 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 # User time                : 27.829 s
 ```
 
+### Differentiation: (cos * ln)' x = - (sin . (ln . x)) / x
+
+((cos * ln) \`| Z) . x = - ((sin . (ln . x)) / x) ) )
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/fdiff_7.html#T33
+
+E proof (gnn) with lgb premise selection (0.05): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t33_fdiff_7
+
+/local1/mptp/convert_models/grid8bb1_60/l8-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_339-query256-ctx512-w0-coop--0.05/t33_fdiff_7
+```
+# Proof object clause steps            : 238
+# Proof object initial clauses used    : 65
+# Proof object initial formulas used   : 48
+# Proof object simplifying inferences  : 174
+# Parsed axioms                        : 104
+# Initial clauses in saturation        : 157
+# Processed clauses                    : 3611
+# ...remaining for further processing  : 1712
+# Generated clauses                    : 31842
+# ...of the previous two non-trivial   : 30734
+# User time                : 51.808 s
+```
 
 
 
