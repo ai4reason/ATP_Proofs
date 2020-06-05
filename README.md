@@ -675,6 +675,31 @@ E proof (gnn) with lgb premise selection (0.05): http://grid01.ciirc.cvut.cz/~mp
 # User time                : 51.808 s
 ```
 
+### Differentiation: (exp_R * cos)'  x = - (exp_R  (cos . x)) * sin x
+
+
+((exp_R * cos) \`| Z) . x = - ((exp_R . (cos . x)) * (sin . x)) ) )
+
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/fdiff_7.html#T36
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t36_fdiff_7
+
+/local1/mptp/convert_models/grid8bb1_60/l5-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_137-query256-ctx768-w0-coop/t36_fdiff_7
+```
+# Proof object clause steps            : 224
+# Proof object initial clauses used    : 62
+# Proof object initial formulas used   : 45
+# Proof object simplifying inferences  : 154
+# Parsed axioms                        : 101
+# Initial clauses in saturation        : 142
+# Processed clauses                    : 2217
+# ...remaining for further processing  : 1284
+# Generated clauses                    : 14192
+# ...of the previous two non-trivial   : 13287
+# User time                : 28.404 s
+```
+
 
 
 ### Enigma integrates: integral sin+cos on \[0,pi/2\] = 2
