@@ -2564,6 +2564,29 @@ Premise selection used (lgb, 0.005)
 # User time                : 17.904 s
 ```
 
+### Monster proof about the length of special circular sequences - 80 lines in Mizar and 70 ATP axioms
+
+for f being non constant standard special_circular_sequence holds len f > 4
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/goboard7.html#T34
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t34_goboard7
+
+/local1/mptp/convert_models/grid8bb1_60/l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_35-query512-ctx768-w0-coop/t34_goboard7
+```
+# Proof object clause steps            : 483
+# Proof object initial clauses used    : 88
+# Proof object initial formulas used   : 70
+# Proof object simplifying inferences  : 1007
+# Parsed axioms                        : 237
+# Initial clauses in saturation        : 334
+# Processed clauses                    : 4393
+# ...remaining for further processing  : 2307
+# Generated clauses                    : 34712
+# ...of the previous two non-trivial   : 25672
+# User time                : 52.273 s
+```
+
 
 ### Longish proof in INT_5
 http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/int_5.html#T3
