@@ -110,6 +110,30 @@ E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t18_comptrig
 # User time                : 22.328 s
 ```
 
+### Counting: e^(2\*pi\*n\*i) = 1
+
+for n being Element of NAT holds exp (((2 * PI) * n) * <i>) = 1
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/sin_cos3.html#T28
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t28_sin_cos3
+
+/local1/mptp/convert_models/grid8bb1_60/l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_35-query512-ctx768-w0-coop/t28_sin_cos3
+```
+# Proof object clause steps            : 212
+# Proof object initial clauses used    : 53
+# Proof object initial formulas used   : 48
+# Proof object simplifying inferences  : 159
+# Parsed axioms                        : 178
+# Initial clauses in saturation        : 179
+# Processed clauses                    : 2834
+# ...remaining for further processing  : 1301
+# Generated clauses                    : 33232
+# ...of the previous two non-trivial   : 30047
+# User time                : 45.267 s
+```
+
+
 ### Counting/algebra: 0 < n & 1 < r implies 1 < r ^ n
 
 for r being real number
