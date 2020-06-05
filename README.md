@@ -112,7 +112,7 @@ E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t18_comptrig
 
 ### Counting: e^(2\*pi\*n\*i) = 1
 
-for n being Element of NAT holds exp (((2 * PI) * n) * <i>) = 1
+for n being Element of NAT holds exp (((2 \* PI) \* n) \* <i>) = 1
 
 http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/sin_cos3.html#T28
 
