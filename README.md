@@ -2340,6 +2340,29 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 # User time                : 53.259 s
 ```
 
+### Ordinals: If A is a limit ordinal so is B + A
+
+for A, B being Ordinal st A <> {} & A is limit_ordinal holds
+B +^ A is limit_ordinal
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal3.html#T29
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t29_ordinal3
+
+/local1/mptp/convert_models/grid8bb1_60/l8-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_339-query256-ctx512-w0-coop--0.05/t29_ordinal3
+```
+# Proof object clause steps            : 186
+# Proof object initial clauses used    : 43
+# Proof object initial formulas used   : 32
+# Proof object simplifying inferences  : 76
+# Parsed axioms                        : 67
+# Initial clauses in saturation        : 100
+# Processed clauses                    : 2185
+# ...remaining for further processing  : 1387
+# Generated clauses                    : 34837
+# ...of the previous two non-trivial   : 33257
+# User time                : 49.832 s
+```
 
 
 ### Cardinal arithmetics - exp (M+N) = exp M * exp N
