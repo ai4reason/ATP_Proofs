@@ -895,6 +895,30 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 # User time                : 32.702 s
 ```
 
+### Infinity of { k : k > n }
+
+for n being Nat holds { k where k is Element of NAT : k > n } is infinite
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/pre_circ.html#T23
+
+E proof (gnn) with lgb premise selection (160): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t23_pre_circ
+
+/local1/mptp/convert_models/grid8bb1_60/l8-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_243-query128-ctx512-w0-coop--160/t23_pre_circ
+```
+# Proof object clause steps            : 198
+# Proof object initial clauses used    : 54
+# Proof object initial formulas used   : 47
+# Proof object simplifying inferences  : 69
+# Parsed axioms                        : 161
+# Initial clauses in saturation        : 256
+# Processed clauses                    : 1395
+# ...remaining for further processing  : 891
+# Generated clauses                    : 4728
+# ...of the previous two non-trivial   : 4420
+# User time                : 8.126 s
+```
+
+
 
 ### Almost infinitude of primes:
 
