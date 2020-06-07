@@ -1440,7 +1440,34 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 # User time                : 53.590 s
 ```
 
-### Characterization of open functions from R^m to R
+### Characterization of continuous functions from R to R^m
+
+for f being Function of R^1,(TOP-REAL m) holds
+( f is continuous iff for p being Point of R^1
+for r being real positive number ex s being real positive number st f .: ].(p - s),(p + s).[ c= Ball ((f . p),r) )
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/tops_4.html#T25
+
+E proof (gnn) with lgb premise selection (96): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t25_tops_4
+
+/local1/mptp/convert_models/grid8bb1_60/l8-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_47-query128-ctx256-w0-coop--96/t25_tops_4
+```
+# Proof object clause steps            : 309
+# Proof object initial clauses used    : 77
+# Proof object initial formulas used   : 44
+# Proof object simplifying inferences  : 326
+# Parsed axioms                        : 97
+# Initial clauses in saturation        : 175
+# Processed clauses                    : 4540
+# ...remaining for further processing  : 2210
+# Generated clauses                    : 13961
+# ...of the previous two non-trivial   : 12761
+# User time                : 52.875 s
+```
+
+
+
+### Characterization of continuous functions from R^m to R
 
 for m being Nat
 for f being Function of (TOP-REAL m),R^1 holds
