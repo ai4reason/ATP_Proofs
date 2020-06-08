@@ -1867,6 +1867,36 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 # User time                : 22.182 s
 ```
 
+### Complex sequences - alternative proof than in Mizar
+
+for seq being Complex_Sequence st seq is absolutely_summable & Sum |.seq.| = 0 holds
+for n being Element of NAT holds seq . n = 0c
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/csspace2.html#T13
+
+The alternative ATP proof found goes instead via http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/rsspace.html#T17 :
+
+for rseq being Real_Sequence st ( for n being Element of NAT holds 0 <= rseq . n ) & rseq is summable & Sum rseq = 0 holds
+for n being Element of NAT holds rseq . n = 0
+
+E proof (gnn) with lgb premise selection (128+knn+miz): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t13_csspace2
+
+/nfs/urbanjo3/air/grid8bb1_60/l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_49-query128-ctx512-w0-coop--128k/t13_csspace2
+```
+# Proof object clause steps            : 96
+# Proof object initial clauses used    : 33
+# Proof object initial formulas used   : 24
+# Proof object simplifying inferences  : 49
+# Parsed axioms                        : 129
+# Initial clauses in saturation        : 177
+# Processed clauses                    : 625
+# ...remaining for further processing  : 453
+# Generated clauses                    : 1661
+# ...of the previous two non-trivial   : 1488
+# User time                : 8.843 s
+```
+
+
 ### Real sequences: characterization of a lower bound - 55-line long Mizar proof
 
 seq is bounded_below implies (r = lower_bound seq iff (for n holds r <=
