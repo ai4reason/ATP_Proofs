@@ -1921,6 +1921,38 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 # User time                : 30.389 s
 ```
 
+### Real sequences - growth rate: Big_Omega (f + g) = Big_Omega max (f,g) - alternative proof than in Mizar
+
+for f, g being eventually-nonnegative Real_Sequence holds Big_Omega (f + g) = Big_Omega (max (f,g))
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/asympt_0.html#T26
+
+
+The alternative ATP proof found goes instead via http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/asympt_0.html#T19 and http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/asympt_0.html#T9
+
+
+for f, g being eventually-nonnegative Real_Sequence holds f in Big_Omega g iff g in Big_Oh f 
+
+for f, g being eventually-nonnegative Real_Sequence holds Big_Oh (f + g) = Big_Oh (max (f,g))
+
+
+E proof (gnn) with lgb premise selection (128+knn+miz): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t26_asympt_0
+
+/local1/mptp/convert_models/grid8bb1_60/l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_49-query128-ctx512-w0-coop--128k/t26_asympt_0
+```
+# Proof object clause steps            : 82
+# Proof object initial clauses used    : 33
+# Proof object initial formulas used   : 13
+# Proof object simplifying inferences  : 46
+# Parsed axioms                        : 129
+# Initial clauses in saturation        : 211
+# Processed clauses                    : 483
+# ...remaining for further processing  : 394
+# Generated clauses                    : 1227
+# ...of the previous two non-trivial   : 1128
+# User time                : 13.164 s
+```
+
 
 ### There is a vector of norm 1 in a nontrivial normed space
 
