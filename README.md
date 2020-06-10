@@ -2496,6 +2496,35 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 # User time                : 22.678 s
 ```
 
+### Combinatorial consequence of regularity - alternative short proof based on a nontrivial previous lemma
+
+for X1, X2, X3, X4, X5, X6 being set holds
+not X1 in X2 or not X2 in X3 or not X3 in X4 or not X4 in X5 or not X5 in X6 or not X6 in X1 
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xregular.html#T10
+
+The alternative ATP proof found goes instead via http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/xregular.html#T6:
+
+for X being non empty set ex Y being set st
+Y in X & ( for Y1, Y2, Y3, Y4, Y5 being set st Y1 in Y2 & Y2 in Y3 & Y3 in Y4 & Y4 in Y5 & Y5 in Y holds
+Y1 misses X ) 
+
+E proof (gnn) with lgb premise selection (0.5k1): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t10_xregular
+
+/local1/mptp/convert_models/grid8bb1_60/l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_69-query128-ctx256-w0-coop--0.5k1/t10_xregular
+```
+# Proof object clause steps            : 39
+# Proof object initial clauses used    : 12
+# Proof object initial formulas used   : 5
+# Proof object simplifying inferences  : 7
+# Parsed axioms                        : 19
+# Initial clauses in saturation        : 107
+# Processed clauses                    : 323
+# ...remaining for further processing  : 310
+# Generated clauses                    : 2855
+# ...of the previous two non-trivial   : 2421
+# User time                : 21.116 s
+```
 
 
 
