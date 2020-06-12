@@ -305,6 +305,30 @@ E proof (gnn) with lgb premise selection (0.05): http://grid01.ciirc.cvut.cz/~mp
 # User time                : 17.906 s
 ```
 
+### Lattices: lower bounded up-complete L where SupMap L is upper adjoint is continuous
+
+for L being lower-bounded up-complete LATTICE st SupMap L is upper_adjoint holds
+L is continuous
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/waybel_5.html#T4
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t4_waybel_5
+
+/local1/mptp/convert_models/grid8bb1_60/l8-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_389-query256-ctx768-w0-coop/t4_waybel_5
+```
+# Proof object clause steps            : 269
+# Proof object initial clauses used    : 80
+# Proof object initial formulas used   : 44
+# Proof object simplifying inferences  : 179
+# Parsed axioms                        : 169
+# Initial clauses in saturation        : 275
+# Processed clauses                    : 2203
+# ...remaining for further processing  : 1457
+# Generated clauses                    : 10456
+# ...of the previous two non-trivial   : 9609
+# User time                : 34.533 s
+```
+
 
 ### Monster proof in continuous lattices relating a weight of an infinite T0 topological space to the weight of the semilattice formed by the inclusion poset of its topology
 
