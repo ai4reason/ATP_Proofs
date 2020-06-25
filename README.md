@@ -514,6 +514,31 @@ used lgb premise selection (0.005) to prune 265 axioms to 147
 
 Combines reasoning about numbers and groups and their intersections. The Mizar proof has almost 70 lines.
 
+### Groups: a commutative group is solvable
+
+for G being strict commutative Group holds G is solvable
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/grsolv_1.html#T7
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t7_grsolv_1
+
+The proof needs to assemble the ("obvious") sequence of subgroups.
+
+/local1/mptp/convert_models/grid8bb1_60/l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_49-query128-ctx512-w0-coop/t7_grsolv_1
+```
+# Proof object clause steps            : 232
+# Proof object initial clauses used    : 68
+# Proof object initial formulas used   : 44
+# Proof object simplifying inferences  : 143
+# Parsed axioms                        : 150
+# Initial clauses in saturation        : 255
+# Processed clauses                    : 2619
+# ...remaining for further processing  : 1522
+# Generated clauses                    : 10868
+# ...of the previous two non-trivial   : 9541
+# User time                : 30.885 s
+```
+
 ### Groups with sets: 
 for a being Element of G for H being Subgroup of G holds ( a in H iff a * H = carr H )
 
