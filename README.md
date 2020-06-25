@@ -2128,6 +2128,32 @@ E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t15_waybel21
 # User time                : 24.412 s
 ```
 
+### Lattices: The image of a monotone function on a lower-bounded poset is lower-bounded
+
+for S being non empty lower-bounded Poset
+for T being non empty Poset
+for f being monotone Function of S,T holds Image f is lower-bounded
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/lattice8.html#T6
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t6_lattice8
+
+/local1/mptp/convert_models/grid8bb1_60/l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_69-query128-ctx256-w0-coop/t6_lattice8
+```
+# Proof object clause steps            : 181
+# Proof object initial clauses used    : 46
+# Proof object initial formulas used   : 26
+# Proof object simplifying inferences  : 146
+# Parsed axioms                        : 132
+# Initial clauses in saturation        : 222
+# Processed clauses                    : 2041
+# ...remaining for further processing  : 1081
+# Generated clauses                    : 12917
+# ...of the previous two non-trivial   : 11883
+# User time                : 31.147 s
+```
+
+
 ### Lattices: element is irreducible iff it is in every finite set of which it is the infimum
 
 for L being Semilattice
