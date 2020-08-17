@@ -110,6 +110,31 @@ E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t18_comptrig
 # User time                : 22.328 s
 ```
 
+### Massive counting in trigonometry - 445-long proof from 83 formulas
+
+for x being set st x in \[.(- (PI / 2)),(- (PI / 4)).\] holds
+cosec . x in \[.(- (sqrt 2)),(- 1).\]
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/sincos10.html#T35
+
+E proof (gnn) with lgb premise selection (0.5k1): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t35_sincos10
+
+/local1/mptp/convert_models/grid8bb1_60/mzr02-epoch1_mizar_8_96ffb007719f4afdb4a1e67b65c3d8cb_24-query1024-ctx1024-w0-solo--0.5k1-rest/t35_sincos10
+```
+# Proof object clause steps            : 445
+# Proof object initial clauses used    : 103
+# Proof object initial formulas used   : 83
+# Proof object simplifying inferences  : 235
+# Parsed axioms                        : 437
+# Initial clauses in saturation        : 612
+# Processed clauses                    : 3092
+# ...remaining for further processing  : 1882
+# Generated clauses                    : 21182
+# ...of the previous two non-trivial   : 18616
+# User time                : 24.423 s
+```
+
+
 ### Counting: e^(2\*pi\*n\*i) = 1
 
 for n being Element of NAT holds exp (((2 \* PI) \* n) \* \<i\>) = 1
