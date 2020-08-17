@@ -134,6 +134,31 @@ E proof (gnn) with lgb premise selection (0.5k1): http://grid01.ciirc.cvut.cz/~m
 # User time                : 24.423 s
 ```
 
+### Another trig counting - 224 steps and 54 formulas
+
+for x being set st x in \[.(- 1),1.\] holds
+arccot . x in \[.(PI / 4),((3 / 4) * PI).\]
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/sin_cos9.html#T50
+
+E proof (gnn) with lgb premise selection (0.5k1): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t50_sin_cos9
+
+/local1/mptp/convert_models/grid8bb1_60/mzr02-epoch1_mizar_8_96ffb007719f4afdb4a1e67b65c3d8cb_24-query1024-ctx1024-w0-solo--0.5k1-rest/t50_sin_cos9
+```
+# Proof object clause steps            : 224
+# Proof object initial clauses used    : 62
+# Proof object initial formulas used   : 54
+# Proof object simplifying inferences  : 126
+# Parsed axioms                        : 677
+# Initial clauses in saturation        : 868
+# Processed clauses                    : 4938
+# ...remaining for further processing  : 2955
+# Generated clauses                    : 30734
+# ...of the previous two non-trivial   : 26103
+# User time                : 37.275 s
+```
+
+
 
 ### Counting: e^(2\*pi\*n\*i) = 1
 
