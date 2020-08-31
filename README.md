@@ -330,6 +330,31 @@ E proof (using lgb): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t28_frechet2.o
 # User time                : 12.699 s
 ```
 
+### Convergence of a real sequence is the same in the real metric space
+
+for s being Real_Sequence
+for S being sequence of RealSpace st s = S holds
+( s is convergent implies S is convergent ) & ( S is convergent implies s is convergent ) & ( s is convergent implies lim s = lim S )
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/topmetr3.html#T4
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t4_topmetr3
+
+/local1/mptp/convert_models/grid8bb1_120/l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_37-query256-ctx768-w0-solo/t4_topmetr3
+```
+# Proof object clause steps            : 293
+# Proof object initial clauses used    : 81
+# Proof object initial formulas used   : 43
+# Proof object simplifying inferences  : 295
+# Parsed axioms                        : 74
+# Initial clauses in saturation        : 137
+# Processed clauses                    : 2225
+# ...remaining for further processing  : 943
+# Generated clauses                    : 8820
+# ...of the previous two non-trivial   : 7935
+# User time                : 72.666 s
+```
+
 ### Topology: In compact spaces, Cauchy nets are convergent
 
 for T being non empty TopSpace holds
