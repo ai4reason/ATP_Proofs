@@ -1116,6 +1116,28 @@ E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t32_nat_4
 
 Almost 1k axioms, 79 of them used in the proof, 3k processed, 10k generated - not bad.
 
+### 163 is prime
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/nat_4.html#T35
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t35_nat_4
+
+/local1/mptp/convert_models/grid8bb1_120/l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_67-query256-ctx1024-w0-coop/t35_nat_4
+```
+# Proof object clause steps            : 235
+# Proof object initial clauses used    : 79
+# Proof object initial formulas used   : 74
+# Proof object simplifying inferences  : 128
+# Parsed axioms                        : 617
+# Initial clauses in saturation        : 745
+# Processed clauses                    : 3202
+# ...remaining for further processing  : 2089
+# Generated clauses                    : 15514
+# ...of the previous two non-trivial   : 13074
+# User time                : 37.363 s
+```
+
+826 axioms before premise selection, 74 used in the proof, 2k processed, 13k generated.
 
 ### Massive counting ATP-style: Enumerate all numbers smaller than 64
 
