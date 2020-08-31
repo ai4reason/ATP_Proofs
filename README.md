@@ -2375,7 +2375,28 @@ E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t6_henmodel
 # User time                : 24.872 s
 ```
 
+### Logic: Long inductive proof about free variables
 
+for H being ZF-formula holds Free H c= variables_in H
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/zf_lang1.html#T151
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t151_zf_lang1
+
+/local1/mptp/convert_models/grid8bb1_120/l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_79-query768-ctx1536-w0-solo/t151_zf_lang1
+```
+# Proof object clause steps            : 552
+# Proof object initial clauses used    : 117
+# Proof object initial formulas used   : 26
+# Proof object simplifying inferences  : 445
+# Parsed axioms                        : 174
+# Initial clauses in saturation        : 294
+# Processed clauses                    : 2596
+# ...remaining for further processing  : 1328
+# Generated clauses                    : 17824
+# ...of the previous two non-trivial   : 17302
+# User time                : 57.532 s
+```
 
 
 ### Topology - product of T_0 spaces is T_0
