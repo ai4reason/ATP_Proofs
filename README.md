@@ -1665,6 +1665,40 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 # User time                : 22.307 s
 ```
 
+### Continuity in topology derived from a metric space
+
+for N, M being non empty MetrSpace
+for f being Function of (TopSpaceMetr N),(TopSpaceMetr M) st ( for r being real number
+for u being Element of N
+for u1 being Element of M st r > 0 & u1 = f . u holds
+ex s being real number st
+ s > 0 &  for w being Element of N
+for w1 being Element of M st w1 = f . w & dist (u,w) < s holds
+dist (u1,w1) < r )   holds
+f is continuous
+
+60-line proof in Mizar.
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/uniform1.html#T3
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t3_uniform1
+
+/local1/mptp/convert_models/grid8bb1_120/l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_57-query768-ctx1024-w0-solo/t3_uniform1
+```
+# Proof object clause steps            : 261
+# Proof object initial clauses used    : 74
+# Proof object initial formulas used   : 39
+# Proof object simplifying inferences  : 184
+# Parsed axioms                        : 63
+# Initial clauses in saturation        : 123
+# Processed clauses                    : 2212
+# ...remaining for further processing  : 1236
+# Generated clauses                    : 15875
+# ...of the previous two non-trivial   : 15669
+# User time                : 83.349 s
+```
+
+
 
 ### r-circle is a subspace of r-square
 
