@@ -2896,7 +2896,7 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 
 ### Matrices: monster proof - 210-line long in Mizar
 
-or n being Element of NAT, i0 being Nat, A being Matrix of n,K st
+for n being Element of NAT, i0 being Nat, A being Matrix of n,K st
 1<=i0 & i0<=n & A = SwapDiagonal(K,n,i0) holds for i,j being Nat st 1<=i & i<=n
 & 1<=j & j<=n holds (i0<>1 implies (i=1 & j=i0 implies A*(i,j)=1.K) & (i=i0 & j=
 1 implies A*(i,j)=1.K)& (i=1 & j=1 implies A*(i,j)=0.K)& (i=i0 & j=i0 implies A
@@ -2921,6 +2921,33 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 # ...of the previous two non-trivial   : 29946
 # User time                : 58.137 s
 ```
+
+### Matrices: longish proof about swapping lines - 64 lines in Mizar
+
+for m, n, l, k being Nat for K being Field
+for M, M1 being Matrix of n,m,K
+for i being Nat st l in dom M & k in dom M & i in dom M & M1 = InterchangeLine (M,l,k) holds
+( i = l implies Line (M1,i) = Line (M,k) ) & ( i = k implies Line (M1,i) = Line (M,l) ) & ( i <> l & i <> k implies Line (M1,i) = Line (M,i) ) 
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/matrix12.html#T2
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t2_matrix12
+
+/local1/mptp/convert_models/grid8bb1_120/l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_49-query128-ctx512-w0-coop/t2_matrix12
+```
+# Proof object clause steps            : 369
+# Proof object initial clauses used    : 76
+# Proof object initial formulas used   : 36
+# Proof object simplifying inferences  : 378
+# Parsed axioms                        : 93
+# Initial clauses in saturation        : 159
+# Processed clauses                    : 4155
+# ...remaining for further processing  : 1961
+# Generated clauses                    : 19303
+# ...of the previous two non-trivial   : 18922
+# User time                : 111.848 s
+```
+
 
 
 ### Divergence of locally greater function
