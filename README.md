@@ -1284,6 +1284,31 @@ http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/yellow13.html#T4
 % ...of the previous two non-trivial   : 32976
 ```
 
+### Topology: T 1/2 is T0
+
+for T being non empty TopSpace st T is T_1/2 holds T is T_0
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/topgen_4.html#T47
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t47_topgen_4
+
+/local1/mptp/convert_models/grid8bb1_120/l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_49-query128-ctx512-w0-coop/t47_topgen_4
+```
+# Proof object clause steps            : 231
+# Proof object initial clauses used    : 56
+# Proof object initial formulas used   : 34
+# Proof object simplifying inferences  : 75
+# Parsed axioms                        : 156
+# Initial clauses in saturation        : 227
+# Processed clauses                    : 3769
+# ...remaining for further processing  : 2036
+# Generated clauses                    : 26149
+# ...of the previous two non-trivial   : 24945
+# User time                : 101.646 s
+```
+
+55 line proof in Mizar.
+
 ### Topology - The Hausdorff condition (T_2) is preserved under homeomorphism
 
 for M, N being non empty TopSpace st M is Hausdorff & M,N are_homeomorphic holds
