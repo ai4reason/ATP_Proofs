@@ -355,6 +355,35 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 # User time                : 72.666 s
 ```
 
+### Convergence: if a whole sequence is <= p then its limit <= p
+
+for seq being ExtREAL_sequence
+for p being ext-real number st seq is convergent & ( for k being Nat holds seq . k <= p ) holds
+lim seq <= p
+
+53-line proof in Mizar. The ATP proof uses 59 axioms.
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/mesfunc9.html#T9
+
+E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t9_mesfunc9
+
+/local1/mptp/convert_models/grid8bb1_120/l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_57-query768-ctx1024-w0-solo/t9_mesfunc9
+```
+# Proof object clause steps            : 251
+# Proof object initial clauses used    : 75
+# Proof object initial formulas used   : 59
+# Proof object simplifying inferences  : 112
+# Parsed axioms                        : 159
+# Initial clauses in saturation        : 247
+# Processed clauses                    : 3194
+# ...remaining for further processing  : 2067
+# Generated clauses                    : 29250
+# ...of the previous two non-trivial   : 28403
+# User time                : 116.084 s
+```
+
+
+
 ### Topology: In compact spaces, Cauchy nets are convergent
 
 for T being non empty TopSpace holds
