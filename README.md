@@ -2883,6 +2883,31 @@ E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t83_matrix13
 # User time                : 15.120 s
 ```
 
+### Matrices: The determinant of an empty matrix is 1 . 366-inference proof using 80 axioms.
+
+for K being Field for A being Matrix of 0 ,K holds Det A = 1. K
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/matrixr2.html#T41
+
+E proof (gnn-gpu60) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t41_matrixr2
+
+/local/mptp/bushy_np/en_gnn/convert-models/gpu_60/l10-mzr02-premsel_enigma_01_2020_T30_loop02_epoch_49-query128-ctx512-w0-coop-srv/t41_matrixr2
+```
+# Proof object clause steps            : 366
+# Proof object initial clauses used    : 112
+# Proof object initial formulas used   : 80
+# Proof object simplifying inferences  : 204
+# Parsed axioms                        : 256
+# Initial clauses in saturation        : 417
+# Processed clauses                    : 5719
+# ...remaining for further processing  : 3148
+# Generated clauses                    : 28834
+# ...of the previous two non-trivial   : 26191
+# User time                : 49.181 s
+```
+
+
+
 ### Matrices: explicit form for a square 3-matrix - 158-line proof in Mizar
 
 for A being Matrix of 3,D holds A = <*<*(A * (1,1)),(A * (1,2)),(A * (1,3))*>,<*(A * (2,1)),(A * (2,2)),(A * (2,3))*>,<*(A * (3,1)),(A * (3,2)),(A * (3,3))*>*>
