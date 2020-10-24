@@ -459,7 +459,30 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 # User time                : 57.930 s
 ```
 
+### Lattices - concept lattices isomorphism 
 
+for L being complete Lattice holds ConceptLattice (Context L),L are_isomorphic
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/conlat_2.html#T15
+
+The proof needs to invent two functions to show that lattices are isomorphic (http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/conlat_2.html#T14) .
+
+E proof (gnn - gpu server) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t15_conlat_2
+
+/local1/mptp/convert_models/gpu_cl1_60s_tl1_fc_jjfix/All_uns2.e339m1q256c512/t15_conlat_2
+```
+# Proof object clause steps            : 249
+# Proof object initial clauses used    : 63
+# Proof object initial formulas used   : 43
+# Proof object simplifying inferences  : 152
+# Parsed axioms                        : 98
+# Initial clauses in saturation        : 183
+# Processed clauses                    : 3783
+# ...remaining for further processing  : 1885
+# Generated clauses                    : 34331
+# ...of the previous two non-trivial   : 26553
+# User time                : 21.605 s
+```
 
 ### Category theory: inverse of a composed natural equivalence is the composition of inverses
 
