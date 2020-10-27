@@ -2935,6 +2935,36 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 # User time                : 44.274 s
 ```
 
+### Groebner basis -  G is Groebner basis wrt T iff for f being non-zero Polynomial of n,L st f in G -Ideal holdsf has_a_Standard_Representation_of G,T
+
+very long ENIGMA proof - 716 clause steps and 1725 simplifications
+
+for n being Element of NAT
+for T being connected admissible TermOrder of n
+for L being non empty non degenerated right_complementable almost_left_invertible associative commutative well-unital distributive Abelian add-associative right_zeroed doubleLoopStr
+for G being non empty Subset of (Polynom-Ring (n,L)) holds
+( G is_Groebner_basis_wrt T iff for f being non-zero Polynomial of n,L st f in G -Ideal holds
+f has_a_Standard_Representation_of G,T )
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/groeb_2.html#T40
+
+E proof (gnn - gpu server) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t40_groeb_2
+
+/local1/mptp/convert_models/gpu_cl1_60s_tl1_fc_jjfix/All_uns2.l8oe23m1q256c1024/t40_groeb_2
+```
+# Proof object clause steps            : 716
+# Proof object initial clauses used    : 138
+# Proof object initial formulas used   : 45
+# Proof object simplifying inferences  : 1725
+# Parsed axioms                        : 121
+# Initial clauses in saturation        : 338
+# Processed clauses                    : 6265
+# ...remaining for further processing  : 4080
+# Generated clauses                    : 27498
+# ...of the previous two non-trivial   : 26464
+# User time                : 54.240 s
+```
+
 
 ### Matrices: M has full rank iff Det M <> 0
 
