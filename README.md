@@ -1517,6 +1517,34 @@ E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t44_topgen_1
 # User time                : 16.056 s
 ```
 
+### Topology - much shorter alternative proof in second-countable spaces proposed by premise selection
+
+for T being non empty TopSpace st T is second-countable holds
+for F being Subset-Family of T st F is Cover of T & F is open holds
+ex G being Subset-Family of T st
+( G c= F & G is Cover of T & G is countable )
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/compl_sp.html#T34
+
+The original Mizar proof has 76 lines and many dependencies.
+
+E proof (gnn - gpu server) with rnn premise selection (trained on clusters): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t34_compl_sp__1
+
+/local1/mptp/convert_models/gpu_cl1_60s_tl1_fc_jjfix/General_Topology.l10e49m1q128c512_rnn1cl/t34_compl_sp__1
+```
+# Proof object clause steps            : 60
+# Proof object initial clauses used    : 23
+# Proof object initial formulas used   : 8
+# Proof object simplifying inferences  : 30
+# Parsed axioms                        : 8
+# Initial clauses in saturation        : 28
+# Processed clauses                    : 61
+# ...remaining for further processing  : 57
+# Generated clauses                    : 44
+# ...of the previous two non-trivial   : 40
+# User time                : 0.032 s
+```
+
 
 ### Connectedness - all points are joined if some is joined to all:
 
