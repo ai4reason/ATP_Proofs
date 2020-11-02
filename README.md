@@ -1464,6 +1464,34 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 # User time                : 39.156 s
 ```
 
+### Topology - alternative condition on local compactness
+
+for T being non empty TopSpace st T is regular holds
+( T is locally-compact iff for x being Point of T ex Y being Subset of T st
+( x in Int Y & Y is compact ) )
+
+The proof needs to construct a nontrivial witness. The RNN-based premise selection is pretty precise (23 out of the 24 suggestions used).
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/yellow_8.html#T28
+
+E proof (gnn - gpu server) with rnn premise selection (trained on clusters): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t28_yellow_8__2
+
+/local1/mptp/convert_models/gpu_cl1_60s_tl1_fc_jjfix/General_Topology.l10e49m1q128c512_rnn1cl/t28_yellow_8__2
+```
+# Proof object clause steps            : 160
+# Proof object initial clauses used    : 45
+# Proof object initial formulas used   : 23
+# Proof object simplifying inferences  : 55
+# Parsed axioms                        : 24
+# Initial clauses in saturation        : 55
+# Processed clauses                    : 4883
+# ...remaining for further processing  : 1727
+# Generated clauses                    : 82258
+# ...of the previous two non-trivial   : 80064
+# User time                : 46.567 s
+```
+
+
 ### Topology - T1 is a disjoint union of perfect and scattered
 
 T is T_1 implies ex A, B being Subset of T st
