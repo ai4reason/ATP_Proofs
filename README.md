@@ -3,11 +3,11 @@
 These are so far proofs found by E ([8],[9],[13]) using versions of ENIGMA ([1],[2],[3],[4],[5],[12]) trained in several iterations from scratch on Mizar/MPTP/Mizar40 ([10],[11],[14]) problems. We also use Malarea/ATPBoost-style ([6],[7]) premise selection for some runs. There are 57880 toplevel Mizar problems we try to prove.
 
 Time progress: 
-```
-38k (65.65%) proved by June (reported on July 2nd at IJCAR'20: https://youtu.be/XojOEpZfH4Y?t=673 )
-40k (69.11%) proved by end of September
-40268 (69.57%) proved by end of October
-```
+
+- 38k (65.65%) proved by June (reported on July 2nd at IJCAR'20: https://youtu.be/XojOEpZfH4Y?t=673 )
+- 40k (69.11%) proved by end of September
+- 40268 (69.57%) proved by end of October
+
 
 [1]: https://arxiv.org/abs/2002.05406
 [2]: https://doi.org/10.1007/978-3-030-29436-6_12
