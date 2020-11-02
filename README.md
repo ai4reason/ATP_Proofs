@@ -1491,6 +1491,34 @@ E proof (gnn - gpu server) with rnn premise selection (trained on clusters): htt
 # User time                : 46.567 s
 ```
 
+### Topology - Characterization of Separated Subspaces by Weakly Separated ones.
+
+for X being non empty TopSpace
+for X1, X2 being non empty SubSpace of X holds
+( X1,X2 are_separated iff ex Y1, Y2 being non empty SubSpace of X st
+( Y1,Y2 are_weakly_separated & X1 is SubSpace of Y1 & X2 is SubSpace of Y2 & ( Y1 misses Y2 or Y1 meet Y2 misses X1 union X2 ) ) )
+
+The RNN-based premise selection is pretty precise (21 out of the 21 suggestions used).
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/tsep_1.html#T92
+
+E proof (gnn - gpu server) with rnn premise selection (trained on clusters): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t92_tsep_1__3
+
+/local1/mptp/convert_models/gpu_cl1_60s_tl1_fc_jjfix/General_Topology.l10e49m1q128c512_rnn1cl/t92_tsep_1__3
+```
+# Proof object clause steps            : 181
+# Proof object initial clauses used    : 53
+# Proof object initial formulas used   : 21
+# Proof object simplifying inferences  : 212
+# Parsed axioms                        : 21
+# Initial clauses in saturation        : 73
+# Processed clauses                    : 945
+# ...remaining for further processing  : 591
+# Generated clauses                    : 8991
+# ...of the previous two non-trivial   : 8941
+# User time                : 8.981 s
+```
+
 
 ### Topology - T1 is a disjoint union of perfect and scattered
 
