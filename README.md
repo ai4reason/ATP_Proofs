@@ -1498,6 +1498,36 @@ E proof (gnn - gpu server) with rnn premise selection (trained on clusters): htt
 # User time                : 46.567 s
 ```
 
+### Topology: alternative proof of length 290 using 45 axioms about characterizations of open functions from R^m
+
+for m being Nat
+for f being Function of (TOP-REAL m),R^1 holds
+ f is open iff for p being Point of (TOP-REAL m)
+for r being real positive number ex s being real positive number st \].(f . p) - s,(f . p) + s.\[ c= f .: Ball (p,r) 
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/tops_4__4.html#T13
+
+E proof (gnn - gpu server) with xgb premise selection (64, trained on clusters): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t13_tops_4__4
+
+The found ATP proof goes via http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/tops_4.html#T6 instead of following the Mizar proof.
+
+
+/local1/mptp/convert_models/gpu_cl1_60s_tl1_fc_jjfix/General_Topology.l10e49m1q128c512_xgb1cl/t13_tops_4__4
+```
+# Proof object clause steps            : 290
+# Proof object initial clauses used    : 77
+# Proof object initial formulas used   : 45
+# Proof object simplifying inferences  : 310
+# Parsed axioms                        : 65
+# Initial clauses in saturation        : 133
+# Processed clauses                    : 3155
+# ...remaining for further processing  : 1512
+# Generated clauses                    : 10033
+# ...of the previous two non-trivial   : 8630
+# User time                : 7.602 s
+```
+
+
 ### Topology - Characterization of Separated Subspaces by Weakly Separated ones.
 
 for X being non empty TopSpace
