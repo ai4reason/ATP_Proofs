@@ -700,6 +700,33 @@ The proof needs to assemble the ("obvious") sequence of subgroups.
 # User time                : 30.885 s
 ```
 
+### Groups: analogy between abelian additive and commutative multiplicative groups
+
+for B being AbGroup holds multMagma(# the carrier of B, the addF of B #) is commutative Group
+
+The proof needs to suggest the neutral and inverse elements in the dual setting.
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/vectsp_1.html#T35
+
+E proof (gnn - gpu server trained on minimized proofs) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t35_vectsp_1
+
+/local1/mptp/convert_models/gpu_cl1_60s_tl1_fc_jjfix/All_uns2.l10i2e132m1q128c512_minms1/t35_vectsp_1
+```
+# Proof object clause steps            : 227
+# Proof object initial clauses used    : 45
+# Proof object initial formulas used   : 24
+# Proof object simplifying inferences  : 177
+# Parsed axioms                        : 56
+# Initial clauses in saturation        : 106
+# Processed clauses                    : 1469
+# ...remaining for further processing  : 644
+# Generated clauses                    : 27747
+# ...of the previous two non-trivial   : 26936
+# User time                : 14.530 s
+```
+
+
+
 ### Groups with sets: 
 for a being Element of G for H being Subgroup of G holds ( a in H iff a * H = carr H )
 
