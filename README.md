@@ -1846,6 +1846,35 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 # User time                : 33.870 s
 ```
 
+### Topology: correspondence of two notions of homotopy - 420-long proof from 64 premises
+
+for T being non empty TopStruct
+for c1, c2 being with_endpoints Curve of T
+for a, b being Point of T
+for p1, p2 being Path of a,b st c1 = p1 & c2 = p2 & a,b are_connected holds
+( c1,c2 are_homotopic iff p1,p2 are_homotopic )
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/topalg_6.html#T34
+
+E proof (gnn - gpu server trained on mimimized proofs) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t34_topalg_6
+
+/local1/mptp/convert_models/gpu_cl1_60s_tl1_fc_jjfix/All_uns2.l10i2e132m1q128c512_minms1/t34_topalg_6
+```
+# Proof object clause steps            : 420
+# Proof object initial clauses used    : 104
+# Proof object initial formulas used   : 64
+# Proof object simplifying inferences  : 394
+# Parsed axioms                        : 192
+# Initial clauses in saturation        : 357
+# Processed clauses                    : 4993
+# ...remaining for further processing  : 2851
+# Generated clauses                    : 24584
+# ...of the previous two non-trivial   : 21872
+# User time                : 12.718 s
+```
+
+
+
 ### Any two simple closed curves are homeomorphic
 
 for S, T being being_simple_closed_curve SubSpace of TOP-REAL 2 holds S,T are_homeomorphic
