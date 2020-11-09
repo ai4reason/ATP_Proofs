@@ -56,6 +56,33 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 ```
 
 
+### Matric spaces: relation of point distances to distance of compact sets - 440 step proof from 82 premises
+
+for M being non empty MetrSpace
+for P, Q being Subset of (TopSpaceMetr M) st P is compact & Q is compact holds
+for x1, x2 being Point of M st x1 in P & x2 in Q holds
+( min_dist_min (P,Q) <= dist (x1,x2) & dist (x1,x2) <= max_dist_max (P,Q) )
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/weierstr.html#T34
+
+E proof (gnn - gpu server trained on minimized data) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t34_weierstr
+
+/local1/mptp/convert_models/gpu_cl1_60s_tl1_fc_jjfix/All_uns2.l10i2e132m1q128c512_minms1/t34_weierstr
+```
+# Proof object clause steps            : 440
+# Proof object initial clauses used    : 111
+# Proof object initial formulas used   : 82
+# Proof object simplifying inferences  : 324
+# Parsed axioms                        : 155
+# Initial clauses in saturation        : 247
+# Processed clauses                    : 5576
+# ...remaining for further processing  : 3309
+# Generated clauses                    : 40708
+# ...of the previous two non-trivial   : 39793
+# User time                : 25.266 s
+```
+
+
 ### epsilon-delta continuity in metric spaces
 
 for f being Function of TopSpaceMetr N, TopSpaceMetr M st f is continuous holds 
