@@ -267,6 +267,33 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 # User time                : 52.697 s
 ```
 
+### Lists: sum of a sequence is preserved under reversal in AC contexts
+
+for V being non empty Abelian add-associative right_zeroed addLoopStr
+for p being FinSequence of the carrier of V holds Sum p = Sum (Rev p)
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/polynom3.html#T2
+
+E proof (gnn - gpu server trained on minimized proofs) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t2_polynom3
+
+The proof uses 38 premises. Note that the inductive step is however not invented here - the instantiated scheme is supplied is a premise.
+
+/local1/mptp/convert_models/gpu_cl1_60s_tl1_fc_jjfix/All_uns2.l10i2e132m1q128c512_minms1/t2_polynom3
+```
+# Proof object clause steps            : 230
+# Proof object initial clauses used    : 56
+# Proof object initial formulas used   : 38
+# Proof object simplifying inferences  : 101
+# Parsed axioms                        : 180
+# Initial clauses in saturation        : 291
+# Processed clauses                    : 1927
+# ...remaining for further processing  : 1223
+# Generated clauses                    : 11706
+# ...of the previous two non-trivial   : 10893
+# User time                : 4.846 s
+```
+
+
 ### Permutations set-theory style - the Mizar proof has 144 lines
 
 for f being FinSequence st  f = <\*1,2\*> or f = <\*2,1\*>  holds
