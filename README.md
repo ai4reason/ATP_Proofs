@@ -7,6 +7,7 @@ Time progress:
 - 38k (65.65%) proved by June (reported on July 2nd at IJCAR'20: https://youtu.be/XojOEpZfH4Y?t=673 )
 - 40k (69.11%) proved by end of September
 - 40268 (69.57%) proved by end of October
+- 40628 (70.19%) proved by November 10 (heuristic premise minimization started to be used)
 
 
 [1]: https://arxiv.org/abs/2002.05406
