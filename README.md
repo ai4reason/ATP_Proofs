@@ -2261,6 +2261,35 @@ E proof (lgb): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t30_prob_2.out
 # User time                : 3.117 s
 ```
 
+### Probability: probability of (disjoint) unions - 360-long E proof
+
+for Omega being non empty set
+for Sigma being SigmaField of Omega
+for P being Probability of Sigma
+for FSeq being FinSequence of Sigma holds
+( P . (Union FSeq) <= Sum (P * FSeq) & ( FSeq is disjoint_valued implies P . (Union FSeq) = Sum (P * FSeq) ) )
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/prob_3.html#T65
+
+E proof (gnn - gpu server) with lgb premise selection (subproblem mnimized): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t65_prob_3
+
+/local1/mptp/convert_models/gpu_cl1_60s_tl1_fc_jjfix/All_minsub3.l10e49m1q512c1024/t65_prob_3
+```
+# Proof object clause steps            : 360
+# Proof object initial clauses used    : 69
+# Proof object initial formulas used   : 25
+# Proof object simplifying inferences  : 442
+# Parsed axioms                        : 31
+# Initial clauses in saturation        : 107
+# Processed clauses                    : 5456
+# ...remaining for further processing  : 2496
+# Generated clauses                    : 13829
+# ...of the previous two non-trivial   : 12610
+# User time                : 23.763 s
+```
+
+
+
 ### Pythagorean theorem in inner product spaces
 
 for X being RealUnitarySpace
