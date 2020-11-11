@@ -1824,7 +1824,7 @@ Done with premise selection - lgb 0.005
 # User time                : 18.408 s
 ```
 
-### Simple closed curves are pathwise connected
+### Real plane: Simple closed curves are pathwise connected
 
 for T being SubSpace of TOP-REAL 2 st the carrier of T is Simple_closed_curve holds
 T is pathwise_connected
@@ -1847,6 +1847,34 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 # ...of the previous two non-trivial   : 12471
 # User time                : 33.870 s
 ```
+
+### Real plane: order of points
+
+for p1, p2, p3, p4 being Point of (TOP-REAL 2)
+for P being non empty compact Subset of (TOP-REAL 2)
+for f being Function of (TOP-REAL 2),(TOP-REAL 2) st P = circle (0,0,1) & f = Sq_Circ holds
+( p1,p2,p3,p4 are_in_this_order_on rectangle ((- 1),1,(- 1),1) iff f . p1,f . p2,f . p3,f . p4 are_in_this_order_on P )
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/jgraph_6.html#T78
+
+E proof (gnn - gpu server) with premise selection (subproblem minimized): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t78_jgraph_6
+
+/local1/mptp/convert_models/gpu_cl1_60s_tl1_fc_jjfix/All_minsub3.l10e49m1q512c1024/t78_jgraph_6
+```
+# Proof object clause steps            : 474
+# Proof object initial clauses used    : 58
+# Proof object initial formulas used   : 30
+# Proof object simplifying inferences  : 821
+# Parsed axioms                        : 42
+# Initial clauses in saturation        : 108
+# Processed clauses                    : 17993
+# ...remaining for further processing  : 5420
+# Generated clauses                    : 41791
+# ...of the previous two non-trivial   : 37773
+# User time                : 32.591 s
+```
+
+
 
 ### Topology: correspondence of two notions of homotopy - 420-long proof from 64 premises
 
