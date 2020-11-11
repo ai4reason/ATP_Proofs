@@ -1,6 +1,6 @@
 # Interesting ATP Proofs
 
-These are so far proofs found by E ([8],[9],[13]) using versions of ENIGMA ([1],[2],[3],[4],[5],[12]) trained in several iterations from scratch on Mizar/MPTP/Mizar40 ([10],[11],[14]) problems. We also use Malarea/ATPBoost-style ([6],[7]) premise selection for some runs. There are 57880 toplevel Mizar problems we try to prove.
+These are so far proofs found by E ([8],[9],[13]) using versions of ENIGMA ([1],[2],[3],[4],[5],[12]) trained in several iterations from scratch on the Mizar/MPTP/Mizar40 ([10],[11],[14]) bushy problems. We also use Malarea/ATPBoost-style ([6],[7]) premise selection for some runs and heuristic premise minimization based on the structure of subproblems. There are 57880 toplevel Mizar problems we try to prove.
 
 Time progress: 
 
