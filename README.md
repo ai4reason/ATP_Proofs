@@ -8,6 +8,7 @@ Time progress:
 - 40k (69.11%) proved by end of September
 - 40268 (69.57%) proved by end of October
 - 40628 (70.19%) proved by November 10 (heuristic premise minimization started to be used)
+- 40856 (70.59%) proved by November 10 (more heuristic premise minimization)
 
 
 [1]: https://arxiv.org/abs/2002.05406
