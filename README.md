@@ -1931,6 +1931,32 @@ E proof (gnn - gpu server) with premise selection (subproblem minimized): http:/
 # User time                : 32.591 s
 ```
 
+### Real plane: Extremality in cells - 250-line long proof in Mizar, 415 ATP steps from 31 premises
+
+for i, j being Element of NAT
+for G being Go-board
+for p being Point of (TOP-REAL 2) st 1 <= i & i + 1 <= len G & 1 <= j & j + 1 <= width G & p in Values G & p in cell (G,i,j) holds
+p is_extremal_in cell (G,i,j)
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/jordan9.html#T21
+
+E proof (mzr03) with heuristic premise selection (subproblem minimization): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t21_jordan9
+
+/local1/mptp/convert_models/gpu_cl1_60s_tl1_fc_jjfix/All_minsub4.emzr03s30_minms1/t21_jordan9
+```
+# Proof object clause steps            : 415
+# Proof object initial clauses used    : 69
+# Proof object initial formulas used   : 31
+# Proof object simplifying inferences  : 366
+# Parsed axioms                        : 37
+# Initial clauses in saturation        : 86
+# Processed clauses                    : 2309
+# ...remaining for further processing  : 1382
+# Generated clauses                    : 6562
+# ...of the previous two non-trivial   : 4855
+# User time                : 0.941 s
+```
+
 
 
 ### Topology: correspondence of two notions of homotopy - 420-long proof from 64 premises
