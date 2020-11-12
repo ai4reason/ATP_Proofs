@@ -552,6 +552,31 @@ E proof (mzr03) with heuristic premise selection (subproof minimization): http:/
 # User time                : 2.515 s
 ```
 
+### Continuous lattices: Exercise 2.16 of [CCL](https://www.amazon.com/Compendium-Continuous-Lattices-G-Gierz/dp/3642676804) (p. 156), 1 <=> 2 ; 563-long ATP proof from 30 premises
+
+for N being complete Lawson meet-continuous TopLattice holds
+N is algebraic iff  N is with_open_semilattices & InclPoset sigma N is algebraic  
+
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/waybel30.html#T40
+
+E proof (mzr03) with heuristic premise selection (subproof minimization): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t40_waybel30
+
+/local1/mptp/convert_models/gpu_cl1_60s_tl1_fc_jjfix/All_minsub4.emzr03s30_minms1/t40_waybel30
+```
+# Proof object clause steps            : 563
+# Proof object initial clauses used    : 81
+# Proof object initial formulas used   : 30
+# Proof object simplifying inferences  : 792
+# Parsed axioms                        : 32
+# Initial clauses in saturation        : 115
+# Processed clauses                    : 1038
+# ...remaining for further processing  : 901
+# Generated clauses                    : 1415
+# ...of the previous two non-trivial   : 1386
+# User time                : 0.325 s
+```
+
 
 
 ### Lattices - concept lattices isomorphism 
