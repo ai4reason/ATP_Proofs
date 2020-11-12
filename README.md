@@ -844,6 +844,32 @@ http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/group_2.html#T113
 E proof: http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t113_group_2
 217 fof axioms, 298 initial clauses, 1214 nontriv given, 8523 nontriv gener, 109 proof clause steps, 28/44 initial proof flas/clauses
 
+### Vector spaces: dimension of a 2-element vector space is 1 ; 336-long ATP proof from 42 premises, 70-line proof in Mizar
+
+for F being Field
+for V being VectSp of F st card (\[#\] V) = 2 holds
+dim V = 1
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ranknull.html#T6
+
+E proof (mzr03) with heuristic premise selection (subproblem minimization): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t6_ranknull
+
+/local1/mptp/convert_models/gpu_cl1_60s_tl1_fc_jjfix/All_minsub4.emzr03s30_minms1/t6_ranknull
+```
+# Proof object clause steps            : 336
+# Proof object initial clauses used    : 81
+# Proof object initial formulas used   : 36
+# Proof object simplifying inferences  : 1146
+# Parsed axioms                        : 42
+# Initial clauses in saturation        : 111
+# Processed clauses                    : 13467
+# ...remaining for further processing  : 6398
+# Generated clauses                    : 16810
+# ...of the previous two non-trivial   : 17934
+# User time                : 2.549 s
+```
+
+
 
 ### Enigma differentiates: (ln * cos) \`| Z) . x = - (tan x) 
 
