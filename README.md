@@ -523,6 +523,37 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 # User time                : 57.930 s
 ```
 
+### Continuous lattices: Proposition 2.1 of [CCL](https://www.amazon.com/Compendium-Continuous-Lattices-G-Gierz/dp/3642676804) (p. 112), 1 <=> 6 ; 1039-long ATP proof
+
+for S, T being complete Scott TopLattice
+for f being Function of S,T st S is algebraic & T is algebraic holds
+f is continuous iff for x being Element of S
+for k being Element of T st k in the carrier of CompactSublatt T holds
+( k <= f . x iff ex j being Element of S st
+ j in the carrier of CompactSublatt S & j <= x & k <= f . j  ) 
+
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/waybel17.html#T27
+
+E proof (mzr03) with heuristic premise selection (subproof minimization): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t27_waybel17
+
+/local1/mptp/convert_models/gpu_cl1_60s_tl1_fc_jjfix/All_minsub4.emzr03s30_minms1/t27_waybel17
+```
+# Proof object clause steps            : 1039
+# Proof object initial clauses used    : 111
+# Proof object initial formulas used   : 6
+# Proof object simplifying inferences  : 4865
+# Parsed axioms                        : 10
+# Initial clauses in saturation        : 124
+# Processed clauses                    : 3491
+# ...remaining for further processing  : 2289
+# Generated clauses                    : 14655
+# ...of the previous two non-trivial   : 13195
+# User time                : 2.515 s
+```
+
+
+
 ### Lattices - concept lattices isomorphism 
 
 for L being complete Lattice holds ConceptLattice (Context L),L are_isomorphic
