@@ -497,6 +497,30 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 # User time                : 34.533 s
 ```
 
+### Lattices: Dual of a complete-distributive poset is complete-dsitributive ; 377-long ATP proof from 35 premises
+
+for L being non empty Poset holds
+ L is completely-distributive iff L opp is completely-distributive 
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/yellow_7.html#T51
+
+E proof (mzr03) with heuristic premise selection (subproblem minimization): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t51_yellow_7
+
+/local1/mptp/convert_models/gpu_cl1_60s_tl1_fc_jjfix/All_minsub4.emzr03s30_minms1/t51_yellow_7
+```
+# Proof object clause steps            : 377
+# Proof object initial clauses used    : 66
+# Proof object initial formulas used   : 35
+# Proof object simplifying inferences  : 435
+# Parsed axioms                        : 35
+# Initial clauses in saturation        : 83
+# Processed clauses                    : 5130
+# ...remaining for further processing  : 3906
+# Generated clauses                    : 7451
+# ...of the previous two non-trivial   : 7607
+# User time                : 2.315 s
+```
+
 
 ### Monster proof in continuous lattices relating a weight of an infinite T0 topological space to the weight of the semilattice formed by the inclusion poset of its topology
 
