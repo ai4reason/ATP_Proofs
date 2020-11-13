@@ -2938,6 +2938,31 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 # User time                : 49.800 s
 ```
 
+### Relations: being quasi-ordered and Dickson is preserverd under iso ; 464-long ATP proof from 37 premises, 70-line Mizar proof
+
+for R, S being RelStr st R,S are_isomorphic & R is Dickson & R is quasi_ordered holds
+ S is quasi_ordered & S is Dickson 
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/dickson.html#T38
+
+E proof (mzr25) with heuristic premise selection (subproblem minimized): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t38_dickson
+
+/local1/mptp/convert_models/gpu_cl1_60s_tl1_fc_jjfix/All_minsub4.emzr25s30_minms1/t38_dickson
+```
+# Proof object clause steps            : 464
+# Proof object initial clauses used    : 71
+# Proof object initial formulas used   : 37
+# Proof object simplifying inferences  : 382
+# Parsed axioms                        : 41
+# Initial clauses in saturation        : 99
+# Processed clauses                    : 7519
+# ...remaining for further processing  : 3715
+# Generated clauses                    : 14945
+# ...of the previous two non-trivial   : 14153
+# User time                : 3.971 s
+```
+
+
 
 ### Logic: A set of formulas is inconsistent iff it proves everything
 
