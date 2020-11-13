@@ -11,6 +11,7 @@ Time progress:
 - 40909 (70.68%) proved by November 11 (more heuristic premise minimization)
 - 40994 (70.83%) proved by November 12
 - 41169 (71.13%) proved by November 12 (300s runs of Vampire add 175)
+- 41222 (71.23%) by Nov 13
 
 [1]: https://arxiv.org/abs/2002.05406
 [2]: https://doi.org/10.1007/978-3-030-29436-6_12
