@@ -3492,6 +3492,30 @@ E proof (gnn-gpu60) with lgb premise selection (0.005): http://grid01.ciirc.cvut
 # User time                : 49.181 s
 ```
 
+### Matrices: a linear transformation given by an n x m matrix M is onto iff the rank of M is m  (552-long ATP proof using 80 premises)
+
+for n, m being Nat
+for M being Matrix of n,m,F_Real holds
+Mx2Tran M is onto iff the_rank_of M = m 
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/matrtop1.html#T41
+
+E proof (mzr16) with heuristic premise selection (subproblem minimization): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t41_matrtop1
+
+/local1/mptp/convert_models/gpu_cl1_60s_tl1_fc_jjfix/All_minsub5.emzr16s30_minms1/t41_matrtop1
+```
+# Proof object clause steps            : 552
+# Proof object initial clauses used    : 135
+# Proof object initial formulas used   : 80
+# Proof object simplifying inferences  : 1081
+# Parsed axioms                        : 99
+# Initial clauses in saturation        : 191
+# Processed clauses                    : 18477
+# ...remaining for further processing  : 8294
+# Generated clauses                    : 32997
+# ...of the previous two non-trivial   : 33139
+# User time                : 13.292 s
+```
 
 
 ### Matrices: explicit form for a square 3-matrix - 158-line proof in Mizar
