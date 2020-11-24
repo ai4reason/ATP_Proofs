@@ -787,6 +787,36 @@ used lgb premise selection (0.005) to prune 265 axioms to 147
 
 Combines reasoning about numbers and groups and their intersections. The Mizar proof has almost 70 lines.
 
+
+### Groups: The Jordan-Holder property of a composition series is preserved under equivalence ; 297-long ATP proof using 44 premises
+
+for O being set
+for G being GroupWithOperators of O
+for s1, s2 being CompositionSeries of G st s1 is_equivalent_with s2 & s1 is jordan_holder holds
+s2 is jordan_holder
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/group_9.html#T115
+
+The Mizar proof has 68 lines. The proof requires noticing the series permutation and using it to transfer the J-H properties.
+
+E proof (mzr16) with heuristic premise selection (subproblem minimization): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t115_group_9
+
+/local1/mptp/convert_models/gpu_cl1_60s_tl1_fc_jjfix/All_minsub5.emzr16s30_minms1/t115_group_9
+```
+# Proof object clause steps            : 297
+# Proof object initial clauses used    : 79
+# Proof object initial formulas used   : 44
+# Proof object simplifying inferences  : 413
+# Parsed axioms                        : 71
+# Initial clauses in saturation        : 186
+# Processed clauses                    : 12661
+# ...remaining for further processing  : 7209
+# Generated clauses                    : 65614
+# ...of the previous two non-trivial   : 57695
+# User time                : 7.819 s
+```
+
+
 ### Groups: a commutative group is solvable
 
 for G being strict commutative Group holds G is solvable
