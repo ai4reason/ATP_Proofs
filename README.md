@@ -1253,6 +1253,38 @@ E proof (gnn) with lgb premise selection (0.05): http://grid01.ciirc.cvut.cz/~mp
 # User time                : 34.050 s
 ```
 
+### Integral: Lebesgue's Bounded Convergence Theorem (1190-long ATP proof from 51 premises)
+
+
+for X being non empty set
+for S being SigmaField of X
+for M being sigma_Measure of S
+for E being Element of S
+for F being with_the_same_dom Functional_Sequence of X,REAL st M . E < +infty & E = dom (F . 0) & ( for n being Nat holds F . n is_measurable_on E ) & F is uniformly_bounded & ( for x being Element of X st x in E holds F # x is convergent ) holds
+( for n being Nat holds F . n is_integrable_on M ) & lim F is_integrable_on M & ex I being ExtREAL_sequence st
+ ( for n being Nat holds I . n = Integral (M,(F . n)) ) & I is convergent & lim I = Integral (M,(lim F)) 
+
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/mesfun9c.html#T49
+
+E proof (mzr03) with heuristic premise selection (subproblem minimization): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t49_mesfun9c
+
+/local1/mptp/convert_models/gpu_cl1_60s_tl1_fc_jjfix/All_minsub5.emzr03s120_minms1/t49_mesfun9c
+```
+# Proof object clause steps            : 1190
+# Proof object initial clauses used    : 134
+# Proof object initial formulas used   : 51
+# Proof object simplifying inferences  : 1944
+# Parsed axioms                        : 62
+# Initial clauses in saturation        : 166
+# Processed clauses                    : 37217
+# ...remaining for further processing  : 19138
+# Generated clauses                    : 53892
+# ...of the previous two non-trivial   : 54636
+# User time                : 88.283 s
+```
+
+
 
 ### Monster proof about partial sums in Lebesgue measure theory - the proof takes 150 Mizar lines
 
