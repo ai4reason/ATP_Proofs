@@ -3518,6 +3518,32 @@ E proof (mzr16) with heuristic premise selection (subproblem minimization): http
 # User time                : 13.292 s
 ```
 
+### Matrices: The shape of rotation matrices in R^1 (444-long ATP proof from 80 premises)
+
+for n being Nat
+for p, q being Point of (TOP-REAL n) st n = 1 & |.p.| = |.q.| holds
+ex f being additive homogeneous Function of TOP-REAL n,TOP-REAL n st
+ f is rotation & f . p = q & ( AutMt f = AxialSymmetry (n,n) or AutMt f = 1. (F_Real,n) ) 
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/matrtop3.html#T40
+
+E proof (mzr03) with heuristic premise selection (subproblem minimization): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t40_matrtop3
+
+/local1/mptp/convert_models/gpu_cl1_60s_tl1_fc_jjfix/All_minsub5.emzr03s30_minms1/t40_matrtop3
+```
+# Proof object clause steps            : 444
+# Proof object initial clauses used    : 104
+# Proof object initial formulas used   : 80
+# Proof object simplifying inferences  : 355
+# Parsed axioms                        : 122
+# Initial clauses in saturation        : 206
+# Processed clauses                    : 36782
+# ...remaining for further processing  : 14567
+# Generated clauses                    : 50921
+# ...of the previous two non-trivial   : 45617
+# User time                : 16.123 s
+```
+
 
 ### Matrices: explicit form for a square 3-matrix - 158-line proof in Mizar
 
