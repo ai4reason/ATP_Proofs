@@ -14,6 +14,7 @@ Time progress:
 - 41222 (71.23%) by Nov 13
 - 41304 (71.36%) by Nov 16 (more Vampire)
 - 41499 (71.70%) by Nov 24 (more E with second round of heuristic premise minimization)
+- 41659 (71.97%) by Nov 25 (more Vampire)
 
 [1]: https://arxiv.org/abs/2002.05406
 [2]: https://doi.org/10.1007/978-3-030-29436-6_12
