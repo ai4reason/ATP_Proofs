@@ -1265,12 +1265,19 @@ for X being non empty set
 for S being SigmaField of X
 for M being sigma_Measure of S
 for E being Element of S
-for F being with_the_same_dom Functional_Sequence of X,REAL st M . E < +infty & E = dom (F . 0) 
-&  for n being Nat holds F . n is_measurable_on E  & F is uniformly_bounded &  for x being Element of X st x in E holds F # x is convergent 
+for F being with_the_same_dom Functional_Sequence of X,REAL 
+st M . E < +infty & E = dom (F . 0) 
+   &  for n being Nat holds F . n is_measurable_on E  
+   & F is uniformly_bounded 
+   &  for x being Element of X st x in E holds F # x is convergent 
 holds
- for n being Nat holds F . n is_integrable_on M  & lim F is_integrable_on M 
- & ex I being ExtREAL_sequence st
-  for n being Nat holds I . n = Integral (M,(F . n))  & I is convergent & lim I = Integral (M,(lim F)) 
+   for n being Nat holds F . n is_integrable_on M  
+   & lim F is_integrable_on M 
+   & ex I being ExtREAL_sequence 
+     st
+      for n being Nat holds I . n = Integral (M,(F . n))  
+      & I is convergent 
+      & lim I = Integral (M,(lim F)) 
 ```
 
 http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/mesfun9c.html#T49
