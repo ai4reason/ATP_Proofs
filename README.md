@@ -1282,6 +1282,10 @@ holds
 
 http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/mesfun9c.html#T49
 
+Note that the Mizar proof is mostly relying on a related previous formulation of the theorem that has much longer Mizar proof: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/mesfun10.html#T19 . 
+
+I.e., the ATP proof - even if very long - is not the "full proof" of the theorem, but rather a proof of a minor corollary.
+
 E proof (mzr03) with heuristic premise selection (subproblem minimization): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t49_mesfun9c
 
 /local1/mptp/convert_models/gpu_cl1_60s_tl1_fc_jjfix/All_minsub5.emzr03s120_minms1/t49_mesfun9c
