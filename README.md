@@ -199,6 +199,30 @@ E proof (gnn) with lgb premise selection (0.5k1): http://grid01.ciirc.cvut.cz/~m
 # User time                : 37.275 s
 ```
 
+### Trig counting - Arg x < PI & Arg y < PI implies Arg (x + y) < PI (343-long ATP proof from 56 premises)
+
+for x, y being complex number st Arg x < PI & Arg y < PI holds
+Arg (x + y) < PI
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/complex2.html#T20
+
+E proof (gnn - gpu server) with heuristic premise selection (subproblem mnimization): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t20_complex2
+
+/local1/mptp/convert_models/gpu_cl1_60s_tl1_fc_jjfix/All_minsub5.l10e49m2q512c1024/t20_complex2
+```
+# Proof object clause steps            : 343
+# Proof object initial clauses used    : 68
+# Proof object initial formulas used   : 56
+# Proof object simplifying inferences  : 257
+# Parsed axioms                        : 74
+# Initial clauses in saturation        : 105
+# Processed clauses                    : 4177
+# ...remaining for further processing  : 1323
+# Generated clauses                    : 104097
+# ...of the previous two non-trivial   : 100665
+# User time                : 23.393 s
+```
+
 
 
 ### Counting: e^(2\*pi\*n\*i) = 1
