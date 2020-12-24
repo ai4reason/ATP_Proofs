@@ -505,6 +505,38 @@ E proof (gnn) with lgb premise selection (0.05): http://grid01.ciirc.cvut.cz/~mp
 # User time                : 17.906 s
 ```
 
+### Topology: equivalent condition on homeomorphism: bijection plus images of open are open
+
+for S, T being non empty TopStruct
+for f being Function of S,T holds
+  f is being_homeomorphism 
+  iff  
+  dom f = [#] S & rng f = [#] T & f is one-to-one 
+  & for P being Subset of S holds P is open iff f .: P is open 
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/topgrp_1.html#T25
+
+E proof (gnn - gpu server) with Mizar40 minimized premise selection : http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t25_topgrp_1__0
+
+/local1/mptp/convert_models/gpu_cl1_60s_tl1_fc_jjfix/All.l10e49m1q128c512_m40/t25_topgrp_1__0
+```
+# Proof object clause steps            : 198
+# Proof object initial clauses used    : 55
+# Proof object initial formulas used   : 28
+# Proof object simplifying inferences  : 175
+# Parsed axioms                        : 39
+# Initial clauses in saturation        : 95
+# Processed clauses                    : 945
+# ...remaining for further processing  : 609
+# Generated clauses                    : 4161
+# ...of the previous two non-trivial   : 3947
+# User time                : 2.306 s
+```
+
+
+
+
+
 ### Lattices: lower bounded up-complete L where SupMap L is upper adjoint is continuous
 
 for L being lower-bounded up-complete LATTICE st SupMap L is upper_adjoint holds
