@@ -3330,6 +3330,33 @@ E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t65_analmetr
 # User time                : 22.012 s
 ```
 
+### Orthogonal spaces: translational is satisfying_des - alternative proof 
+
+for X being OrtAfPl st Af X is translational holds X is satisfying_des
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/conmetr.html#T8
+
+E proof (blistr) with gnn premise selection (-1): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t8_conmetr
+
+The premise selector discovered http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/translac.html#T4 as a useful lemma. We were not able to replay the original proof.
+
+/local1/mptp/gnn_pred_train_big_knn512_all.probs_out/gnn_pred_train_big_knn512_all.probs.epar_mzt_s30__preds__-1/t8_conmetr
+
+```
+# Proof object clause steps            : 95
+# Proof object initial clauses used    : 28
+# Proof object initial formulas used   : 9
+# Proof object simplifying inferences  : 180
+# Parsed axioms                        : 149
+# Initial clauses in saturation        : 73
+# Processed clauses                    : 707
+# ...remaining for further processing  : 694
+# Generated clauses                    : 707
+# ...of the previous two non-trivial   : 684
+# User time                : 0.071 s
+```
+
+
 ### Lines in Euclidean Space: Being parallel is transitive
 
 for n being Element of NAT
