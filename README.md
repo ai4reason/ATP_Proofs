@@ -1521,6 +1521,32 @@ The only issue is that no prover could do it before and that I got the proof wit
 
 The fact that it generated only 2.8k clauses during 734 nontrivial given clause loops (with 549 initial clauses) is pretty amazing (and probably the reason why this succeeded). 
 
+### Fibonacci numbers - alternative proof (no induction needed) of  tau ^ n + tau ^ (n + 1) = tau ^ (n + 2)
+
+for n being Nat holds (tau to_power n) + (tau to_power (n + 1)) = tau to_power (n + 2)
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/fib_num3.html#T9
+
+The premise selector proposed using tau ^ 2 = tau + 1 (http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/fib_num.html#E17) , from which the theorem easily follows.
+
+E proof (blistr) with gnn premise selection (-1): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t9_fib_num3
+
+/local1/mptp/gnn_pred_train_big_knn512_all.probs_out_all/gnn_pred_train_big_knn512_all.probs.eprotokoll_atpstr_my_5fce846ef89413a220d0951fb615d42ded72b119s2__preds__-1/t9_fib_num3
+```
+# Proof object clause steps            : 116
+# Proof object initial clauses used    : 37
+# Proof object initial formulas used   : 33
+# Proof object simplifying inferences  : 48
+# Parsed axioms                        : 193
+# Initial clauses in saturation        : 291
+# Processed clauses                    : 8013
+# ...remaining for further processing  : 3294
+# Generated clauses                    : 44110
+# ...of the previous two non-trivial   : 37945
+# User time                : 1.175 s
+```
+
+
 ### Fibonacci and Lucas numbers
 
 Fib (2 * n) = (Fib n) * (Lucas n)
