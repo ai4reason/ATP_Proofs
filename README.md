@@ -1,6 +1,6 @@
 # Interesting ATP Proofs
 
-These are so far proofs found by E ([8],[9],[13]) using versions of ENIGMA ([1],[2],[3],[4],[5],[12]) trained in several iterations from scratch on the Mizar/MPTP/Mizar40 ([10],[11],[14]) bushy problems. We also use Malarea/ATPBoost-style ([6],[7]) premise selection for some runs and heuristic premise minimization based on the structure of subproblems. There are 57880 toplevel Mizar problems we try to prove.
+These are so far proofs found by E ([8],[9],[13]) using versions of ENIGMA ([1],[2],[3],[4],[5],[12]) trained in several iterations from scratch on the Mizar/MPTP/Mizar40 ([10],[11],[14]) bushy problems. We also use E's auto-schedule, many E strategies invented by BliStr/Tune ([15],[16],[17]), Malarea/ATPBoost-style ([6],[7]) premise selection (using lgb,gnn,xgb,rnn and transformer) for some runs and heuristic premise minimization based on the structure of subproblems. There are 57880 toplevel Mizar problems we try to prove.
 
 Time progress: 
 
@@ -19,6 +19,7 @@ Time progress:
 - 42050 (72.65%) by Dec 2
 - 42172 (72.86%) by Dec 6 (more E with heuristic premise minimization)
 - 42206 (72.92%) by Dec 7 (more Vampire)
+- 42275 (73.04%) by Jan 1 2021 (blistr runs on gnn -1 predictions)
 
 [1]: https://arxiv.org/abs/2002.05406
 [2]: https://doi.org/10.1007/978-3-030-29436-6_12
@@ -34,6 +35,9 @@ Time progress:
 [12]: https://doi.org/10.4230/LIPIcs.ITP.2019.34
 [13]: http://content.iospress.com/articles/ai-communications/aic260
 [14]: https://doi.org/10.1007/s10817-015-9330-8
+[15]: https://easychair.org/publications/paper/FJD
+[16]: https://doi.org/10.1145/3018610.3018619
+[17]: https://doi.org/10.3233/AIC-180761
 
 ### Lipschitzian is uniformly continuous: 
 http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ncfcont2.html#T25
