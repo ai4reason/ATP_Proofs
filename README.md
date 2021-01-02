@@ -283,6 +283,34 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 # User time                : 17.126 s
 ```
 
+### Counting/algebra: Division with remainder: (n div k) div i = n div (k * i)
+
+for n, k, i being Nat holds (n div k) div i = n div (k * i)
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/nat_2.html#T27
+
+We cannot replay the original proof yet, but an alternative proof was found using a seemingly very similar theorem about positive integers: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/pre_ff.html#T5 (whch has quite a different proof).
+
+The alternative proof is however still nontrivial - possibly because of the need to move between different definitions.
+
+E proof (blistr) with gnn premise selection (0): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t27_nat_2
+
+/local1/mptp/gnn_pred_train_big_knn512_all.probs_out_all/gnn_pred_train_big_knn512_all.probs.eprotokoll_atpstr_my_fdfa75aeb82cfb954998cf278fcefc11586a3a4bs2__preds__0/t27_nat_2
+```
+# Proof object clause steps            : 111
+# Proof object initial clauses used    : 27
+# Proof object initial formulas used   : 23
+# Proof object simplifying inferences  : 39
+# Parsed axioms                        : 125
+# Initial clauses in saturation        : 169
+# Processed clauses                    : 7053
+# ...remaining for further processing  : 5298
+# Generated clauses                    : 101854
+# ...of the previous two non-trivial   : 100586
+# User time                : 1.565 s
+```
+
+
 
 ### List editing set-theory style
 
