@@ -20,6 +20,7 @@ Time progress:
 - 42172 (72.86%) by Dec 6 (more E with heuristic premise minimization)
 - 42206 (72.92%) by Dec 7 (more Vampire)
 - 42275 (73.04%) by Jan 1 2021 (blistr runs on gnn -1 predictions)
+- 42325 (73.13%) by Jan 1 2021 (blistr runs on gnn -3, 0, 1 predictions)
 
 [1]: https://arxiv.org/abs/2002.05406
 [2]: https://doi.org/10.1007/978-3-030-29436-6_12
