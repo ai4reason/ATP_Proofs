@@ -3662,6 +3662,34 @@ E proof (gnn-gpu60) with lgb premise selection (0.005): http://grid01.ciirc.cvut
 # User time                : 49.181 s
 ```
 
+### Matrices: formula for computing the determinant of a 2x2 matrix - short alternative proof
+
+for K being Field
+for a, b, c, d being Element of K holds Det ((a,b) ]\[ (c,d)) = (a * d) - (b * c)
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/matrix_9.html#T13
+
+We cannot replay the original proof yet, but an easy alternative proof was found by combining previous theorems http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/matrix_7.html#T12 and http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/matrix_2.html#T6 .
+
+E proof (blistr) with gnn premise selection (1): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t13_matrix_9
+
+/local1/mptp/gnn_pred_train_big_knn512_all.probs_out_all/gnn_pred_train_big_knn512_all.probs.emzr02s2__preds__1/t13_matrix_9
+```
+# Proof object clause steps            : 66
+# Proof object initial clauses used    : 27
+# Proof object initial formulas used   : 8
+# Proof object simplifying inferences  : 22
+# Parsed axioms                        : 47
+# Initial clauses in saturation        : 94
+# Processed clauses                    : 226
+# ...remaining for further processing  : 180
+# Generated clauses                    : 1367
+# ...of the previous two non-trivial   : 1320
+# User time                : 0.191 s
+```
+
+
+
 ### Matrices: a linear transformation given by an n x m matrix M is onto iff the rank of M is m  (552-long ATP proof using 80 premises)
 
 for n, m being Nat
