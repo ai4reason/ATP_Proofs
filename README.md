@@ -1323,6 +1323,33 @@ E proof (gnn): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t82_integra8
 # User time                : 28.424 s
 ```
 
+### Integral: E computes the definite integral of sin * cos on \[2n\*pi, (2n+1)\*pi] using 62 premises and 268 inferences
+
+for A being non empty closed_interval Subset of REAL
+for n being Element of NAT st A = \[. 2 * n * PI, ((2 * n) + 1) * PI .] holds
+integral (sin (#) cos,A) = 0
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/integra8.html#T95
+
+This is also a proof from alternative premises.
+
+E proof (blistr) with knn premise selection (128): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t95_integra8
+
+/local1/mptp/miz60-cek-out/test-n.5knn.2-probs_out/test-n.5knn.2.eprotokoll_atpstr_my_5fce846ef89413a220d0951fb615d42ded72b119s2__preds__128/t95_integra8
+```
+# Proof object clause steps            : 268
+# Proof object initial clauses used    : 73
+# Proof object initial formulas used   : 62
+# Proof object simplifying inferences  : 206
+# Parsed axioms                        : 129
+# Initial clauses in saturation        : 193
+# Processed clauses                    : 8365
+# ...remaining for further processing  : 3389
+# Generated clauses                    : 44511
+# ...of the previous two non-trivial   : 39319
+# User time                : 1.242 s
+```
+
 
 ### Cos is increasing on pi,2pi
 
