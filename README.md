@@ -311,7 +311,28 @@ E proof (blistr) with gnn premise selection (0): http://grid01.ciirc.cvut.cz/~mp
 # User time                : 1.565 s
 ```
 
+### Counting/algebra: n mod 2 = 0 iff (n -' 1) mod 2 = 1 - large alternative proof using 51 premises
 
+for n being Nat st n > 0 holds n mod 2 = 0 iff (n -' 1) mod 2 = 1 
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/nat_2.html#T18
+
+E proof (blistr) with knn premise selection (256): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t18_nat_2
+
+/local1/mptp/miz60-cek-out/train-n.5knn.2-probs_out/train-n.5knn.2.emzr03s2__preds__256/t18_nat_2
+```
+# Proof object clause steps            : 227
+# Proof object initial clauses used    : 58
+# Proof object initial formulas used   : 51
+# Proof object simplifying inferences  : 145
+# Parsed axioms                        : 257
+# Initial clauses in saturation        : 424
+# Processed clauses                    : 4807
+# ...remaining for further processing  : 3835
+# Generated clauses                    : 13913
+# ...of the previous two non-trivial   : 13485
+# User time                : 0.823 s
+```
 
 ### List editing set-theory style
 
