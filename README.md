@@ -533,6 +533,32 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 # User time                : 116.084 s
 ```
 
+### Convergence: limit of a sequence bounded between two sequences with the same limit - simple alternative proof
+
+for seq, seq9, seq1 being Real_Sequence st seq is convergent & seq9 is convergent & ( for n being Element of NAT holds
+ seq . n <= seq1 . n & seq1 . n <= seq9 . n  ) & lim seq = lim seq9 holds
+lim seq1 = lim seq
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/seq_2.html#T20
+
+The original proof has 49 lines and we cannot replay it yet. But a simple alternative proof was found going via http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/seq_2.html#T19 and http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/seq_2.html#T18 .
+
+E proof (blistr) with knn premise selection (256): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t20_seq_2
+
+/local1/mptp/miz60-cek-out/train-n.5knn.2-probs_out/train-n.5knn.2.emzr02s2__preds__256/t20_seq_2
+```
+# Proof object clause steps            : 64
+# Proof object initial clauses used    : 24
+# Proof object initial formulas used   : 8
+# Proof object simplifying inferences  : 76
+# Parsed axioms                        : 257
+# Initial clauses in saturation        : 495
+# Processed clauses                    : 2635
+# ...remaining for further processing  : 1794
+# Generated clauses                    : 13481
+# ...of the previous two non-trivial   : 12481
+# User time                : 0.814 s
+```
 
 
 ### Topology: In compact spaces, Cauchy nets are convergent
