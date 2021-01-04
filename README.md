@@ -3509,6 +3509,31 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 # User time                : 49.832 s
 ```
 
+### Cardinals: cofinality of omega = omega - alternative proof from 38 premises
+
+cf omega = omega
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/card_5.html#T22
+
+We cannot replay the original proof (using essentially induction over finite sets) yet. The alternative proof goes via theorem http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ordinal4.html#T38 saying that the cofinality of a limit ordinal is also limit, plus the definition of omega as the smallest limit ordinal.
+
+E proof (auto-schedule) with knn premise selection (256): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t22_card_5
+
+/local1/mptp/miz60-cek-out/test-mix-nklg-5221-probs_out/test-mix-nklg-5221-probs.eautosm1__preds__256/t22_card_5
+```
+# Proof object clause steps            : 166
+# Proof object initial clauses used    : 41
+# Proof object initial formulas used   : 38
+# Proof object simplifying inferences  : 51
+# Parsed axioms                        : 257
+# Initial clauses in saturation        : 451
+# Processed clauses                    : 7975
+# ...remaining for further processing  : 2889
+# Generated clauses                    : 20662
+# ...of the previous two non-trivial   : 18357
+# User time                : 30.864 s
+```
+
 
 ### Cardinal arithmetics - exp (M+N) = exp M * exp N
 
