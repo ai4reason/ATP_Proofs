@@ -1623,6 +1623,34 @@ E proof (blistr) with gnn premise selection (-1): http://grid01.ciirc.cvut.cz/~m
 # User time                : 1.175 s
 ```
 
+### Fibonacci numbers - much simpler alternative proof of the (probably over-simplified) Mizar version of Carmichael's theorem
+
+for m being Nat
+for n being non empty Nat st m is prime & n is prime & m divides Fib n holds
+for r being Nat st r < n & r <> 0 holds
+not m divides Fib r
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/fib_num2.html#T69
+
+The original Mizar proof has 122 lines, uses induction and we cannot so far replay it. However much simpler proof was found from different 32 premises, probably due to incorrect oversimplification of the Mizar version of the theorem. It goes via http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/fib_num.html#T5 which says that (Fib m) gcd (Fib n) = Fib (m gcd n) . Since n is prime and r < n, n gcd r = 1 and thus (Fib n) gcd (Fib r) = 1 and m cannot divide Fib r .
+
+E proof (blistr) with knn premise selection (128): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t69_fib_num2
+
+/local1/mptp/miz60-cek-out/train-n.5knn.2-probs_out/train-n.5knn.2.eprotokoll_atpstr_my_fdfa75aeb82cfb954998cf278fcefc11586a3a4bs2__preds__128/t69_fib_num2
+```
+# Proof object clause steps            : 159
+# Proof object initial clauses used    : 45
+# Proof object initial formulas used   : 32
+# Proof object simplifying inferences  : 67
+# Parsed axioms                        : 129
+# Initial clauses in saturation        : 229
+# Processed clauses                    : 4911
+# ...remaining for further processing  : 4214
+# Generated clauses                    : 83196
+# ...of the previous two non-trivial   : 82332
+# User time                : 1.399 s
+```
+
 
 ### Fibonacci and Lucas numbers
 
