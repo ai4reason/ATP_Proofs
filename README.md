@@ -22,7 +22,8 @@ Time progress:
 - 42275 (73.04%) by Jan 1 2021 (blistr runs on gnn -1 predictions)
 - 42325 (73.13%) by Jan 2 2021 (blistr runs on gnn -3, 0, 1 predictions)
 - 42424 (73.30%) by Jan 4 2021 (blistr runs on combined predictions produced by Cezary)
-- 42471 (73.38%) by Jan 4 2021 (more blistr runs on combined predictions produced by Cezary)
+- 42471 (73.38%) by Jan 6 2021 (more blistr runs on combined predictions produced by Cezary)
+- 42519 (73.46%) by Jan 10 2021 (started enigma runs on all training predictions)
 
 [1]: https://arxiv.org/abs/2002.05406
 [2]: https://doi.org/10.1007/978-3-030-29436-6_12
