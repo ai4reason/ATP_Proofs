@@ -2,7 +2,7 @@
 
 These are so far proofs found by E ([8],[9],[13]) using versions of ENIGMA ([1],[2],[3],[4],[5],[12]) trained in several iterations from scratch on the Mizar/MPTP/Mizar40 ([10],[11],[14]) bushy problems. We also use E's auto-schedule, many E strategies invented by BliStr/Tune ([15],[16],[17]), Malarea/ATPBoost-style ([6],[7]) premise selection (using lgb,gnn,xgb,rnn and transformer) for some runs and heuristic premise minimization based on the structure of subproblems. There are 57880 toplevel Mizar problems we try to prove.
 
-Time progress (total ATP proved problems - using human-supplied premises and/or trained/heuristic premise selectors): 
+### Time progress (total ATP-proved problems - using human-supplied premises and/or trained/heuristic premise selectors): 
 
 - 38k (65.65%) proved by June (reported on July 2nd at IJCAR'20: https://youtu.be/XojOEpZfH4Y?t=673 )
 - 40k (69.11%) proved by end of September
@@ -24,6 +24,13 @@ Time progress (total ATP proved problems - using human-supplied premises and/or 
 - 42424 (73.30%) by Jan 4 2021 (blistr runs on combined predictions produced by Cezary)
 - 42471 (73.38%) by Jan 6 2021 (more blistr runs on combined predictions produced by Cezary)
 - 42519 (73.46%) by Jan 10 2021 (started enigma runs on all training predictions)
+
+### Time progress in the hammering setting (ATP-proved problems, using trained premise selectors).
+This evaluation is done using a 90/5/5 training/development/holdout split of the 58k (52125/2896/2896) problems. 
+The training set is used for training premise selection and internal guidance (ENIGMA), the development set for choosing the best methods and their combinations and portfolios, and the holdout set for the ultimate evaluation of the methods.
+
+- 1690 (58.36%) on holdout by Feb 1 by a 420s portfolio designed by robust greedy cover on the devel set where it solves 60.4%
+
 
 [1]: https://arxiv.org/abs/2002.05406
 [2]: https://doi.org/10.1007/978-3-030-29436-6_12
