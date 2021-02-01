@@ -2,7 +2,7 @@
 
 These are so far proofs found by E ([8],[9],[13]) using versions of ENIGMA ([1],[2],[3],[4],[5],[12]) trained in several iterations from scratch on the Mizar/MPTP/Mizar40 ([10],[11],[14]) bushy problems. We also use E's auto-schedule, many E strategies invented by BliStr/Tune ([15],[16],[17]), Malarea/ATPBoost-style ([6],[7]) premise selection (using lgb,gnn,xgb,rnn and transformer) for some runs and heuristic premise minimization based on the structure of subproblems. There are 57880 toplevel Mizar problems we try to prove.
 
-Time progress: 
+Time progress (total ATP proved problems - using human-supplied premises and/or trained/heuristic premise selectors): 
 
 - 38k (65.65%) proved by June (reported on July 2nd at IJCAR'20: https://youtu.be/XojOEpZfH4Y?t=673 )
 - 40k (69.11%) proved by end of September
