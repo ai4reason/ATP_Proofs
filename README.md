@@ -24,6 +24,7 @@ These are so far proofs found by E ([8],[9],[13]) using versions of ENIGMA ([1],
 - 42424 (73.30%) by Jan 4 2021 (blistr runs on combined predictions produced by Cezary)
 - 42471 (73.38%) by Jan 6 2021 (more blistr runs on combined predictions produced by Cezary)
 - 42519 (73.46%) by Jan 10 2021 (started enigma runs on all training predictions)
+- 42826 (73.99%) by May 14 2021 (further Vampire/Deepire runs after the hammering eval - FroCoS paper)
 
 #### Time progress in the hammering setting (ATP-proved problems when using trained premise selectors):
 This evaluation is done using a 90/5/5 training/development/holdout split of the 58k (52125/2896/2896) problems. 
