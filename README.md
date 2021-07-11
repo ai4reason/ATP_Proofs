@@ -1456,6 +1456,43 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 # User time                : 28.404 s
 ```
 
+### Differentiation (338-long proof in 17s using 2-phase ENIGMA): (- (cot * ln))' x = 1 / (x * (sin (ln x))^2 )
+
+
+((- (cot * ln)) \`| Z) . x = 1 / (x * ((sin . (ln . x)) ^2)) 
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/integr13.html#T27
+
+E proof (2-phase lgb+gnn-server) using 51 of the 471 human-supplied premises (bushy): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t27_integr13
+
+/local1/mptp/parents/out2/2pb30.1_l10r3b_e39s60q1024c768f1711.devel/t27_integr13
+
+The fast lgb model filtered out 19702 of the 39k generated clauses:
+```
+(base) mptp@air-02:~/big2/parents/out2/2pb30.1_l10r3b_e39s60q1024c768f1711.devel$ grep skipped t27_integr13 | perl -ne 'm/(\d+) clauses/ or die; $n+=$1; END {print $n,"\n"}' 
+19702
+```
+
+The gnn gpu server then evaluated the remaining 19614 generated clauses, thus allowing 3904 nontrivial given clause loops in 18s:
+```
+(base) mptp@air-02:~/big2/parents/out2/2pb30.1_l10r3b_e39s60q1024c768f1711.devel$ grep Sendin t27_integr13 | perl -ne 'm/query=(\d+)/ or die; $n+=$1; END {print $n,"\n"}' 
+19614
+```
+
+```
+# Proof object clause steps            : 338
+# Proof object initial clauses used    : 68
+# Proof object initial formulas used   : 51
+# Proof object simplifying inferences  : 301
+# Parsed axioms                        : 471
+# Initial clauses in saturation        : 557
+# Processed clauses                    : 6772
+# ...remaining for further processing  : 3904
+# Generated clauses                    : 40830
+# ...of the previous two non-trivial   : 38826
+# User time                : 17.858 s
+```
+
 
 
 ### Enigma integrates: integral sin+cos on \[0,pi/2\] = 2
