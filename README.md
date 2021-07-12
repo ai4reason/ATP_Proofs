@@ -1649,7 +1649,7 @@ E proof (gnn) with lgb premise selection (0.05): http://grid01.ciirc.cvut.cz/~mp
 for A being non empty closed_interval Subset of REAL holds
  chi (A,A) is integrable & integral (chi (A,A)) = vol A 
 
-http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/integra4.html#T2
+78-line proof in Mizar: http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/integra4.html#T2
 
 E proof (2-phase lgb+gnn-server) using 63 of the 486 human-supplied premises (bushy):
 http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t2_integra4
