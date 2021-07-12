@@ -1643,6 +1643,38 @@ E proof (gnn) with lgb premise selection (0.05): http://grid01.ciirc.cvut.cz/~mp
 # User time                : 34.050 s
 ```
 
+### Integral: chi (A,A) is integrable & integral chi (A,A) = vol A (486-long ATP proof from 63 premises)
+
+for A being non empty closed_interval Subset of REAL holds
+ chi (A,A) is integrable & integral (chi (A,A)) = vol A 
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/integra4.html#T2
+
+E proof (2-phase lgb+gnn-server) using 63 of the 486 human-supplied premises (bushy):
+http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t2_integra4
+
+/local1/mptp/parents/out2/2pb30.1_l10r3b_e39s60q1024c768f1711.train/t2_integra4
+
+The fast lgb model filtered out 63k of the 99k nontrivial generated clauses:
+```
+(base) mptp@air-02:~/big2/parents/out2/2pb30.1_l10r3b_e39s60q1024c768f1711.train$ grep skipped t2_integra4 | perl -ne 'm/(\d+) clauses/ or die; $n+=$1; END {print $n,"\n"}' 
+62820
+```
+
+```
+# Proof object clause steps            : 486
+# Proof object initial clauses used    : 88
+# Proof object initial formulas used   : 63
+# Proof object simplifying inferences  : 334
+# Parsed axioms                        : 486
+# Initial clauses in saturation        : 884
+# Processed clauses                    : 12161
+# ...remaining for further processing  : 5749
+# Generated clauses                    : 120176
+# ...of the previous two non-trivial   : 98640
+# User time                : 41.426 s
+```
+
 ### Integral: Lebesgue's Bounded Convergence Theorem (1190-long ATP proof from 51 premises)
 
 Suppose {f_n} is a uniformly bounded sequence of measurable functions that converges pointwise to f. 
