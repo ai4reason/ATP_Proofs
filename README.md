@@ -111,6 +111,7 @@ The training set is used for training premise selection and internal guidance (E
 - [Cos is increasing on pi,2pi](#cos-is-increasing-on-pi2pi)
 - [Additivity of integral](#additivity-of-integral)
 - [Integral of absolute value](#integral-of-absolute-value)
+- [Integral: chi (A,A) is integrable & integral chi (A,A) = vol A (486-long ATP proof from 63 premises)](#integral-chi-aa-is-integrable--integral-chi-aa--vol-a-486-long-atp-proof-from-63-premises)
 - [Integral: Lebesgue's Bounded Convergence Theorem (1190-long ATP proof from 51 premises)](#integral-lebesgues-bounded-convergence-theorem-1190-long-atp-proof-from-51-premises)
 - [Monster proof about partial sums in Lebesgue measure theory - the proof takes 150 Mizar lines](#monster-proof-about-partial-sums-in-lebesgue-measure-theory---the-proof-takes-150-mizar-lines)
 - [Measure theory - limit of partial sums](#measure-theory---limit-of-partial-sums)
