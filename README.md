@@ -1992,6 +1992,37 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 
 826 axioms before premise selection, 74 used in the proof, 2k processed, 13k generated.
 
+### 163 is prime  
+
+259-long proof with a lot of computation from 1k initial axioms in 11s using 2-phase ENIGMA
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/pepin.html#T60
+
+E proof (2-phase lgb+gnn-server) using 68 of the 1005 human-supplied premises (bushy): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t60_pepin
+
+/local1/mptp/parents/out2/2pb30.1_l10r3b_e39s60q1024c768f1711.train/t60_pepin
+
+The fast lgb model filtered out 34113 of the 52440 generated clauses (leaving the rest for the gnn server):
+```
+(base) mptp@air-02:~/big2/parents/out2/2pb30.1_l10r3b_e39s60q1024c768f1711.train$ grep skipped t60_pepin | perl -ne 'm/(\d+) clauses/ or die; $n+=$1; END {print $n,"\n"}' 
+34113
+```
+
+```
+# Proof object clause steps            : 259
+# Proof object initial clauses used    : 72
+# Proof object initial formulas used   : 68
+# Proof object simplifying inferences  : 153
+# Parsed axioms                        : 1005
+# Initial clauses in saturation        : 1131
+# Processed clauses                    : 8817
+# ...remaining for further processing  : 4439
+# Generated clauses                    : 64129
+# ...of the previous two non-trivial   : 52440
+# User time                : 11.351 s
+```
+
+
 ### Massive counting ATP-style: Enumerate all numbers smaller than 64
 
 for x being set holds x in Seg 64 implies x = 1 or ... or x = 64
