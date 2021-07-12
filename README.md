@@ -124,6 +124,7 @@ The training set is used for training premise selection and internal guidance (E
 - [37 is a prime number](#37-is-a-prime-number)
 - [43 is prime](#43-is-prime)
 - [163 is prime](#163-is-prime)
+- [17 is prime](#17-is-prime)
 - [Massive counting ATP-style: Enumerate all numbers smaller than 64](#massive-counting-atp-style-enumerate-all-numbers-smaller-than-64)
 - [The radical of square-free k is k](#the-radical-of-square-free-k-is-k)
 - [Combinatorics and counting - coefficient in binomial expansion](#combinatorics-and-counting---coefficient-in-binomial-expansion)
