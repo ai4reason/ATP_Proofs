@@ -1992,7 +1992,7 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 
 826 axioms before premise selection, 74 used in the proof, 2k processed, 13k generated.
 
-### 163 is prime  
+### 17 is prime  
 
 259-long proof with a lot of computation from 1k initial axioms in 11s using 2-phase ENIGMA
 
