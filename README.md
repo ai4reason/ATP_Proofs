@@ -1459,8 +1459,9 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 # User time                : 28.404 s
 ```
 
-### Differentiation (338-long proof in 17s using 2-phase ENIGMA): (- (cot * ln))' x = 1 / (x * (sin (ln x))^2 )
+### Differentiation: (- (cot * ln))' x = 1 / (x * (sin (ln x))^2 )
 
+338-long proof in 17s using 2-phase ENIGMA.
 
 ((- (cot * ln)) \`| Z) . x = 1 / (x * ((sin . (ln . x)) ^2)) 
 
