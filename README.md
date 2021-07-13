@@ -104,7 +104,7 @@ The training set is used for training premise selection and internal guidance (E
 - [Differentiation: (sin * arctan)' . x  = (cos . (arctan . x)) / (1 + (x ^2))](#differentiation-sin--arctan--x---cos--arctan--x--1--x-2)
 - [Differentiation: (cos * ln)' x = - (sin . (ln . x)) / x](#differentiation-cos--ln-x----sin--ln--x--x)
 - [Differentiation: (exp_R * cos)'  x = - (exp_R  (cos . x)) * sin x](#differentiation-exp_r--cos--x----exp_r--cos--x--sin-x)
-- [Differentiation (338-long proof in 17s using 2-phase ENIGMA): (- (cot * ln))' x = 1 / (x * (sin (ln x))^2 )](#differentiation-338-long-proof-in-17s-using-2-phase-enigma---cot--ln-x--1--x--sin-ln-x2-)
+- [Differentiation: (- (cot * ln))' x = 1 / (x * (sin (ln x))^2 )](differentiation---cot--ln-x--1--x--sin-ln-x2-)
 - [Enigma integrates: integral sin+cos on [0,pi/2] = 2](#enigma-integrates-integral-sincos-on-0pi2--2)
 - [Enigma integrates: integral (sin - cos) on [0,pi*2] = 0](#enigma-integrates-integral-sin---cos-on-0pi2--0)
 - [Integral: E computes the definite integral of sin * cos on [2n*pi, (2n+1)*pi] using 62 premises and 268 inferences](#integral-e-computes-the-definite-integral-of-sin--cos-on-2npi-2n1pi-using-62-premises-and-268-inferences)
