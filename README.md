@@ -78,6 +78,7 @@ The training set is used for training premise selection and internal guidance (E
 - [Topology: In compact spaces, Cauchy nets are convergent](#topology-in-compact-spaces-cauchy-nets-are-convergent)
 - [Topology: equivalent condition on homeomorphism: bijection plus images of open are open](#topology-equivalent-condition-on-homeomorphism-bijection-plus-images-of-open-are-open)
 - [Lattices: lower bounded up-complete L where SupMap L is upper adjoint is continuous](#lattices-lower-bounded-up-complete-l-where-supmap-l-is-upper-adjoint-is-continuous)
+- [Lattices: equivalent condition on being prime in a semillatice](#lattices-equivalent-condition-on-being-prime-in-a-semillatice)
 - [Lattices: Dual of a complete-distributive poset is complete-dsitributive ; 377-long ATP proof from 35 premises](#lattices-dual-of-a-complete-distributive-poset-is-complete-dsitributive--377-long-atp-proof-from-35-premises)
 - [Monster proof in continuous lattices relating a weight of an infinite T0 topological space to the weight of the semilattice formed by the inclusion poset of its topology](#monster-proof-in-continuous-lattices-relating-a-weight-of-an-infinite-t0-topological-space-to-the-weight-of-the-semilattice-formed-by-the-inclusion-poset-of-its-topology)
 - [Continuous lattices: Proposition 2.1 of <a href="https://www.amazon.com/Compendium-Continuous-Lattices-G-Gierz/dp/3642676804" rel="nofollow">CCL</a> (p. 112), 1 &lt;=&gt; 6 ; 1039-long ATP proof](#continuous-lattices-proposition-21-of-ccl-p-112-1--6--1039-long-atp-proof)
