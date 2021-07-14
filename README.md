@@ -105,6 +105,7 @@ The training set is used for training premise selection and internal guidance (E
 - [Differentiation: (cos * ln)' x = - (sin . (ln . x)) / x](#differentiation-cos--ln-x----sin--ln--x--x)
 - [Differentiation: (exp_R * cos)'  x = - (exp_R  (cos . x)) * sin x](#differentiation-exp_r--cos--x----exp_r--cos--x--sin-x)
 - [Differentiation: (- (cot * ln))' x = 1 / (x * (sin (ln x))^2 )](#differentiation---cot--ln-x--1--x--sin-ln-x2-)
+- [Differentiation: (- (cot * exp_R))' x = (exp_R x) / (sin (exp_R x))^2](#differentiation---cot--exp_r-x--exp_r-x--sin-exp_r-x2)
 - [Enigma integrates: integral sin+cos on [0,pi/2] = 2](#enigma-integrates-integral-sincos-on-0pi2--2)
 - [Enigma integrates: integral (sin - cos) on [0,pi*2] = 0](#enigma-integrates-integral-sin---cos-on-0pi2--0)
 - [Integral: E computes the definite integral of sin * cos on [2n*pi, (2n+1)*pi] using 62 premises and 268 inferences](#integral-e-computes-the-definite-integral-of-sin--cos-on-2npi-2n1pi-using-62-premises-and-268-inferences)
