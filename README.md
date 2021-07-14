@@ -1497,6 +1497,36 @@ The gnn gpu server then evaluated the remaining 19614 generated clauses, thus al
 # User time                : 17.858 s
 ```
 
+### Differentiation: (- (cot * exp_R))' x = (exp_R x) / (sin (exp_R x))^2
+
+401-long proof in 55s using 3-phase ENIGMA.
+
+((- (cot * exp_R)) \`| Z) . x = (exp_R . x) / ((sin . (exp_R . x)) ^2) ) )
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/integr13.html#T31
+
+E proof (3-phase parental+lgb+gnn-server) using 60 of the 321 human-supplied premises (bushy): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t31_integr13
+
+The parental filtering filtered out more than half of the 90k generated clauses. 
+
+The fast lgb model filtered out 17674 of the remaining 40k generated clauses.
+
+The gnn gpu server then evaluated the remaining 22716 generated clauses, thus allowing 5471 nontrivial given clause loops in 55s.
+
+/local1/mptp/parents/out2/2pl10r3b_e39s30q256c768f1711_parents_froc_gnn_m2_0.01.train/t31_integr13
+```
+# Proof object clause steps            : 401
+# Proof object initial clauses used    : 84
+# Proof object initial formulas used   : 60
+# Proof object simplifying inferences  : 322
+# Parsed axioms                        : 321
+# Initial clauses in saturation        : 391
+# Processed clauses                    : 12027
+# ...remaining for further processing  : 5471
+# Generated clauses                    : 87564
+# ...of the previous two non-trivial   : 40397
+# User time                : 55.338 s
+```
 
 
 ### Enigma integrates: integral sin+cos on \[0,pi/2\] = 2
