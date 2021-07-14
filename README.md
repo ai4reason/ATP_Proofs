@@ -1707,6 +1707,33 @@ E proof (gnn) with lgb premise selection (0.05): http://grid01.ciirc.cvut.cz/~mp
 # User time                : 34.050 s
 ```
 
+### Integral: if volume A is non zero then there is a element of the division set with non zero volume
+
+291-long proof in 34s using 3-phase ENIGMA.
+
+for A being non empty closed_interval Subset of REAL
+for D being Division of A st vol A <> 0 holds
+ex i being Element of NAT st i in dom D & vol (divset (D,i)) > 0 
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/integra3.html#T2
+
+E proof (3-phase parental+lgb+gnn-server) using 68 of the 444 human-supplied premises (bushy): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t2_integra3
+
+/local1/mptp/parents/out2/2pl10r3b_e39s30q256c768f1711_parents_froc_gnn_m2_0.01.train/t2_integra3
+```
+# Proof object clause steps            : 291
+# Proof object initial clauses used    : 86
+# Proof object initial formulas used   : 68
+# Proof object simplifying inferences  : 189
+# Parsed axioms                        : 444
+# Initial clauses in saturation        : 689
+# Processed clauses                    : 8173
+# ...remaining for further processing  : 4198
+# Generated clauses                    : 60303
+# ...of the previous two non-trivial   : 26971
+# User time                : 34.239 s
+```
+
 ### Integral: chi (A,A) is integrable & integral chi (A,A) = vol A (486-long ATP proof from 63 premises)
 
 for A being non empty closed_interval Subset of REAL holds
