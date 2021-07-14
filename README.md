@@ -828,6 +828,36 @@ E proof (gnn) with lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~m
 # User time                : 34.533 s
 ```
 
+### Lattices: equivalent condition on being prime in a semillatice
+
+389-long proof in 26s using 3-phase ENIGMA.
+
+for L being Semilattice
+for l being Element of L holds
+l is prime iff for A being non empty finite Subset of L st l >= inf A holds ex a being Element of L st
+a in A & l >= a 
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/waybel_6.html#T22
+
+E proof (3-phase parental+lgb+gnn-server) using 37 of the 258 human-supplied premises (bushy): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t22_waybel_6
+
+/local1/mptp/parents/out2/2pl10r3b_e39s30q256c768f1711_parents_froc_gnn_m2_0.01.train/t22_waybel_6
+```
+# Proof object clause steps            : 389
+# Proof object initial clauses used    : 78
+# Proof object initial formulas used   : 37
+# Proof object simplifying inferences  : 444
+# Parsed axioms                        : 258
+# Initial clauses in saturation        : 497
+# Processed clauses                    : 4584
+# ...remaining for further processing  : 2366
+# Generated clauses                    : 35102
+# ...of the previous two non-trivial   : 14443
+# User time                : 22.559 s
+```
+
+
+
 ### Lattices: Dual of a complete-distributive poset is complete-dsitributive ; 377-long ATP proof from 35 premises
 
 for L being non empty Poset holds
