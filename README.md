@@ -1779,6 +1779,37 @@ E proof (3-phase parental+lgb+gnn-server) using 68 of the 444 human-supplied pre
 # User time                : 34.239 s
 ```
 
+### Integral: equivalent condition on integrability by limits of upper and lower sums being equal
+
+431-long proof in 84s using 3-phase ENIGMA.
+
+for A being non empty closed_interval Subset of REAL
+for f being Function of A,REAL st f | A is bounded holds
+f is integrable iff for T being DivSequence of A st delta T is convergent & lim (delta T) = 0 holds
+lim (upper_sum (f,T)) - lim (lower_sum (f,T)) = 0 
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/integra4.html#T12
+
+E proof (3-phase parental+lgb+gnn-server) using 52 of the 419 human-supplied premises (bushy):
+http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t12_integra4
+
+/local1/mptp/parents/out2/2pl10r3b_e39s30q1024c1536f1711_parents_froc_gnn_m2_0.01.train/t12_integra4
+```
+# Proof object clause steps            : 431
+# Proof object initial clauses used    : 79
+# Proof object initial formulas used   : 52
+# Proof object simplifying inferences  : 429
+# Parsed axioms                        : 419
+# Initial clauses in saturation        : 752
+# Processed clauses                    : 18395
+# ...remaining for further processing  : 5151
+# Generated clauses                    : 228028
+# ...of the previous two non-trivial   : 85780
+# User time                : 84.198 s
+```
+
+
+
 ### Integral: chi (A,A) is integrable & integral chi (A,A) = vol A (486-long ATP proof from 63 premises)
 
 for A being non empty closed_interval Subset of REAL holds
