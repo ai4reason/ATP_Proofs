@@ -115,6 +115,7 @@ The training set is used for training premise selection and internal guidance (E
 - [Additivity of integral](#additivity-of-integral)
 - [Integral of absolute value](#integral-of-absolute-value)
 - [Integral: if volume A is non zero then there is a element of the division set with non zero volume](#integral-if-volume-a-is-non-zero-then-there-is-a-element-of-the-division-set-with-non-zero-volume)
+- [Integral: equivalent condition on integrability by limits of upper and lower sums being equal](#integral-equivalent-condition-on-integrability-by-limits-of-upper-and-lower-sums-being-equal)
 - [Integral: chi (A,A) is integrable & integral chi (A,A) = vol A (486-long ATP proof from 63 premises)](#integral-chi-aa-is-integrable--integral-chi-aa--vol-a-486-long-atp-proof-from-63-premises)
 - [Integral: Lebesgue's Bounded Convergence Theorem (1190-long ATP proof from 51 premises)](#integral-lebesgues-bounded-convergence-theorem-1190-long-atp-proof-from-51-premises)
 - [Monster proof about partial sums in Lebesgue measure theory - the proof takes 150 Mizar lines](#monster-proof-about-partial-sums-in-lebesgue-measure-theory---the-proof-takes-150-mizar-lines)
