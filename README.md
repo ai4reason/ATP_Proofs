@@ -1237,6 +1237,34 @@ http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/group_2.html#T113
 E proof: http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t113_group_2
 217 fof axioms, 298 initial clauses, 1214 nontriv given, 8523 nontriv gener, 109 proof clause steps, 28/44 initial proof flas/clauses
 
+### Rings: commutative rings are fields iff ideals are trivial
+
+493-long proof in 67s using 3-phase ENIGMA.
+
+for R being non degenerated comRing holds
+R is Field iff for I being Ideal of R holds I = {(0. R)} or I = the carrier of R 
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ideal_1.html#T22
+
+E proof (3-phase parental+lgb+gnn-server) using 48 of the 416 human-supplied premises (bushy): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t22_ideal_1
+
+/local1/mptp/parents/out2/2pl10r3b_e39s30q1024c1536f1711_parents_froc_gnn_m2_0.01.train/t22_ideal_1
+```
+# Proof object clause steps            : 493
+# Proof object initial clauses used    : 93
+# Proof object initial formulas used   : 48
+# Proof object simplifying inferences  : 690
+# Parsed axioms                        : 416
+# Initial clauses in saturation        : 699
+# Processed clauses                    : 8744
+# ...remaining for further processing  : 4481
+# Generated clauses                    : 129096
+# ...of the previous two non-trivial   : 67594
+# User time                : 66.896 s
+```
+
+
+
 ### Vector spaces: dimension of a 2-element vector space is 1 ; 336-long ATP proof from 42 premises, 70-line proof in Mizar
 
 for F being Field
