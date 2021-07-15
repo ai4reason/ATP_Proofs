@@ -1249,6 +1249,20 @@ http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/ideal_1.html#T22
 
 E proof (3-phase parental+lgb+gnn-server) using 48 of the 416 human-supplied premises (bushy): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t22_ideal_1
 
+The parental guidance filtered out about60k of the 130k generated clauses.
+
+Then the fast lgb model filtered out 37k of the 67k remaining generated clauses:
+```
+grep skipped t22_ideal_1 | perl -ne 'm/(\d+) clauses/ or die; $n+=$1; END {print $n,"\n"}' 
+37213
+```
+
+The gnn gpu server then evaluated the remaining 30k generated clauses, thus allowing 4481 nontrivial given clause loops in 67s:
+```
+(base) mptp@air-02:~/big2/parents/out2/2pl10r3b_e39s30q1024c1536f1711_parents_froc_gnn_m2_0.01.train$ grep Sendin t22_ideal_1 | perl -ne 'm/query=(\d+)/ or die; $n+=$1; END {print $n,"\n"}' 
+30380
+```
+
 /local1/mptp/parents/out2/2pl10r3b_e39s30q1024c1536f1711_parents_froc_gnn_m2_0.01.train/t22_ideal_1
 ```
 # Proof object clause steps            : 493
