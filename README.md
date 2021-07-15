@@ -1,6 +1,6 @@
 # Interesting ATP Proofs
 
-These are so far proofs found by E ([8],[9],[13]) using versions of ENIGMA ([1],[2],[3],[4],[5],[12],[18]) trained in several iterations from scratch on the Mizar/MPTP/Mizar40 ([10],[11],[14]) bushy problems. We also use E's auto-schedule, many E strategies invented by BliStr/Tune ([15],[16],[17]), Malarea/ATPBoost-style ([6],[7]) premise selection (using lgb,gnn,xgb,rnn and transformer [7],[19],[20],[21]) for some runs and heuristic premise minimization based on the structure of subproblems. There are 57880 toplevel Mizar problems we try to prove.
+These are so far proofs found by E ([8],[9],[13]) using versions of ENIGMA ([1],[2],[3],[4],[5],[12],[18]) trained in several iterations from scratch on the Mizar/MPTP/Mizar40 ([10],[11],[14]) bushy problems. We also use E's auto-schedule, many E strategies invented by BliStr/Tune ([15],[16],[17]), Malarea/ATPBoost-style ([6],[7]) premise selection (using lgb,gnn,xgb,rnn and transformer [6],[19],[20],[21]) for some runs and heuristic premise minimization based on the structure of subproblems. There are 57880 toplevel Mizar problems we try to prove.
 
 #### Time progress - total ATP-proved problems (using human-supplied premises and/or trained/heuristic premise selectors): 
 
@@ -33,12 +33,12 @@ The training set is used for training premise selection and internal guidance (E
 - 1690 (58.36%) on holdout by Feb 1 by a 420s portfolio designed by robust greedy cover on the devel set where it solves 60.4%
 
 
-[1]: https://arxiv.org/abs/2002.05406
+[1]: https://doi.org/10.1007/978-3-030-51054-1_29
 [2]: https://doi.org/10.1007/978-3-030-29436-6_12
 [3]: https://doi.org/10.1007/978-3-030-29026-9_21
 [4]: https://doi.org/10.1007/978-3-319-96812-4_11
 [5]: http://arxiv.org/abs/1701.06532
-[6]: http://arxiv.org/abs/1802.03375
+[6]: https://doi.org/10.1007/978-3-319-94205-6_37
 [7]: https://doi.org/10.1007/978-3-540-71070-7_37
 [8]: https://doi.org/10.1007/978-3-030-29436-6_29
 [9]: https://doi.org/10.1007/978-3-642-45221-5_49
