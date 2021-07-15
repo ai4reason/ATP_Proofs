@@ -2249,6 +2249,31 @@ This used premise selection - lgb, 0.005. The original bushy problem has almost 
 # User time                : 26.140 s
 ```
 
+### Number theory: { a: a < m } is a complete residue system for m
+
+395-long proof in 49s using 2-phase ENIGMA.
+
+for m being Element of NAT holds { a where a is Element of NAT : a < m } is_CRS_of m
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/int_4.html#T48
+
+E proof (2-phase lgb+gnn-server) using 72 of the 448 human-supplied premises (bushy): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t48_int_4
+
+/local1/mptp/parents/out2/2pb30.1_l10r3b_e39s60q1024c1536f1711.train/t48_int_4
+```
+# Proof object clause steps            : 395
+# Proof object initial clauses used    : 93
+# Proof object initial formulas used   : 72
+# Proof object simplifying inferences  : 205
+# Parsed axioms                        : 448
+# Initial clauses in saturation        : 697
+# Processed clauses                    : 17066
+# ...remaining for further processing  : 7530
+# Generated clauses                    : 106868
+# ...of the previous two non-trivial   : 102790
+# User time                : 49.447 s
+```
+
 ### The radical of square-free k is k
 
 for k being non zero Nat st k is square-free holds Radical k = k
