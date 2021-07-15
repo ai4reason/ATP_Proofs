@@ -146,6 +146,7 @@ The training set is used for training premise selection and internal guidance (E
 - [Connectedness - all points are joined if some is joined to all:](#connectedness---all-points-are-joined-if-some-is-joined-to-all)
 - [Connectedness - synthesize and inverse path](#connectedness---synthesize-and-inverse-path)
 - [Two points on an arc are connected by a subarc](#two-points-on-an-arc-are-connected-by-a-subarc)
+- [Construct an internal point on an arc](#construct-an-internal-point-on-an-arc)
 - [Intermediate value theorem](#intermediate-value-theorem)
 - [X is locally connected iff components of open sets are open](#x-is-locally-connected-iff-components-of-open-sets-are-open)
 - [Real plane: Simple closed curves are pathwise connected](#real-plane-simple-closed-curves-are-pathwise-connected)
