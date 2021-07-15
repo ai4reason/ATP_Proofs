@@ -2252,7 +2252,7 @@ This used premise selection - lgb, 0.005. The original bushy problem has almost 
 
 ### Number theory: { a: a < m } is a complete residue system for m
 
-395-long proof in 49s using 2-phase ENIGMA.
+395-long proof in 49s using 2-phase ENIGMA. 62-line proof in Mizar.
 
 for m being Element of NAT holds { a where a is Element of NAT : a < m } is_CRS_of m
 
