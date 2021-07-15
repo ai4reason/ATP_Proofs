@@ -1,6 +1,6 @@
 # Interesting ATP Proofs
 
-These are so far proofs found by E ([8],[9],[13]) using versions of ENIGMA ([1],[2],[3],[4],[5],[12]) trained in several iterations from scratch on the Mizar/MPTP/Mizar40 ([10],[11],[14]) bushy problems. We also use E's auto-schedule, many E strategies invented by BliStr/Tune ([15],[16],[17]), Malarea/ATPBoost-style ([6],[7]) premise selection (using lgb,gnn,xgb,rnn and transformer) for some runs and heuristic premise minimization based on the structure of subproblems. There are 57880 toplevel Mizar problems we try to prove.
+These are so far proofs found by E ([8],[9],[13]) using versions of ENIGMA ([1],[2],[3],[4],[5],[12],[18]) trained in several iterations from scratch on the Mizar/MPTP/Mizar40 ([10],[11],[14]) bushy problems. We also use E's auto-schedule, many E strategies invented by BliStr/Tune ([15],[16],[17]), Malarea/ATPBoost-style ([6],[7]) premise selection (using lgb,gnn,xgb,rnn and transformer [7],[19],[20],[21]) for some runs and heuristic premise minimization based on the structure of subproblems. There are 57880 toplevel Mizar problems we try to prove.
 
 #### Time progress - total ATP-proved problems (using human-supplied premises and/or trained/heuristic premise selectors): 
 
@@ -50,6 +50,10 @@ The training set is used for training premise selection and internal guidance (E
 [15]: https://easychair.org/publications/paper/FJD
 [16]: https://doi.org/10.1145/3018610.3018619
 [17]: https://doi.org/10.3233/AIC-180761
+[18]: https://arxiv.org/abs/2107.06750
+[19]: https://doi.org/10.3233/FAIA200244
+[20]: https://easychair.org/publications/paper/g38n
+[21]: https://doi.org/10.1007/978-3-030-53518-6_24
 
 ## Table of Contents  
 
