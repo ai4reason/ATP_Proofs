@@ -2599,6 +2599,35 @@ E proof (lgb): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t23_jordan16.out
 
 ```
 
+### Construct an internal point on an arc
+
+332-long proof in 53s using 3-phase ENIGMA.
+
+for n being Element of NAT
+for P being Subset of TOP-REAL n
+for p1, p2 being Point of TOP-REAL n st P is_an_arc_of p1,p2 holds
+ex p3 being Point of TOP-REAL n st p3 in P & p3 <> p1 & p3 <> p2 
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/jordan6.html#T42
+
+E proof (3-phase parental+lgb+gnn-server) using 73 of the 309 human-supplied premises (bushy): http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t42_jordan6
+
+/local1/mptp/parents/out2/2pl10r3b_e39s30q1024c1536f1711_parents_froc_gnn_m2_0.01.train/t42_jordan6
+```
+# Proof object clause steps            : 332
+# Proof object initial clauses used    : 95
+# Proof object initial formulas used   : 73
+# Proof object simplifying inferences  : 139
+# Parsed axioms                        : 309
+# Initial clauses in saturation        : 479
+# Processed clauses                    : 8236
+# ...remaining for further processing  : 4806
+# Generated clauses                    : 107526
+# ...of the previous two non-trivial   : 36054
+# User time                : 53.280 s
+```
+
+
 ### Intermediate value theorem
 
 for ra, rb, a, b being real number st ra < rb holds
