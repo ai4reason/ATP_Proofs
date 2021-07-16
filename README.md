@@ -2759,6 +2759,48 @@ E proof (gnn) using lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~
 # User time                : 18.623 s
 ```
 
+### Image of an upper bound of a closed interval is and upper bound of the image under a continuous bijection 
+
+478-long proof in 38s using 2-phase ENIGMA and 4.9k nontrivial given clause loops.
+
+for a, b, c, d being Real
+for f being Function of Closed-Interval-TSpace (a,b),Closed-Interval-TSpace (c,d)
+for P, Q being non empty Subset of Closed-Interval-TSpace (a,b)
+for PP, QQ being Subset of R^1 st a < b & c < d & PP = P & QQ = Q & f is continuous & f is one-to-one & PP is compact & f . a = c & f . b = d & f .: P = Q holds f . (upper_bound ([#] PP)) = upper_bound ([#] QQ)
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/jordan5a.html#T18
+
+E proof (2-phase lgb+gnn-server) using 73 of the 450 human-supplied premises (bushy):
+http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t18_jordan5a
+
+Fast lgb filtering:
+```
+(base) mptp@air-02:~/big2/parents/out2/2pb30.1_l10r3b_e39s60q1024c1536f1711.train$ grep skipped t18_jordan5a | perl -ne 'm/(\d+) clauses/ or die; $n+=$1;$c++; END {print "$c,$n\n"}'
+77,54180
+```
+
+GNN gpu-server evaluations:
+```
+(base) mptp@air-02:~/big2/parents/out2/2pb30.1_l10r3b_e39s60q1024c1536f1711.train$ grep Sendin t18_jordan5a | perl -ne 'm/query=(\d+)/ or die; $c++; $n+=$1; END {print "$c,$n\n"}'
+77,28753
+```
+
+/local1/mptp/parents/out2/2pb30.1_l10r3b_e39s60q1024c1536f1711.train/t18_jordan5a
+```
+# Proof object clause steps            : 478
+# Proof object initial clauses used    : 109
+# Proof object initial formulas used   : 73
+# Proof object simplifying inferences  : 340
+# Parsed axioms                        : 450
+# Initial clauses in saturation        : 750
+# Processed clauses                    : 8516
+# ...remaining for further processing  : 4877
+# Generated clauses                    : 85596
+# ...of the previous two non-trivial   : 82183
+# User time                : 38.360 s
+```
+
+
 
 ### X is locally connected iff components of open sets are open
 
