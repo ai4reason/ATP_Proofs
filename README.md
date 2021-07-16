@@ -1651,6 +1651,47 @@ The gnn gpu server then evaluated the remaining 38k generated clauses (in 100 ro
 # User time                : 39.359 s
 ```
 
+### Differentiation: cos'' = -cos
+
+303-long proof in 83s using 2-phase ENIGMA.
+
+for x being Real
+for Z being open Subset of REAL st x in Z holds
+((diff (cos,Z)) . 2) . x = - (cos . x)
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/hfdiff_1.html#T12
+
+E proof (2-phase lgb+gnn-server) using 67 of the 339 human-supplied premises (bushy): 
+http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t12_hfdiff_1
+
+Fast lgb filtering:
+```
+(base) mptp@air-02:~/big2/parents/out2/2pb30.1_l10r3b_e39s60q1024c1536f1711.train$ grep skipped t12_hfdiff_1 | perl -ne 'm/(\d+) clauses/ or die; $n+=$1;$c++; END {print "$c,$n\n"}'
+225,197161
+```
+
+GNN gpu server evaluations:
+```
+(base) mptp@air-02:~/big2/parents/out2/2pb30.1_l10r3b_e39s60q1024c1536f1711.train$ grep Sendin t12_hfdiff_1 | perl -ne 'm/query=(\d+)/ or die; $c++; $n+=$1; END {print "$c,$n\n"}'
+225,73462
+```
+
+/local1/mptp/parents/out2/2pb30.1_l10r3b_e39s60q1024c1536f1711.train/t12_hfdiff_1
+```
+# Proof object clause steps            : 303
+# Proof object initial clauses used    : 84
+# Proof object initial formulas used   : 67
+# Proof object simplifying inferences  : 200
+# Parsed axioms                        : 339
+# Initial clauses in saturation        : 459
+# Processed clauses                    : 15911
+# ...remaining for further processing  : 6164
+# Generated clauses                    : 274617
+# ...of the previous two non-trivial   : 270164
+# User time                : 83.391 s
+```
+
+
 
 
 ### Enigma integrates: integral sin+cos on \[0,pi/2\] = 2
