@@ -1611,6 +1611,45 @@ The gnn gpu server then evaluated the remaining 22716 generated clauses, thus al
 # User time                : 55.338 s
 ```
 
+### Differentiation: ((- (exp_R * cot))' x = (exp_R (cot x)) / (sin x) ^2
+
+543-long proof in 39s using 2-phase ENIGMA.
+
+((- (exp_R * cot)) \`| Z) . x = (exp_R . (cot . x)) / ((sin . x) ^2) 
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/integr13.html#T23
+
+E proof (2-phase lgb+gnn-server) using 57 of the 390 human-supplied premises (bushy): 
+http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t23_integr13
+
+The fast lgb model filtered out 68k of the 106k nontrivial generated clauses:
+```
+(base) mptp@air-02:~/big2/parents/out2/2pb30.1_l10r3b_e39s60q1024c1536f1711.train$ grep skipped t23_integr13 | perl -ne 'm/(\d+) clauses/ or die; $n+=$1;$c++; END {print "$c,$n\n"}'
+100,68068
+```
+
+The gnn gpu server then evaluated the remaining 38k generated clauses (in 100 rounds), thus allowing 6849 nontrivial given clause loops in 39s:
+```
+(base) mptp@air-02:~/big2/parents/out2/2pb30.1_l10r3b_e39s60q1024c1536f1711.train$ grep Sendin t23_integr13 | perl -ne 'm/query=(\d+)/ or die; $c++; $n+=$1; END {print "$c,$n\n"}'
+100,38089
+```
+
+/local1/mptp/parents/out2/2pb30.1_l10r3b_e39s60q1024c1536f1711.train/t23_integr13
+```
+# Proof object clause steps            : 543
+# Proof object initial clauses used    : 80
+# Proof object initial formulas used   : 57
+# Proof object simplifying inferences  : 579
+# Parsed axioms                        : 390
+# Initial clauses in saturation        : 465
+# Processed clauses                    : 15343
+# ...remaining for further processing  : 6849
+# Generated clauses                    : 112913
+# ...of the previous two non-trivial   : 105693
+# User time                : 39.359 s
+```
+
+
 
 ### Enigma integrates: integral sin+cos on \[0,pi/2\] = 2
 
