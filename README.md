@@ -155,6 +155,7 @@ The training set is used for training premise selection and internal guidance (E
 - [Two points on an arc are connected by a subarc](#two-points-on-an-arc-are-connected-by-a-subarc)
 - [Construct an internal point on an arc](#construct-an-internal-point-on-an-arc)
 - [Intermediate value theorem](#intermediate-value-theorem)
+- [Image of an upper bound of a closed interval is and upper bound of the image under a continuous bijection](#image-of-an-upper-bound-of-a-closed-interval-is-and-upper-bound-of-the-image-under-a-continuous-bijection)
 - [X is locally connected iff components of open sets are open](#x-is-locally-connected-iff-components-of-open-sets-are-open)
 - [Real plane: Simple closed curves are pathwise connected](#real-plane-simple-closed-curves-are-pathwise-connected)
 - [Real plane: order of points](#real-plane-order-of-points)
