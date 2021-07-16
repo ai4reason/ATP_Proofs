@@ -155,7 +155,7 @@ The training set is used for training premise selection and internal guidance (E
 - [Two points on an arc are connected by a subarc](#two-points-on-an-arc-are-connected-by-a-subarc)
 - [Construct an internal point on an arc](#construct-an-internal-point-on-an-arc)
 - [Intermediate value theorem](#intermediate-value-theorem)
-- [Image of an upper bound of a closed interval is and upper bound of the image under a continuous bijection](#image-of-an-upper-bound-of-a-closed-interval-is-and-upper-bound-of-the-image-under-a-continuous-bijection)
+- [Image of an upper bound of a closed interval is an upper bound of the image under a continuous bijection](#image-of-an-upper-bound-of-a-closed-interval-is-an-upper-bound-of-the-image-under-a-continuous-bijection)
 - [X is locally connected iff components of open sets are open](#x-is-locally-connected-iff-components-of-open-sets-are-open)
 - [Real plane: Simple closed curves are pathwise connected](#real-plane-simple-closed-curves-are-pathwise-connected)
 - [Real plane: order of points](#real-plane-order-of-points)
@@ -2760,7 +2760,7 @@ E proof (gnn) using lgb premise selection (0.005): http://grid01.ciirc.cvut.cz/~
 # User time                : 18.623 s
 ```
 
-### Image of an upper bound of a closed interval is and upper bound of the image under a continuous bijection 
+### Image of an upper bound of a closed interval is an upper bound of the image under a continuous bijection 
 
 478-long proof in 38s using 2-phase ENIGMA and 4.9k nontrivial given clause loops.
 
