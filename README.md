@@ -107,6 +107,7 @@ The training set is used for training premise selection and internal guidance (E
 - [Differentiation: (arccot * exp_R)' = - (exp_R . x) / (1 + ((exp_R . x) ^2)](#differentiation-arccot--exp_r----exp_r--x--1--exp_r--x-2)
 - [Differentiantion: (- (exp_R * arccot)) `| Z) . x = (exp_R . (arccot . x)) / (1 + (x ^2))](#differentiantion---exp_r--arccot--z--x--exp_r--arccot--x--1--x-2)
 - [Differentiation: (sin * ln)' = (cos (log (number_e,x))) / x](#differentiation-sin--ln--cos-log-number_ex--x)
+- [Differentiation: - (cos * ln)' = (sin (log (number_e,x))) / x](#differentiation---cos--ln--sin-log-number_ex--x)
 - [Differentiation: (sin * arctan)' . x  = (cos . (arctan . x)) / (1 + (x ^2))](#differentiation-sin--arctan--x---cos--arctan--x--1--x-2)
 - [Differentiation: (cos * ln)' x = - (sin . (ln . x)) / x](#differentiation-cos--ln-x----sin--ln--x--x)
 - [Differentiation: (exp_R * cos)'  x = - (exp_R  (cos . x)) * sin x](#differentiation-exp_r--cos--x----exp_r--cos--x--sin-x)
