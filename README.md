@@ -1472,6 +1472,35 @@ Used lgb premise selection with 160 premises
 # User time                : 12.896 s
 ```
 
+### Differentiation: - (cos * ln)' = (sin (log (number_e,x))) / x
+
+719-long proof in 94s using 3-phase ENIGMA.
+
+Quite a bit longer than the above proof because of starting with all human-supplied axioms instead of using premise selection.
+
+((- (cos * ln)) \`| Z) . x = (sin . (log (number_e,x))) / x  
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/fdiff_6.html#T50
+
+E proof (3-phase parental+lgb+gnn-server) using 87 of the 268 human-supplied premises (bushy):
+http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t50_fdiff_6
+
+/local1/mptp/parents/out2/2pb3l8-query1024-ctx2048-w0-coop-srv-local1-f1711-jj1-zar-parents_nothr_gnnm2_0.2_0.005.all/t50_fdiff_6
+```
+# Proof object clause steps            : 719
+# Proof object initial clauses used    : 116
+# Proof object initial formulas used   : 87
+# Proof object simplifying inferences  : 699
+# Parsed axioms                        : 268
+# Initial clauses in saturation        : 347
+# Processed clauses                    : 19661
+# ...remaining for further processing  : 7361
+# Generated clauses                    : 170556
+# ...of the previous two non-trivial   : 103430
+# User time                : 93.885 s
+```
+
+
 ### Differentiation: (sin * arctan)' . x  = (cos . (arctan . x)) / (1 + (x ^2))
 
 for Z being open Subset of REAL st Z c= dom (sin * arctan) & Z c= ].(- 1),1.\[ holds
