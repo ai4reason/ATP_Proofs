@@ -101,6 +101,7 @@ The training set is used for training premise selection and internal guidance (E
 - [Groups with sets:](#groups-with-sets)
 - [Rings: commutative rings are fields iff ideals are trivial](#rings-commutative-rings-are-fields-iff-ideals-are-trivial)
 - [Vector spaces: dimension of a 2-element vector space is 1 ; 336-long ATP proof from 42 premises, 70-line proof in Mizar](#vector-spaces-dimension-of-a-2-element-vector-space-is-1--336-long-atp-proof-from-42-premises-70-line-proof-in-mizar)
+- [Vector spaces: Explicit formula for linear combination of two (or 1 or 0) vectors](#vector-spaces-explicit-formula-for-linear-combination-of-two-or-1-or-0-vectors)
 - [Enigma differentiates: (ln * cos) `| Z) . x = - (tan x)](#enigma-differentiates-ln--cos--z--x----tan-x)
 - [Another on Enigma differentiating](#another-on-enigma-differentiating)
 - [And another](#and-another)
