@@ -385,6 +385,32 @@ E proof (gnn) with lgb premise selection (0.5k1): http://grid01.ciirc.cvut.cz/~m
 # User time                : 24.423 s
 ```
 
+### Another trig counting - 619-long proof from 83 formulas and 1025 initial axioms
+
+for x being set st x in \[.(- (sqrt 2)),(- 1).\] holds
+arcsec2 . x in \[.((3 / 4) * PI),PI.\]
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/sincos10.html#T86
+
+E proof (3-phase parental+lgb+gnn-server) using 83 of the 1025 human-supplied premises (bushy): 
+http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t86_sincos10
+
+/local1/mptp/parents/out2/2pb3l8-query1024-ctx2048-w0-coop-srv-local1-f1711-jj1-zar-parents_nothr_gnnm2_0.2_0.005.all/t86_sincos10
+```
+# Proof object clause steps            : 619
+# Proof object initial clauses used    : 97
+# Proof object initial formulas used   : 83
+# Proof object simplifying inferences  : 362
+# Parsed axioms                        : 1025
+# Initial clauses in saturation        : 1226
+# Processed clauses                    : 12531
+# ...remaining for further processing  : 5344
+# Generated clauses                    : 143631
+# ...of the previous two non-trivial   : 108660
+# User time                : 59.713 s
+```
+
+
 ### Another trig counting - 224 steps and 54 formulas
 
 for x being set st x in \[.(- 1),1.\] holds
