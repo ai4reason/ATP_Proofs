@@ -1343,6 +1343,33 @@ E proof (mzr03) with heuristic premise selection (subproblem minimization): http
 # User time                : 2.549 s
 ```
 
+### Vector spaces: Explicit formula for linear combination of two (or 1 or 0) vectors
+
+441-long proof in 95s using 3-phase ENIGMA.
+
+for V being RealLinearSpace
+for v1, v2 being VECTOR of V st v1 <> v2 holds
+for l being Linear_Combination of {v1,v2} holds Sum l = ((l . v1) * v1) + ((l . v2) * v2)
+
+http://grid01.ciirc.cvut.cz/~mptp/7.13.01_4.181.1147/html/rlvect_2.html#T33
+
+E proof (3-phase parental+lgb+gnn-server) using 68 of the 396 human-supplied premises (bushy): 
+http://grid01.ciirc.cvut.cz/~mptp/enigma_prf/t33_rlvect_2
+
+/local1/mptp/parents/out2/2pb3l8-query1024-ctx2048-w0-coop-srv-local1-f1711-jj1-zar-parents_nothr_gnnm2_0.2_0.005.all/t33_rlvect_2
+```
+# Proof object clause steps            : 441
+# Proof object initial clauses used    : 96
+# Proof object initial formulas used   : 68
+# Proof object simplifying inferences  : 658
+# Parsed axioms                        : 396
+# Initial clauses in saturation        : 603
+# Processed clauses                    : 14724
+# ...remaining for further processing  : 6028
+# Generated clauses                    : 132625
+# ...of the previous two non-trivial   : 91692
+# User time                : 95.050 s
+```
 
 
 ### Enigma differentiates: (ln * cos) \`| Z) . x = - (tan x) 
