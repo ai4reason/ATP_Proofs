@@ -64,6 +64,7 @@ The training set is used for training premise selection and internal guidance (E
 - [Enigma learns to count:](#enigma-learns-to-count)
 - [Another counting:](#another-counting)
 - [Massive counting in trigonometry - 445-long proof from 83 formulas](#massive-counting-in-trigonometry---445-long-proof-from-83-formulas)
+- [Another trig counting - 619-long proof from 83 formulas and 1025 initial axioms](#another-trig-counting---619-long-proof-from-83-formulas-and-1025-initial-axioms)
 - [Another trig counting - 224 steps and 54 formulas](#another-trig-counting---224-steps-and-54-formulas)
 - [Trig counting - Arg x &lt; PI &amp; Arg y &lt; PI implies Arg (x + y) &lt; PI (343-long ATP proof from 56 premises)](#trig-counting---arg-x--pi--arg-y--pi-implies-arg-x--y--pi-343-long-atp-proof-from-56-premises)
 - [Counting: e^(2<em>pi</em>n*i) = 1](#counting-e2pini--1)
